@@ -1,0 +1,51 @@
+///// IMPORTS
+// / Constants
+@import 'FONTS';
+@import 'COLOURS';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// Global styles
+:root {
+    font-size: $font-size;
+    font-family: $font-family;
+    color: $text-colour;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+
+    background-color: var(--bg-colour);
+    // background-image: url("images/website background.png");
+    // background-size: cover;
+
+    // pixel perfect
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+html, body {
+    height:100%;
+}
+
+main {
+    // margin: 10rem 2rem;
+    // background-color: green;
+}
+
+// Center element
+.center {
+    display: grid;
+    place-items: center;
+}
+
+header, footer {
+    height: 2rem;
+}
