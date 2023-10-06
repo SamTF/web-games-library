@@ -1,0 +1,45 @@
+/// Custom Font!
+/// 
+// Precise-M regular
+@font-face {
+    font-family: 'Precise-M';
+    src: url('fonts/Precise-M.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+// Precise-M Bold
+@font-face {
+    font-family: 'Precise-M';
+    src: url('fonts/Precise-M Bold.ttf') format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+// m3x6
+@font-face {
+    font-family: 'm3x6';
+    src: url('fonts/m3x6.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Constants
+$font-size: 16px;
+$font-family: 'Precise-M', 'm3x6', Fallback, sans-serif;
+$second-font: 'm3x6', Fallback, sans-serif;
+$text-colour: #fff;
+
+// Text styles
+h1 {
+    font-size: 2rem;
+    // margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.sub-font {
+    font-family: $second-font;
+    font-size: $font-size * 2;
+}
