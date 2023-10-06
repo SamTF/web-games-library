@@ -1,0 +1,2335 @@
+hat boy: the beginning
+
+# BITSY VERSION 8.7
+
+! VER_MAJ 8
+! VER_MIN 7
+! ROOM_FORMAT 1
+! DLG_COMPAT 0
+! TXT_MODE 0
+
+PAL 0
+0,0,0
+255,1,112
+255,255,255
+NAME palette 1
+
+PAL 1
+133,0,170
+103,152,255
+255,0,248
+NAME palette 2
+
+PAL 2
+255,255,255
+223,150,69
+255,1,112
+NAME LIGHT
+
+ROOM 0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,b,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,b,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,b,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,b,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,c,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME start
+ITM 2 7,9
+EXT 3,12 1 3,12 FX tunnel DLG 19
+END 4 10,10
+END 4 12,3
+END 4 3,9
+PAL 0
+
+ROOM 1
+0,0,0,0,0,0,0,a,0,0,a,0,0,0,0,0
+0,0,0,0,0,0,0,a,0,0,a,0,0,0,0,0
+0,0,a,a,a,a,a,a,0,0,a,0,0,0,0,0
+0,0,a,0,0,0,0,0,0,0,a,a,a,a,a,0
+0,0,a,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,0,a,0,0,0,0,b,0,0,0,0,b,0,a,0
+0,0,a,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,0,a,a,a,a,0,0,0,b,0,0,0,a,a,0
+0,0,0,0,0,a,0,0,0,0,0,0,0,a,0,0
+0,0,0,0,0,a,0,0,0,0,0,0,0,a,0,0
+0,a,a,a,a,a,0,0,0,0,0,0,0,a,0,0
+0,a,0,0,0,0,0,0,0,0,a,a,a,a,0,0
+0,a,0,0,0,0,0,0,0,a,a,0,0,0,0,0
+0,a,0,0,0,0,0,0,0,a,0,0,0,0,0,0
+0,a,a,a,a,a,a,a,a,a,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME A(0,0)
+ITM 2 6,12
+ITM 2 4,5
+ITM 3 10,5
+EXT 8,0 2 8,15 FX slide_u
+END 4 7,5
+END 4 9,7
+END 4 7,5
+END 4 12,5
+PAL 0
+
+ROOM 2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+e,e,0,e,e,0,0,0,0,0,0,0,0,0,0,0
+e,e,0,e,e,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,a,a,a,a,a,a,a,a,a,a
+0,0,0,0,0,a,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,a,0,0,0,b,0,0,0,0,0,0,0
+0,0,0,a,0,0,0,a,a,a,a,a,a,a,a,a
+0,0,0,a,0,0,a,0,0,0,0,0,0,0,0,0
+0,0,0,a,0,b,a,0,0,0,0,0,0,0,0,0
+0,0,0,a,0,0,a,0,0,0,0,0,0,0,0,0
+0,0,0,a,0,0,0,a,a,a,a,0,0,0,0,0
+0,0,0,0,a,0,0,0,0,b,a,0,0,0,0,0
+0,0,0,0,0,a,a,a,0,0,a,0,e,e,0,e
+0,0,0,0,0,0,0,a,0,0,a,0,e,e,0,e
+0,0,0,0,0,0,0,a,0,0,a,0,0,0,0,0
+NAME A(0,1)
+ITM 2 6,12
+EXT 8,15 1 8,0
+EXT 15,6 3 0,6 FX slide_r
+END 4 9,12
+END 4 5,9
+END 4 8,6
+PAL 0
+
+ROOM 3
+0,0,0,0,g,g,g,g,g,b,0,0,0,0,0,g
+0,0,0,0,a,g,g,g,a,a,a,a,a,a,a,g
+0,g,0,0,0,g,g,0,0,0,0,0,0,0,a,g
+g,g,a,0,g,g,0,0,0,0,0,0,0,0,a,0
+a,a,a,g,g,0,0,0,0,0,0,0,0,0,a,0
+0,0,0,0,0,0,0,0,0,0,g,g,0,0,a,g
+0,0,0,0,0,0,0,0,0,0,0,g,g,0,a,0
+a,a,a,0,0,0,0,0,0,0,0,0,0,0,a,g
+0,0,a,0,0,0,0,g,0,0,0,0,0,0,a,0
+0,0,a,0,0,0,g,g,0,0,0,0,0,0,a,0
+0,0,g,g,0,0,0,0,0,0,g,g,0,0,a,0
+0,g,g,0,0,0,0,0,0,g,g,0,0,0,g,0
+g,g,0,0,g,0,0,0,g,g,0,0,0,0,0,g
+g,0,0,g,0,g,0,0,g,g,0,0,g,0,0,g
+g,0,g,a,a,a,g,g,g,a,a,a,g,g,0,0
+g,g,0,0,0,0,0,g,g,0,0,0,0,g,g,0
+NAME A(1,1)
+ITM 2 1,14
+ITM 2 3,2
+ITM 6 8,4
+ITM i 10,0
+EXT 0,6 2 15,6
+EXT 15,15 4 0,0
+PAL 0
+
+ROOM 4
+0,g,b,g,0,0,0,0,a,0,0,a,0,0,0,0
+0,0,0,g,g,0,g,g,a,0,0,a,0,0,0,0
+g,0,0,0,0,g,g,g,a,0,0,a,a,a,a,0
+0,g,0,0,0,0,g,g,g,0,0,0,0,0,a,0
+0,g,g,0,0,0,0,g,g,0,0,0,0,0,a,0
+b,0,0,g,0,0,0,g,g,g,0,0,0,0,a,0
+0,0,g,g,g,0,0,0,g,b,0,0,0,0,a,0
+0,g,g,g,0,0,0,0,g,0,0,0,0,0,a,0
+0,0,a,0,0,0,0,0,g,g,0,0,0,0,a,0
+0,0,a,0,0,0,0,0,0,g,g,0,0,0,a,0
+0,0,a,0,0,0,0,0,0,g,0,g,0,0,a,0
+0,0,a,0,0,0,0,0,0,0,g,g,0,b,a,0
+0,0,a,0,0,0,0,0,0,0,0,0,g,0,a,0
+0,0,a,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,0,a,a,a,a,a,0,0,a,a,a,a,a,g,g
+0,b,0,0,0,0,a,0,0,a,0,0,0,0,0,g
+NAME A(2,0)
+ITM 5 6,12
+ITM 2 4,10
+EXT 7,15 5 7,0 FX slide_d
+EXT 0,0 3 15,15
+EXT 8,15 5 8,0 FX slide_d
+END 4 13,11
+END 4 2,0
+END 4 9,6
+PAL 0
+
+ROOM 5
+0,0,0,0,0,0,a,0,0,a,0,0,0,0,0,0
+e,0,e,e,0,0,a,0,0,a,0,0,0,0,0,0
+e,0,e,e,0,0,a,0,0,a,0,0,0,0,0,0
+0,0,0,0,0,0,a,0,0,a,0,0,e,e,0,e
+0,0,0,0,0,a,0,0,0,0,a,0,e,e,0,e
+0,0,0,0,0,a,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,a,0,0,0,0,0,0,a,0,0,0,0
+0,0,0,0,a,h,h,0,h,h,h,a,0,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,a,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,a,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,a,0,0,0
+0,0,a,0,0,0,0,0,0,0,0,0,0,a,0,0
+0,0,a,0,0,0,0,0,0,0,0,0,0,a,0,0
+0,0,a,a,a,a,a,a,a,a,a,a,a,a,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME A(2,-1)
+ITM 0 7,11
+EXT 7,0 4 7,15
+EXT 8,0 4 8,15
+PAL 0
+
+ROOM 6
+g,g,0,g,0,0,0,0,a,0,0,a,0,0,0,0
+0,0,0,g,g,0,g,g,a,0,0,a,0,0,0,0
+g,0,0,0,0,g,g,g,a,0,0,a,a,a,a,0
+0,g,0,0,0,0,g,g,g,0,0,0,0,0,a,0
+0,g,g,0,0,0,0,g,g,0,0,0,0,0,a,0
+b,0,0,g,0,0,0,g,g,g,0,0,0,0,a,0
+0,0,g,g,g,0,0,0,g,0,0,0,0,0,a,0
+0,g,g,g,0,0,0,0,g,0,0,0,0,0,a,0
+0,0,a,0,0,0,0,0,g,g,0,0,0,0,a,0
+0,0,a,0,0,0,0,0,0,g,g,0,0,0,a,0
+0,0,a,0,0,0,0,0,0,g,0,g,0,0,a,0
+0,0,a,0,0,0,0,0,0,0,g,g,0,0,a,0
+0,0,a,0,0,0,0,0,0,0,0,0,g,0,a,0
+0,0,a,0,0,0,0,0,0,0,0,0,0,0,a,0
+0,0,a,a,a,a,a,0,0,a,a,a,a,a,g,g
+0,b,0,0,0,0,a,0,0,a,0,0,0,0,0,g
+NAME A(2,0) Light
+ITM 9 1,15
+ITM 9 0,5
+ITM 9 13,11
+ITM 9 9,6
+ITM 9 2,0
+EXT 7,15 7 7,0
+EXT 9,0 9 9,15 FX slide_u
+EXT 0,1 d 15,15
+EXT 2,0 9 1,15 FX slide_u
+EXT 10,0 9 10,15 FX slide_u
+PAL 2
+
+ROOM 7
+0,0,0,0,0,0,a,0,0,a,0,0,0,0,0,0
+0,0,0,0,0,0,a,0,0,a,0,0,0,0,0,0
+0,0,0,0,0,0,a,0,0,a,0,0,0,0,0,0
+0,0,0,0,0,0,a,0,0,a,0,0,0,0,0,0
+0,0,0,0,0,a,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,0,a,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,a,0,0,0,0,0,0,a,0,0,0,0
+0,0,0,0,a,h,h,0,h,h,h,a,0,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,a,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,a,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,a,0,0,0
+0,0,a,0,0,0,0,0,0,0,0,0,0,a,0,0
+0,0,a,0,0,0,0,0,0,0,0,0,0,a,0,0
+0,0,a,a,a,a,a,a,a,a,a,a,a,a,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME A(2,-1) Light
+EXT 8,0 6 8,15
+EXT 7,0 6 7,15
+PAL 2
+
+ROOM 8
+0,0,0,0,0,0,a,0,0,a,0,0,0,0,0,0
+e,0,e,e,0,0,a,0,0,a,0,0,0,0,0,0
+e,0,e,e,0,0,a,0,0,a,0,0,0,0,0,0
+0,0,0,0,0,0,a,0,0,a,0,0,e,e,0,e
+0,0,0,0,0,a,0,0,0,0,a,0,e,e,0,e
+0,0,0,0,0,a,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,a,0,0,0,0,0,0,a,0,0,0,0
+0,0,0,0,a,h,h,0,h,h,h,a,0,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,a,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,a,0,0,0
+0,0,0,a,0,0,0,0,0,0,0,0,a,0,0,0
+0,0,a,0,0,0,0,0,0,0,0,0,0,a,0,0
+0,0,a,0,0,0,0,0,0,0,0,0,0,a,0,0
+0,0,a,a,a,a,a,a,a,a,a,a,a,a,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME A(2,-1) sans barrier
+EXT 7,0 4 7,15
+EXT 8,0 4 8,15
+PAL 0
+
+ROOM 9
+g,0,g,g,g,0,g,g,0,0,g,a,0,0,a,0
+g,0,0,g,0,0,g,0,0,0,0,a,0,0,a,0
+g,0,g,0,0,g,a,a,a,g,a,a,0,0,a,a
+g,0,0,g,0,g,g,0,0,0,0,0,0,0,0,a
+0,g,0,0,0,g,0,g,0,0,0,0,0,0,0,a
+g,g,g,0,0,a,0,0,g,0,0,0,0,0,0,a
+g,a,0,0,a,a,0,g,0,0,0,0,a,a,a,a
+0,g,0,g,0,0,0,0,0,0,0,0,a,0,0,0
+g,0,0,0,0,0,0,0,0,0,0,0,a,0,0,0
+a,a,a,0,a,a,0,0,0,0,0,0,a,a,a,0
+0,g,0,0,0,a,0,0,0,0,0,0,0,0,a,0
+0,0,g,0,g,a,0,0,0,0,0,0,0,0,a,0
+0,g,0,0,0,a,a,a,a,0,0,a,a,a,a,0
+g,0,0,g,0,0,g,0,a,0,0,a,0,0,0,0
+g,g,g,0,g,0,0,g,a,0,0,a,0,0,0,0
+g,0,0,0,0,g,g,0,a,0,0,a,0,0,0,0
+NAME A(2,1) Light
+ITM 9 9,12
+ITM 9 3,5
+ITM d 9,8
+ITM 2 13,10
+EXT 9,15 6 9,0 FX slide_d
+EXT 1,15 6 2,0 FX slide_d
+EXT 12,0 a 12,15 FX slide_u
+EXT 13,0 a 13,15 FX slide_u
+EXT 5,0 a 5,15 FX slide_u
+EXT 1,0 a 1,15 FX slide_u
+EXT 10,15 6 10,0 FX slide_d
+PAL 2
+
+ROOM a
+0,0,0,l,a,0,0,a,l,0,l,0,l,0,l,l
+0,l,0,0,a,0,0,a,0,l,k,0,0,k,l,0
+k,0,l,l,a,0,0,a,0,0,0,l,0,0,0,l
+l,l,k,0,a,0,0,a,0,l,0,l,l,k,0,l
+l,0,l,l,a,0,0,a,0,0,0,k,0,0,l,l
+l,l,l,0,a,0,0,a,l,l,l,0,l,l,0,l
+i,i,i,i,a,0,0,a,i,i,i,i,i,i,i,i
+i,i,i,i,a,0,0,a,i,i,i,i,i,i,i,i
+i,i,i,i,a,0,0,a,i,i,i,i,i,i,i,i
+i,i,i,i,a,0,0,a,a,a,a,a,a,a,a,i
+i,i,0,i,a,0,0,0,0,0,0,0,0,0,a,i
+0,g,0,0,a,0,0,0,0,0,0,0,0,0,a,0
+g,0,0,g,a,a,a,a,a,a,a,a,0,0,a,0
+g,0,0,0,g,g,0,0,0,0,0,a,0,0,a,0
+0,0,0,0,0,0,0,g,0,0,g,a,0,0,a,0
+g,0,g,g,g,0,g,0,g,g,0,a,0,0,a,0
+NAME A(2,2) Light
+ITM 9 12,4
+ITM 9 14,2
+ITM 7 2,1
+ITM 7 1,4
+ITM e 9,4
+ITM e 10,2
+ITM 2 2,13
+ITM c 9,14
+ITM h 11,5
+EXT 12,15 9 12,0 FX slide_d
+EXT 13,15 9 13,0 FX slide_d
+EXT 5,15 9 5,0 FX slide_d
+EXT 1,15 9 1,0 FX slide_d
+EXT 0,14 b 15,14 FX slide_l
+EXT 6,0 g 6,15 FX slide_u DLG 17
+EXT 5,0 g 5,15 FX slide_u DLG 17
+EXT 0,14 i 15,14 FX slide_l
+PAL 2
+
+ROOM b
+i,i,i,i,0,k,0,l,0,l,0,k,0,l,l,0
+i,i,i,i,i,0,0,0,l,l,k,l,0,k,0,l
+i,i,i,i,i,i,i,l,0,0,0,l,l,l,l,0
+g,i,i,i,i,i,i,i,i,l,k,0,0,k,l,l
+j,0,i,i,i,i,i,i,i,i,i,i,0,0,0,k
+j,j,0,0,i,i,i,i,i,i,i,i,i,l,k,0
+j,g,j,0,0,0,i,i,i,i,i,i,i,i,i,i
+g,j,g,j,g,0,i,i,i,i,i,i,i,i,i,i
+j,j,g,g,j,0,0,0,0,i,i,i,i,i,i,i
+g,j,j,j,j,j,g,0,0,0,g,0,i,i,i,i
+g,j,j,j,j,j,j,j,j,j,j,j,0,i,i,i
+j,g,j,g,j,j,j,j,j,j,j,j,g,0,0,g
+j,g,j,j,j,j,g,j,j,j,j,j,j,j,j,g
+j,g,j,j,g,j,j,j,g,j,g,g,j,j,g,g
+g,j,j,j,j,j,g,j,g,g,j,g,g,0,0,0
+g,j,j,j,g,g,j,g,g,j,g,j,j,g,0,g
+NAME A(1,2) Light
+ITM e 12,4
+ITM 9 12,1
+ITM 7 7,1
+ITM k 5,6
+ITM 2 7,8
+EXT 15,14 a 0,14 FX slide_r
+EXT 14,15 d 14,0 FX slide_d
+PAL 2
+
+ROOM d
+g,0,0,0,g,g,g,g,g,0,0,0,0,0,0,g
+g,0,0,0,a,g,g,g,a,a,a,a,a,a,a,g
+0,g,0,0,0,g,g,0,0,0,0,0,0,0,a,g
+g,g,a,0,g,g,0,0,0,0,0,0,0,0,a,0
+a,a,a,g,g,0,0,0,0,0,0,0,0,0,a,0
+0,0,0,0,0,0,0,0,0,0,g,g,0,0,a,g
+0,0,0,0,0,0,0,0,0,0,0,g,g,0,a,0
+a,a,a,0,0,0,0,0,0,0,0,0,0,0,a,g
+0,0,a,0,0,0,0,g,0,0,0,0,0,0,a,0
+0,0,a,0,0,0,g,g,0,0,0,0,0,0,a,0
+0,0,g,g,0,0,0,0,0,0,g,g,0,0,a,0
+0,g,g,0,0,0,0,0,0,g,g,0,0,0,g,0
+g,g,0,0,g,0,0,0,g,g,0,0,0,0,0,g
+g,0,0,g,0,g,0,0,g,g,0,0,g,0,0,g
+g,0,g,a,a,a,g,g,g,a,a,a,g,g,0,0
+g,g,0,0,0,0,0,g,g,0,0,0,0,g,g,0
+NAME A(1,1) Light
+ITM 2 3,2
+ITM 6 8,4
+ITM 9 9,0
+ITM i 10,0
+EXT 15,15 6 0,1
+EXT 14,0 b 14,15 FX slide_u
+EXT 14,0 i 14,15 FX slide_u
+EXT 1,0 e 1,1 FX fade_b DLG 1a
+PAL 2
+
+ROOM e
+g,g,0,g,g,0,g,g,g,0,0,g,0,g,0,g
+g,0,g,g,g,g,0,g,a,a,a,g,a,0,g,g
+g,0,0,0,g,0,g,0,0,0,0,g,0,g,a,0
+g,0,0,g,g,g,0,0,0,g,0,0,g,0,g,g
+0,g,0,0,g,0,0,0,g,0,g,0,0,g,g,0
+g,g,g,0,0,0,g,0,0,0,g,g,0,0,a,0
+0,g,g,0,0,0,0,0,g,g,0,g,g,0,a,0
+0,g,a,0,0,g,0,0,0,g,0,0,0,0,g,g
+g,0,a,g,0,0,0,g,0,0,g,0,0,g,g,g
+0,0,a,0,0,0,g,g,0,g,0,0,0,0,a,0
+0,g,g,g,0,g,0,0,0,0,g,g,0,0,a,0
+g,g,0,g,0,0,0,g,0,0,g,0,0,0,g,0
+0,g,0,0,g,0,0,0,g,0,0,0,0,0,0,g
+g,0,g,g,0,g,0,0,g,g,0,0,g,0,0,g
+g,0,g,a,g,a,g,g,g,a,a,a,g,g,0,0
+g,g,0,0,g,0,0,g,g,0,0,0,0,g,g,0
+NAME A(1,1) Cave-In
+ITM g 13,12
+ITM g 4,8
+ITM g 9,11
+ITM g 7,3
+ITM g 13,7
+ITM g 3,4
+ITM n 1,2
+EXT 15,15 j 0,1 DLG 1b
+PAL 0
+
+ROOM f
+f,f,f,f,f,f,a,a,a,a,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,c,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,h,0,h,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,a,a,a,h,0,h,a,a,a,f,f,f
+f,f,f,f,a,0,0,0,0,0,0,0,a,f,f,f
+f,f,f,f,a,0,0,0,0,0,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,a,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+NAME A(2,4) Light
+ITM m 8,4
+EXT 5,15 g 5,0 FX slide_d
+PAL 2
+
+ROOM g
+0,l,0,0,a,0,0,a,0,a,0,0,a,k,0,0
+0,0,0,0,a,0,0,a,0,a,0,0,a,0,l,0
+0,0,l,0,a,0,0,a,0,a,0,0,a,0,0,0
+l,k,0,k,a,0,0,a,0,a,0,0,a,0,l,k
+0,0,l,0,a,0,0,0,a,0,0,0,a,0,0,0
+0,l,0,0,a,0,0,0,0,0,0,0,a,0,k,l
+0,k,l,0,0,a,0,0,0,0,0,a,0,l,0,0
+l,0,0,0,l,0,a,0,0,0,a,0,0,k,0,0
+0,0,l,k,0,a,0,0,0,0,0,a,0,0,l,l
+l,0,0,0,a,0,0,0,a,0,0,0,a,0,l,0
+0,l,0,l,a,0,0,a,0,a,0,0,a,0,k,l
+0,0,l,0,a,0,0,a,0,a,0,0,a,l,l,0
+l,0,l,0,a,0,0,a,0,a,0,0,a,0,0,0
+k,0,0,l,a,0,0,a,0,a,0,0,a,0,l,0
+0,l,l,0,a,0,0,a,0,a,0,0,a,0,0,l
+0,l,0,l,a,0,0,a,0,a,h,h,a,k,0,0
+NAME A(2,3) Light
+ITM 7 0,14
+ITM 7 2,9
+ITM 7 3,6
+ITM 7 2,1
+ITM e 13,13
+ITM e 15,9
+ITM e 14,4
+ITM e 15,1
+EXT 6,15 a 6,0 FX slide_d
+EXT 5,0 f 5,15 FX slide_u
+EXT 6,0 f 6,15 FX slide_u
+EXT 10,0 f 10,15 FX slide_u
+EXT 11,0 f 11,15 FX slide_u
+PAL 2
+
+ROOM h
+0,l,0,0,a,0,0,a,0,a,0,0,a,k,0,0
+0,0,0,0,a,0,0,a,0,a,0,0,a,0,l,0
+0,0,l,0,a,0,0,a,0,a,0,0,a,0,0,0
+l,k,0,k,a,0,0,a,0,a,0,0,a,0,l,k
+0,0,l,0,a,0,0,0,a,0,0,0,a,0,0,0
+0,l,0,0,a,0,0,0,0,0,0,0,a,0,k,l
+0,k,l,0,0,a,0,0,0,0,0,a,0,l,0,0
+l,0,0,0,l,0,a,0,0,0,a,0,0,k,0,0
+0,0,l,k,0,a,0,0,0,0,0,a,0,0,l,l
+l,0,0,0,a,0,0,0,a,0,0,0,a,0,l,0
+0,l,0,l,a,0,0,a,0,a,0,0,a,0,k,l
+0,0,l,0,a,0,0,a,0,a,0,0,a,l,l,0
+l,0,l,0,a,0,0,a,0,a,0,0,a,0,0,0
+k,0,0,l,a,0,0,a,0,a,0,0,a,0,l,0
+0,l,l,0,a,0,0,a,0,a,0,0,a,0,0,l
+0,l,0,l,a,0,0,a,0,a,h,h,a,k,0,0
+NAME A(2,3) Light Shoes
+ITM a 8,7
+EXT 5,15 a 5,0 FX slide_d DLG 16
+EXT 6,15 a 6,0 FX slide_d DLG 16
+PAL 2
+
+ROOM i
+i,i,i,i,0,k,0,l,0,l,0,k,0,l,l,0
+i,i,i,i,i,0,0,0,l,l,k,l,0,k,0,l
+i,i,i,i,i,i,i,l,0,0,0,l,l,l,l,0
+g,i,i,i,i,i,i,i,i,l,k,0,0,k,l,l
+j,0,i,i,i,i,i,i,i,i,i,i,0,0,0,k
+j,j,0,0,i,i,i,i,i,i,i,i,i,l,k,0
+j,g,j,0,0,0,i,i,i,i,i,i,i,i,i,i
+g,j,g,j,g,0,i,i,i,i,i,i,i,i,i,i
+j,j,g,g,j,0,0,0,0,i,i,i,i,i,i,i
+g,j,j,j,j,j,g,0,0,0,g,0,i,i,i,i
+g,j,j,j,j,j,j,j,j,j,j,j,0,i,i,i
+j,g,j,g,j,j,j,j,j,j,j,j,g,0,0,g
+j,g,j,j,j,j,g,j,j,j,j,j,j,j,j,g
+j,g,j,j,g,j,j,j,g,j,g,g,j,j,g,g
+g,j,j,j,j,j,g,j,g,g,j,g,g,0,0,0
+g,j,j,j,g,g,j,g,g,j,g,j,j,g,0,g
+NAME A(1,2) Light Walkable
+ITM 7 7,1
+ITM 9 12,1
+ITM e 12,4
+ITM 2 7,8
+EXT 15,14 a 0,14 FX slide_r
+EXT 14,15 d 14,0 FX slide_d
+EXT 1,15 d 1,0 FX slide_d
+PAL 2
+
+ROOM j
+g,g,g,g,0,0,0,0,a,0,b,a,0,0,0,0
+0,0,0,g,g,0,g,g,a,0,0,a,0,0,0,0
+g,g,0,0,g,g,g,g,a,b,0,a,a,a,a,0
+g,g,g,0,0,0,g,g,g,0,0,0,0,0,a,0
+0,g,g,0,g,0,0,g,g,0,0,0,b,0,a,0
+b,0,0,g,0,0,0,g,g,g,0,0,0,0,a,0
+0,0,g,g,g,0,g,0,g,b,0,0,0,0,a,g
+0,g,g,g,b,0,0,0,g,0,0,g,0,g,a,b
+0,0,a,0,0,g,g,0,g,g,0,0,0,g,g,g
+g,0,a,0,0,0,0,0,g,g,g,0,0,b,a,g
+0,g,g,g,0,g,0,g,0,g,0,g,0,0,g,0
+0,0,a,g,0,0,g,0,b,0,g,g,0,0,a,0
+g,g,a,0,g,0,0,0,g,0,0,0,g,0,g,g
+0,g,g,g,0,g,0,0,0,0,g,0,0,0,a,0
+0,0,a,g,g,a,a,b,0,g,a,a,a,a,g,g
+0,b,0,0,g,0,a,0,g,g,0,0,0,g,0,g
+NAME A(2,0) Cave-In
+ITM g 5,6
+ITM g 4,11
+ITM g 12,13
+ITM g 9,9
+ITM g 10,4
+EXT 0,1 e 15,15
+EXT 9,0 k 9,15 FX slide_u
+END 4 4,7
+END 4 8,11
+END 4 7,14
+END 4 13,9
+END 4 9,6
+END 4 12,4
+END 4 9,2
+END 4 10,0
+PAL 0
+
+ROOM k
+g,0,g,g,g,b,g,g,0,0,g,a,0,0,a,0
+g,g,0,g,0,0,g,0,0,0,0,a,0,0,a,0
+g,0,g,0,g,g,a,a,a,g,a,a,0,0,a,a
+g,b,0,g,0,g,g,0,0,0,0,0,0,0,0,a
+0,g,0,g,0,g,0,g,0,0,0,g,0,0,0,a
+g,g,g,0,g,a,0,b,g,0,0,0,g,g,g,g
+g,a,0,g,a,a,g,g,0,0,0,0,0,0,g,g
+0,g,g,g,0,0,0,0,g,0,0,0,g,0,0,g
+g,g,g,0,0,0,0,0,b,0,0,g,a,0,0,g
+a,g,0,0,a,a,0,g,0,g,0,0,a,0,b,0
+0,g,0,0,b,a,0,g,0,0,0,b,0,0,0,g
+g,0,g,0,g,a,0,0,0,0,g,0,0,0,g,0
+0,g,g,0,0,a,a,a,a,g,0,0,g,0,g,0
+g,0,g,g,0,0,g,0,g,g,0,g,0,g,0,0
+g,g,g,0,0,0,g,g,g,0,0,a,g,0,0,0
+g,0,0,g,g,g,g,g,a,0,g,a,0,0,0,0
+NAME A(2,1) Cave-In
+ITM g 12,11
+ITM g 13,8
+ITM g 4,14
+ITM g 6,8
+EXT 9,15 j 9,0 FX slide_d
+EXT 12,0 l 12,15 FX slide_u
+EXT 13,0 l 13,15 FX slide_u
+END 4 14,9
+END 4 11,10
+END 4 8,8
+END 4 4,10
+PAL 0
+
+ROOM l
+0,g,g,l,a,0,0,a,l,g,l,0,g,0,l,l
+g,l,b,0,a,0,0,a,g,l,k,0,g,k,l,0
+k,g,l,l,a,0,0,g,0,0,b,l,0,g,b,g
+l,l,k,0,b,0,0,a,g,l,0,l,l,k,0,l
+l,b,l,l,a,0,0,a,0,b,0,k,b,0,g,l
+l,l,l,g,a,0,0,a,l,l,l,0,l,l,g,l
+i,i,i,i,a,0,0,a,i,i,i,i,i,i,i,i
+i,i,i,i,a,0,0,a,i,i,i,i,i,i,i,i
+i,i,i,i,a,0,0,a,i,i,i,i,i,i,i,i
+i,i,i,i,a,0,0,a,a,a,a,a,a,a,a,i
+i,i,i,i,a,0,0,0,0,0,0,0,0,0,a,i
+0,g,0,g,a,0,g,0,0,0,0,0,0,0,a,g
+g,b,g,g,a,g,a,g,b,a,a,a,0,0,a,0
+g,0,g,0,g,g,0,0,g,0,0,a,0,0,a,g
+0,g,g,0,0,g,0,g,0,0,g,a,0,0,a,g
+g,0,g,g,g,0,g,0,g,g,0,a,0,0,g,0
+NAME A(2,2) Dark
+ITM h 11,5
+EXT 12,15 k 12,0 FX slide_d
+EXT 13,15 k 13,0 FX slide_d
+EXT 5,0 m 5,15 FX slide_u
+EXT 6,0 m 6,15 FX slide_u
+EXT 11,0 m 11,15 FX slide_u
+END 4 8,12
+END 4 4,3
+END 4 10,2
+END 4 14,2
+END 4 12,4
+END 4 9,4
+PAL 0
+
+ROOM m
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,0,a,0,0,0,a,f,f,f
+f,f,f,f,a,0,0,0,0,0,0,0,a,f,f,f
+f,f,f,f,f,a,0,0,0,0,0,a,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,a,0,0,0,0,0,a,f,f,f,f
+f,f,f,f,a,0,0,0,a,0,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,h,0,a,f,f,f
+NAME A(2,3) Dark
+ITM l 11,15
+EXT 5,15 l 5,0 FX slide_d
+EXT 6,15 l 6,0 FX slide_d
+EXT 5,0 n 5,15 FX slide_u
+EXT 6,0 n 6,15 FX slide_u
+EXT 10,0 n 10,15 FX slide_u
+EXT 11,0 n 11,15 FX slide_u
+EXT 11,15 l 11,0 FX slide_d
+PAL 0
+
+ROOM n
+f,f,f,f,f,f,a,a,a,a,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,c,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,h,0,h,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,a,a,a,h,0,h,a,a,a,f,f,f
+f,f,f,f,a,0,0,0,0,0,0,0,a,f,f,f
+f,f,f,f,a,0,0,0,0,0,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,a,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+NAME A(2,4) Dark
+ITM l 8,10
+EXT 5,15 m 5,0 FX slide_d
+EXT 6,15 m 6,0 FX slide_d
+EXT 10,15 m 10,0 FX slide_d
+EXT 11,15 m 11,0 FX slide_d
+PAL 0
+
+ROOM o
+f,f,f,f,f,f,a,a,a,a,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,c,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,h,0,h,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,f,f,a,0,0,0,a,f,f,f,f,f
+f,f,f,f,a,a,a,h,0,h,a,a,a,f,f,f
+f,f,f,f,a,0,0,0,0,0,0,0,a,f,f,f
+f,f,f,f,a,0,0,0,0,0,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,a,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
+NAME A(2,4) Dark Unlocked
+ITM l 8,10
+EXT 5,15 m 5,0 FX slide_d
+EXT 6,15 m 6,0 FX slide_d
+EXT 10,15 m 10,0 FX slide_d
+EXT 11,15 m 11,0 FX slide_d
+END 1j 8,2
+PAL 0
+
+TIL a
+11111111
+10000001
+10100101
+10011001
+10011001
+10100101
+10000001
+11111111
+>
+11111111
+10000001
+10010001
+10011101
+10111001
+10001001
+10000001
+11111111
+NAME block
+WAL true
+
+TIL b
+00000000
+00000000
+01100110
+01100110
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME eyes
+
+TIL c
+11111111
+10000001
+11100001
+10111001
+10101111
+10101011
+10101011
+11111111
+NAME stairs
+
+TIL e
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME giant eyes
+
+TIL f
+00010001
+00010000
+01000000
+01001010
+00000010
+10100000
+10001001
+00001000
+>
+00001000
+10000001
+10010001
+00010000
+01000000
+01001010
+00000010
+10100000
+NAME rain
+
+TIL g
+00000000
+00011100
+00111110
+01100111
+01001101
+01101110
+00101100
+00000000
+NAME rock
+WAL true
+
+TIL h
+00000000
+00000000
+11111111
+01000100
+10101010
+00010001
+11111111
+00000000
+NAME barrier
+WAL true
+
+TIL i
+01010101
+10101010
+00000000
+00000000
+01010101
+10101010
+00000000
+00000000
+>
+10101010
+01010101
+00000000
+00000000
+10101010
+01010101
+00000000
+00000000
+NAME water
+WAL true
+
+TIL j
+01000000
+10100000
+00000100
+00001010
+00000000
+00100000
+01010010
+00000101
+NAME rough terrain
+
+TIL k
+00000000
+00000010
+00000101
+00010010
+00101010
+00010000
+00010000
+00010000
+NAME flower
+
+TIL l
+00000000
+00000100
+00001010
+00000100
+01000000
+10100000
+01000000
+00000000
+NAME flowers
+
+TIL m
+11111111
+00000100
+00000100
+11111111
+00010000
+00010000
+11111111
+01000100
+NAME wall
+
+SPR 10
+00111100
+01000010
+10000001
+10100101
+10011001
+10011001
+10100101
+10000001
+>
+00000000
+00111100
+01111110
+01011010
+01100110
+01100110
+01011010
+01111110
+NAME door
+DLG 1h
+POS n 8,4
+
+SPR 11
+00000000
+00111100
+01111110
+01101010
+01111110
+00111100
+00010100
+00000000
+NAME A(2,1) Master Hacker 2
+DLG 1g
+POS k 3,14
+
+SPR 12
+00111100
+01000010
+10000001
+10100101
+10011001
+10011001
+10100101
+10000001
+NAME door locked
+DLG 1i
+POS o 8,4
+
+SPR A
+00111000
+01110100
+01111110
+01110000
+00111100
+00101000
+00101100
+00100000
+>
+00000000
+00111000
+01110100
+01111110
+01110000
+00111100
+01101000
+00001000
+POS 0 3,3
+
+SPR a
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+NAME cat
+DLG 0
+BLIP 1
+
+SPR c
+00000000
+00111100
+01111110
+01010110
+01111110
+00111100
+00101000
+00000000
+NAME dead guy
+DLG 5
+POS 0 9,5
+
+SPR e
+11111111
+10000001
+11100001
+10111001
+10101111
+10101011
+10101011
+11111111
+NAME stairs
+POS 1 3,12
+
+SPR f
+00000000
+00111100
+01111110
+01010110
+01111110
+00111100
+00101000
+00000000
+NAME A(0,0) dg1
+DLG 9
+POS 1 8,9
+
+SPR g
+00000000
+00111100
+01111110
+01010110
+01111110
+00111100
+00101000
+00000000
+NAME A(0,0) dg2
+DLG b
+POS 1 9,0
+
+SPR h
+00000000
+00111100
+01111110
+01010110
+01111110
+00111100
+00101000
+00000000
+NAME dead guy 4
+DLG c
+POS 2 14,5
+
+SPR i
+00000000
+00111100
+01111110
+01010110
+01111110
+00111100
+00101000
+00000000
+NAME dg5
+DLG d
+POS 3 11,8
+
+SPR j
+00000000
+00111100
+01111110
+01010110
+01111110
+00111100
+00101000
+00000000
+NAME dg6
+DLG e
+POS 4 4,11
+
+SPR k
+00000000
+00000000
+11111111
+01000100
+10101010
+00010001
+11111111
+00000000
+NAME barrier A
+DLG i
+POS 5 7,7
+
+SPR l
+00000000
+00111100
+01111110
+01010110
+01111110
+00111100
+00101000
+00000000
+NAME dg7
+DLG h
+POS 5 8,5
+
+SPR m
+00000000
+00010000
+00000000
+00010000
+00010000
+00010000
+00111000
+01111100
+>
+00001000
+00010000
+00000000
+00010000
+00010000
+00010000
+00111000
+01111100
+NAME candle A
+DLG j
+POS 8 7,11
+
+SPR n
+00000000
+00111100
+01111110
+01010110
+01111110
+00111100
+00101000
+00000000
+>
+01111100
+01111110
+11111111
+11010111
+11010111
+01111110
+00101000
+00101000
+NAME dg8
+DLG l
+POS 7 8,5
+
+SPR o
+00000000
+00111100
+01111110
+01010110
+01111110
+00111100
+00101000
+00000000
+NAME A(2,1) dg
+DLG v
+POS 9 7,14
+
+SPR p
+00000000
+00111100
+01111110
+01010110
+01111110
+00111100
+00101000
+00000000
+NAME dg10
+DLG w
+POS a 13,11
+
+SPR q
+00000000
+00111100
+01111110
+01101010
+01111110
+00111100
+00010100
+00000000
+NAME dg11
+DLG x
+POS i 5,6
+
+SPR r
+00000000
+00000000
+11111111
+01000100
+10101010
+00010001
+11111111
+00000000
+NAME barrier B
+DLG 1e
+POS f 8,10
+
+SPR s
+00000000
+00111100
+01111110
+01011010
+01111110
+00111100
+00100100
+00011000
+>
+00000000
+00111100
+01111110
+01011010
+01111110
+00111100
+00111100
+00000000
+NAME talking head
+
+SPR t
+00000000
+00111100
+01111110
+01101010
+01111110
+00111100
+00010100
+00000000
+NAME A(2,3) dg12
+DLG z
+POS g 8,6
+
+SPR u
+01010101
+10101010
+00000000
+00000000
+01010101
+10101010
+00000000
+00000000
+>
+10101010
+01010101
+00000000
+00000000
+10101010
+01010101
+00000000
+00000000
+NAME water
+DLG 10
+POS a 2,10
+
+SPR v
+00111100
+01110100
+10010010
+10001001
+10000111
+11111100
+00000000
+00000000
+NAME shoes
+DLG 11
+POS g 8,7
+
+SPR w
+00111100
+01111110
+11111111
+11101011
+11101011
+01111110
+00010100
+00010100
+>
+00000000
+00111100
+01111110
+01101010
+01111110
+00111100
+00010100
+00000000
+NAME A(2,3) dg2
+DLG 12
+POS h 8,6
+
+SPR x
+00000000
+00111100
+01111110
+01101010
+01111110
+00111100
+00010100
+00000000
+NAME A(2,1) dg2
+DLG 13
+POS 9 3,14
+
+SPR y
+01000000
+10100000
+00000100
+00001010
+00000000
+00100000
+01010010
+00000101
+NAME rough terrain
+DLG 15
+POS b 13,14
+
+SPR z
+00000000
+00111100
+01111110
+01010110
+01111110
+00111100
+00101000
+00000000
+NAME A(2,2) Dark dg
+DLG 1d
+POS l 13,11
+
+ITM 0
+00001000
+00010000
+00000000
+00010000
+00010000
+00010000
+00111000
+01111100
+>
+00010000
+00010000
+00000000
+00010000
+00010000
+00010000
+00111000
+01111100
+NAME candle
+DLG 1
+
+ITM 1
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME key
+DLG 2
+BLIP 2
+
+ITM 2
+00000000
+00000000
+00000000
+00011100
+00111100
+10111101
+01111110
+00000000
+>
+00000000
+00000000
+00011100
+00111100
+10111101
+01111110
+00000000
+00000000
+NAME hat
+DLG 3
+BLIP 2
+
+ITM 3
+00000000
+00000000
+11111000
+10001100
+10001010
+11111100
+11111000
+11111000
+NAME beer
+DLG a
+BLIP 3
+
+ITM 4
+11111100
+10000100
+10101000
+11111100
+11111100
+11111100
+11111100
+11111100
+NAME matchbook
+
+ITM 5
+00000000
+00000000
+00010000
+00000000
+00010000
+00010000
+00010000
+00010000
+>
+00000000
+00010000
+00000000
+00010000
+00010000
+00010000
+00010000
+00000000
+NAME matchstick
+DLG f
+BLIP 2
+
+ITM 6
+00111000
+00010000
+00010000
+00101000
+01000100
+01000100
+01011100
+01111100
+>
+00111000
+00010000
+00010000
+00101000
+01000100
+01000100
+01011100
+01111100
+NAME whiskey
+DLG g
+BLIP 2
+
+ITM 7
+00000000
+00000000
+00010100
+00111100
+00101000
+00111100
+11111100
+00011000
+>
+00000000
+00000000
+00000000
+00010100
+00111100
+00101000
+00111100
+11111110
+NAME monster sm
+DLG q
+BLIP 5
+
+ITM 8
+00010100
+00010100
+00111100
+00111100
+00101000
+10111100
+01111100
+00011000
+NAME monster md
+BLIP 5
+
+ITM 9
+00000000
+00000000
+00010100
+00111110
+10101010
+10111110
+01111110
+00010100
+>
+00000000
+00000000
+00000000
+00010100
+00011100
+00101010
+10111110
+01111110
+NAME monster
+DLG k
+BLIP 5
+
+ITM a
+00000000
+00000000
+00111100
+01110100
+10010010
+10001001
+10000111
+11111100
+>
+00111100
+01110100
+10010010
+10001001
+10000111
+11111100
+00000000
+01111110
+NAME shoes
+DLG r
+BLIP 2
+
+ITM b
+00111000
+00101000
+00010000
+00101000
+01000100
+00101000
+00101000
+00010000
+NAME tie
+DLG s
+BLIP 2
+
+ITM c
+00100000
+01110000
+11110000
+01111000
+00011110
+00001111
+00001010
+00000100
+>
+00100101
+01110110
+11110111
+01111000
+00011110
+11101111
+01101010
+10100100
+NAME treat
+DLG t
+BLIP 2
+
+ITM d
+00000000
+01111110
+01000010
+01111010
+01000010
+01110010
+01000010
+01111110
+NAME paper
+DLG u
+BLIP 2
+
+ITM e
+00000000
+00000000
+00101000
+00111100
+00010100
+00111100
+00111111
+00011000
+>
+00000000
+00000000
+00000000
+00101000
+00111100
+00010100
+00111100
+01111111
+NAME monster sm L
+BLIP 5
+
+ITM f
+00000000
+00111100
+01110100
+01011100
+01111100
+01111000
+01100110
+00111110
+NAME skull
+
+ITM g
+00000000
+00011100
+00111110
+01110111
+01001101
+01101110
+00101100
+00000000
+NAME rock
+BLIP 5
+
+ITM h
+00000000
+00000000
+01111111
+01101100
+00000000
+00000000
+00000000
+00000000
+NAME sunglasses
+DLG 1f
+BLIP 2
+
+ITM i
+00000000
+00011000
+00010000
+00101000
+01111100
+01111100
+01111100
+00111000
+>
+00011000
+00010000
+00101000
+01111100
+01111100
+01111100
+00111000
+00000000
+NAME apple
+DLG 14
+
+ITM j
+00000000
+00000000
+01101100
+11111110
+11111110
+11111110
+01111100
+00111000
+>
+00000000
+01101100
+11111010
+11110110
+11111110
+01111100
+00111000
+00010000
+NAME heart
+
+ITM k
+00000000
+00111100
+01111110
+01101010
+01111110
+00111100
+00010100
+00000000
+NAME dead guy
+
+ITM l
+00000000
+00000000
+11111111
+01000100
+10101010
+00010001
+11111111
+00000000
+NAME barrier
+DLG 1c
+
+ITM m
+00111100
+01000010
+10000001
+10100101
+10011001
+10011001
+10100101
+10000001
+NAME door
+
+ITM n
+00000000
+00011100
+00111110
+01110111
+01001101
+01101110
+00101100
+00000000
+NAME rock tutorial
+DLG y
+
+DLG 0
+I'm a cat
+NAME cat dialog
+
+DLG 1
+{rbw}you found a candle!{/rbw}{pal "2"}{item "5" {{item "5"} - 1}}
+NAME candlestick dialogue
+
+DLG 2
+A key! {wvy}What does it open?{wvy}
+NAME key dialog
+
+DLG 3
+"""
+{hats = hats + 1}I am a hat
+
+You have collected {wvy}{say hats} hats {drwi "hat"}{/wvy}
+"""
+NAME hat
+
+DLG 4
+You got eaten by a {shk}{clr 1}scary monster{/clr}{/shk} and died horribly...{drws "A"}{blip "3"}{drws "dead guy"}
+NAME EATEN
+
+DLG 5
+"""
+i am dead
+why am i dead?
+because of a {shk}{clr 1}scary monster{/clr}{/shk}...
+
+watch out for the sinister {clr 1}red eyes{/clr}...{blip "3"}
+"""
+NAME dead guy dialog
+
+DLG 6
+You walk down a dark dank staircase
+NAME exit narration 1
+
+DLG 7
+The end
+NAME ending 2
+
+DLG 8
+The end
+NAME ending 3
+
+DLG 9
+"""
+{sequence
+  - i forgot to tell you something
+    
+    it's about {clr 1}{wvy}the hats {drwi "hat"}{/wvy}{/clr}
+    
+    you should pick them up
+    
+    {shk}they are the only thing that can bring you salvation...{/shk}
+  - {shk}pick up the hats {drwi "hat"}{/shk}
+}
+"""
+NAME dead guy 2 dialog
+
+DLG 10
+"""
+{wvy}the water looks so appealing...{/wvy}
+but you cannot cross the {clr 1}water{/clr}{pg}only fish can do that{pg}{
+  - {item "6"} >= 1 ?
+    ...
+    you fill your {clr 2}empty whiskey bottle {drwi "whiskey"}{/clr} with {wvy}{clr 1}water{/clr}{/wvy}
+    {pg}good thinking!{blip "2"}{filled_whiskey = 1}
+  - else ?
+    if only you had {clr 2}{wvy}a container{/wvy}{/clr} to take some with you...
+}
+"""
+NAME A(2,2) water dialog
+
+DLG 11
+"""
+these are {wvy}comfy{/wvy} looking shoes!
+{pg}too bad they belong to that legless dead guy...
+"""
+NAME A(2,3) shoes sprites dialog
+
+DLG 12
+{wvy}{rbw}damn, that's some good shit {drwi "whiskey"}{/rbw}{/wvy}
+NAME A(2,3) dg2 dialog
+
+DLG 13
+"""
+{sequence
+  - hi there
+    i am dead {drws "dead guy"}
+    before becoming dead i was a {wvy}{clr 2}MASTER HACKER{/clr}{/wvy}
+    pretty {wvy}lame{/wvy} isn't it?
+    
+    not cool at all
+    
+    nobody liked me
+    
+    ...
+    
+    man i wish i was {wvy}cool{/wvy}
+    then maybe i could make some friends
+    like that guy hanging out there
+    {shk}he won't even talk to me!{/shk}
+    says i'm {clr 2}too uncool{/clr}...{pg}
+    i bet i would look {wvy}really cool{/wvy} in {clr 2}some sunglasses {drwi "sunglasses"}{/clr}
+  - i bet i would look {wvy}really cool{/wvy} in {clr 2}some sunglasses {drwi "sunglasses"}{/clr}{pg}
+    {shk}i would {clr 2}hack{/clr} anything for a pair of cool sunglasses!!{/shk}
+
+}
+"""
+NAME A(2,1) master hacker dialog
+
+DLG 14
+"""
+you found an apple! {drwi "apple"}{pg}i think the {clr 2}scary monster{/clr} was eating that...{pg}{wvy}kinda rude{/wvy} to just take it from him, y'know?
+not like i'm judging you, but {shk}yikes{/shk}{blip "3"}
+"""
+NAME apple dialog
+
+DLG 15
+"""
+you try to walk on the rough terrain...{pg}{
+  - {item "a"} >= 1 ?
+    using your {clr 2}comfy shoes{/clr}, it's like {wvy}walking over clouds!{/wvy}{blip "5"}{exit "i" 14 14}
+  - else ?
+    but the ground is uneven and {shk}hurts{/shk} your bare feet :({blip "4"}
+}
+"""
+NAME rough terrain dialog
+
+DLG 16
+"""
+{
+  - {item "a"} >= 1 ?
+    {property locked false}You leave the room wearing your comfy new shoes :)
+  - else ?
+    {property locked true}Don't forget the shoes...
+}
+"""
+NAME locked exit A(2,3)
+
+DLG 17
+"""
+{
+  - {item "a"} == 0 ?
+    {property locked false}you notice the {wvy}faint smell{/wvy} of {clr 2}comfy shoes{/clr} nearby...
+  - else ?
+    {property locked true}Don't go back there before you got all the hats!
+}
+"""
+NAME locked exit A(2,2)
+
+DLG 18
+"""
+{
+  - {item "2"} < 0 ?
+    {property locked false}this should never be true
+  - else ?
+    {property locked true}don't give up now!
+    {wvy}keep going{/wvy}
+}
+"""
+NAME A(1,1) locked exit
+
+DLG 19
+"""
+{
+  - {hats} == 1 ?
+    {property locked false}{wvy}you walk down a dark and dank staircase...{/wvy}
+  - else ?
+    {property locked true}aren't you forgetting something?
+}
+"""
+NAME Start locked exit
+
+DLG a
+"""
+unfortunately i am not a hat
+
+...
+
+you chug the beer but nothing happens
+"""
+NAME item 3 dialog
+
+DLG b
+it takes a {clr 1}match {drwi "matchstick"}{/clr} to start a {clr 1}{shk}fire{/shk}{/clr}{pg}know what i'm sayin?
+NAME dead guy 3 dialog
+
+DLG c
+"""
+not all scary monsters are made equal
+
+some are {shk}{clr 1}bigger{/clr}{/shk} and {shk}{clr 1}scarier{/clr}{/shk}
+
+...
+
+just keep collecting {clr 1}hats{/clr} {drwi "hat"}
+"""
+NAME dead guy 4 dialog
+
+DLG d
+"""
+cave-ins are common in these old tunnels
+make sure you have {wvy}collected enough hats...
+{drwi "hat"}{/wvy}{pg}{
+  - {item "2"} >= 5 ?
+    {say {hats}} hats huh?
+    
+    not bad, keep going!
+  - else ?
+    you only got {say {hats}}?
+    ...
+    are you trying to {shk}{clr 1}end up like me?{/clr}{/shk}
+}
+"""
+NAME dead guy 5 dialog
+
+DLG e
+the {clr 1}scary monsters{/clr} are vulnerable {rbw}in the light{/rbw}
+NAME dead guy 6 dialog
+
+DLG f
+"""
+you found a matchstick!
+{pg}you can use me to set things {shk}{clr 1}on fire :){/clr}{/shk}
+"""
+NAME matchstick dialog
+
+DLG g
+"""
+you found a bottle of whiskey!
+unfortunately it is empty
+{blip "3"}{pg}and not a hat
+"""
+NAME whiskey dialog
+
+DLG h
+"""
+see that {wvy}{clr 1}candle {drwi "candle"}{/clr}{/wvy} over there?
+
+you could use it as a {rbw}light source{/rbw}
+too bad it's behind an {shk}impenetrable barrier{/shk}...
+"""
+NAME dg7 dialog
+
+DLG i
+"""
+you charge full speed into a weak spot in the barrier, trying to break it down!
+
+{
+  - {hats} >= 6 ?
+    ...
+    
+    with the power of {wvy}{say hats} hats {drwi "hat"} {/wvy}
+    you {shk}CRUSH{/shk} the barrier!!{exit "8" 7 6}
+  - else ?
+    ...
+    
+    you hurt yourself{pg}
+    dumbass
+    should have {shk}picked up more hats {drwi "hat"}{/shk}...
+}
+"""
+NAME barrier dialog
+
+DLG j
+"""
+you found the candlestick!
+{pg}{
+  - {item "5"} >= 1 ?
+    you {rbw}light{/rbw} the candle using your 
+    matchstick {drwi "matchstick"}
+    the match is used up
+    {exit "7" 7 11 "fade_w"}
+  - else ?
+    unfortunately you have nothing to light the candle with...
+}
+"""
+NAME candle A dialog
+
+DLG k
+using the power of {wvy}{say hats} {drwi "hat"}{/wvy} you {shk}CRUSH{/shk} the {clr 2}monster{/clr}!
+NAME monster dialog
+
+DLG l
+"""
+holy shit you actually did it!!{pg}
+now avenge us and {shk}CRUSH {/shk}the {clr 1}scary monsters!{/clr}
+"""
+NAME dg8 dialog
+
+DLG m
+The end
+NAME ending 4
+
+DLG n
+The end
+NAME ending 5
+
+DLG o
+The end
+NAME ending 6
+
+DLG p
+The end
+NAME ending 7
+
+DLG q
+using the power of {wvy}{say hats} {drwi "hat"}{/wvy} you {shk}CRUSH{/shk} the {clr 2}monster{/clr}!
+NAME monster sm dialog
+
+DLG r
+"""
+you found the shoes!{pg}
+now you can walk over {shk}{clr 1}rough terrain{/clr}{/shk} without hurting your feet :)
+"""
+NAME shoes dialog
+
+DLG s
+"""
+you found the executive tie!{pg}
+now you can sneak into any board meeting unnoticed
+"""
+NAME tie dialog
+
+DLG t
+"""
+you found a treat!
+{pg}{clr 2}scary monsters {drwi "monster"}{/clr} {wvy}{rbw}LOVE{/rbw}{/wvy} treats...
+"""
+NAME treat dialog
+
+DLG u
+"""
+you found lore pages!{pg}
+they explain the evil events that happened in these tunnels{pg}
+...{blip "3"}{shk}too bad you can't read :\{/shk}
+"""
+NAME paper dialog
+
+DLG v
+"""
+if your feet start to hurt, get some {clr 2}{wvy}shoes{/wvy}{/clr}{pg}
+{shk}mwahahaah{/shk}
+"""
+NAME dg9 dialog
+
+DLG w
+"""
+show {clr 2}no mercy{/clr} to the scary monsters
+they would not hesitate to {shk}slaughter{/shk} you
+"""
+NAME dg10 dialog
+
+DLG x
+"""
+it's nice here by the river
+{wvy}...{/wvy}
+wish i had a gun to shoot those monsters{pg}{wvy}*sips imaginary whiskey*{/wvy}
+{pg}...
+"""
+NAME A(1,2) dg
+
+DLG y
+you {shk}{clr 2}CRUSH{/clr}{/shk} the rock into {wvy}smithereens{/wvy} using the power of {wvy}{say hats} hats {drwi "hat"}!!{/wvy}
+NAME rock dialog
+
+DLG z
+"""
+{sequence
+  - seeing all those {clr 2}{shk}scary monsters{/shk} 
+    {/clr} stare at me is making me sick
+    i wish i had {wvy}some whiskey {drwi "whiskey"} 
+    {/wvy} ...
+    all i have are these {clr 2}useless shoes{/clr}
+    {shk}i don't even have any legs{/shk}
+  - man what i would give for some {clr 2}whiskey{/clr}...
+}
+{
+  - {filled_whiskey} == 1 ?
+    ...
+    !!{pg}you actually brought some whiskey for me?!{pg}bless your heart, kind stranger{pg}finally some rest for these old bones
+    i s'pose i don't need {clr 2}them shoes{/clr} anymore{pg}{rbw}{wvy}you can have them {drws "shoes"}{/wvy}{/rbw}{exit "h" 7 8}
+  - else ?
+    ...
+}
+"""
+NAME dg12 dialog
+
+DLG 1a
+"""
+{
+  - {hats} >= 10 ?
+    {property locked false}as you try to leave, you suddenly sense a {wvy}rumbling{/wvy}...
+    and then you {shk}feel a rumbling{/shk}
+    getting strong and stronger...
+    everything is {shk}shaking{/shk}
+    everything is {shk}RUMBLING{/shk}
+    there was a {clr 2}huge cave-in{/clr}
+    your candle {drws "candle A"} was lost...
+  - else ?
+    {property locked true}don't leave here without that {clr 2}hat {drwi "hat"}{/clr}!
+}
+"""
+NAME A(1,1) Cave-In Transition
+
+DLG 1b
+{clr 1}{shk}must keep moving before the whole tunnel collapses{/shk}{/clr}
+NAME A(2,0) Cave-In exit narration
+
+DLG 1c
+you {shk}SMASH{/shk} thru the barrier with the power of {wvy}{say hats}{drwi "hat"} hats!{/wvy}
+NAME barrier item
+
+DLG 1d
+"""
+{shk}you should move quickly{/shk}
+
+the {clr 1}scary monsters {drwi "monster"}{/clr} are attracted by cave-ins and darkness
+
+many more will soon arrive...
+"""
+NAME A(2,2) Dark dg dialog
+
+DLG 1e
+"""
+you don't have enough hats {drwi "hat"} to break down this barrier...
+come back when you have {wvy}10 hats {drwi "hat"}{/wvy}
+"""
+NAME barrier B dialog
+
+DLG 1f
+"""
+you picked up the sunglasses!
+
+{wvy}a fella would look pretty nifty wearing one of these bad boys...{/wvy}
+"""
+NAME sunglasses dialog
+
+DLG 1g
+"""
+{sequence
+  - oh hey, it's you again
+    it's our second time talking so i guess that makes us officially friends now
+    ...
+    who am i kidding
+    i'm way too lame to talk even to YOU{pg}
+  - all i'm good for is {wvy}hacking...{/wvy}{pg}
+}{
+  - {item "h"} == 1 ?
+    {sequence
+      - ...
+        !!!
+        {shk}{clr 1}OH MY GOOOOOOD{/clr}{/shk}
+        {wvy}you brought sunglasses for me!!{/wvy}
+        {rbw}{wvy}finally i OFFICIALLY have a friend! :D{/wvy}{/rbw}
+        don't worry friend, i'm too cool to ever let you down
+        {shk}i will masterfully HACK anything you need{/shk}{hacker = 1}{item "h" 1}
+      - {wvy}i will hack anything for you {drwi "sunglasses"}{/wvy}
+        especially {clr 1}locked doors{/clr}, i am unmatched at hacking those
+    }
+  - else ?
+    without {wvy}{clr 1}sunglasses {drwi "sunglasses"}{/clr}{/wvy}  i will never be cool
+}
+"""
+NAME A(2,1) Cave-In Master Hacker
+
+DLG 1h
+"""
+{sequence
+  - you come upon a {clr 1}heavy reinforced door{/clr}
+    no amount of hats {drwi "hat"} will bring this obstacle down
+    there is no visible keyhole{pg}it seems to be locked by some kind of {wvy}{clr 1}electronic mechanism{/clr}{/wvy}{pg}you will have to {clr 1}overload the mainframe power router to bypass it{/clr}{pg}or find somebody to {wvy}{clr 1}do it for you{/clr}{/wvy}{pg}
+  - it seems to be locked by some kind of {wvy}{clr 1}electronic mechanism{/clr}{/wvy}{pg}
+}{
+  - {hacker} == 1 ?
+    {wvy}{rbw}"don't worry friendo, this is a job for me!"{/rbw}{/wvy} - the cool hacker{pg}he whips out a wireless {rbw}RGB{/rbw} bluetooth keyboard, and after some beeps and boops, the {wvy}door is wide open!{/wvy}{pg}thank you, cool hacker!{pg}{exit "o" 8 3 "wave"}you walk past the door
+    suddenly the door {shk}SLAMS SHUT{/shk} behind you
+    it seems the hacker tripped the firewall and the system went into emergency lockdown mode{pg}{rbw}{wvy}"oopsies"{/wvy} {/rbw}- the cool hacker
+  - else ?
+    {wvy}find a lame hacker to help you!{/wvy}
+}
+"""
+NAME A hacker door
+
+DLG 1i
+"""
+it's in lock down mode
+nothing can be done to open it now
+...
+no going back
+{clr 2}{shk}must keep moving{/shk}{/clr}
+"""
+NAME door locked dialog
+
+DLG 1j
+"""
+That's the end of Chapter One for now!
+Thanks for playing and stay tuned for more :)
+"""
+NAME ending 8
+
+DLG 1k
+The end
+NAME ending 9
+
+DLG 1l
+The end
+NAME ending 10
+
+DLG 1m
+The end
+NAME ending 11
+
+DLG 1n
+The end
+NAME ending 12
+
+VAR a
+42
+
+VAR hats
+0
+
+VAR candles
+0
+
+VAR matches
+0
+
+VAR filled_whiskey
+0
+
+VAR hacker
+0
+
+TUNE 1
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16d2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+4l,0,0,0,s,0,3l,0,0,0,2s,0,2m,0,2r,0
+16m2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16l2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3l,0,0,0,s,0,4m,0,0,0,4r,0,0,0,0,0
+16s2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME finale fanfare
+KEY C,D,E,F,G,A,B d,r,m,s,l
+TMP XFST
+SQR P2 P8
+ARP INT8
+
+TUNE 2
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,2G,0
+G3,0,D,0,G3,0,D,0,2A3,0,E,0,C,0,E,0
+>
+2F#,0,G,0,A,0,F#,0,2E,0,F#,E,4D,0,0,0
+2D,0,E,0,F#,0,D,0,2C,0,2G3,0,2F#3,0,D2,0
+>
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,G,0
+2G2,0,D,D5,G3,G,D,0,2C2,0,E,E5,C3,C,E5,0
+>
+2D,0,C5,B,A,0,A,0,4A,0,0,0,F#,0,0,0
+A2,0,E3,0,C3,0,E3,0,D3,0,A3,0,D,0,0,0
+>
+2E5,0,2G,0,2G5,0,2G,0,2F#5,0,2E5,0,2D5,0,2C5,0
+2C3,0,2E,0,2E5,0,2C,0,2A3,0,2C,0,2F#,0,2E,0
+>
+3B,0,0,0,2E5,0,D5,0,4A,0,0,0,G,0,0,0
+2G3,0,B3,0,2D,0,D3,0,2C3,0,G3,0,D#,0,0,0
+>
+0,0,2G,0,A,0,2B,0,C5,0,B,C5,A,0,G,0
+A2,0,A3,0,C,0,2D,0,D#,0,D,E,C,0,C3,0
+>
+8B,0,0,0,0,0,0,0,A,0,2F#,0,E,0,D,0
+D3,0,A3,0,F#,0,D,0,C,0,2D3,0,C3,0,F#3,0
+NAME tuneful town
+TMP FST
+SQR P4 P2
+
+TUNE 3
+3F5,0,0,A#,0,2C#5,0,A#,3F5,0,0,F#5,0,0,2F5,0
+A#3,C#,F,0,0,F,C#,F,A#3,C#,F,A#,0,A#,C#,F
+>
+3F5,0,0,A,0,2C#5,0,A,3F5,0,0,2A#5,0,A#,D#5,0
+A3,C#,F,A3,0,F,C#,F,A,C#,F,0,D#,0,C#5,0
+>
+4F5,0,0,0,G#,2C#5,0,G#,3F5,0,0,D#5,0,F5,2C#5,0
+G#3,C#,F,3F#,0,0,2F,0,G#3,C#,F,F#,B,A,F,D#
+>
+4D#5,0,0,0,0,0,2A#,0,4A#,0,0,0,0,0,A#,C5
+G3,D#,F,G,0,D#,F,G,G3,D#,G,F,0,F,D#,C#3
+>
+4C#5,0,0,0,0,0,2C#5,0,3C#5,0,0,D#5,0,0,2C#5,0
+F#2,C#,F#3,A#3,0,F#3,C#3,F#3,F#2,A,F#3,C#,0,F#3,A3,F#3
+>
+3C#5,0,0,F,3C5,0,0,C,3C5,0,0,D#,3A#,0,0,0
+F2,D#3,A3,0,0,F3,C#,0,F#2,A#3,D#3,0,0,F#3,C#,C
+>
+3A#,0,0,0,C5,0,C#5,0,A#,0,C#,D#,G#,G#3,0,C#3
+C3,A#3,C,E,A,0,A#,0,0,B2,B3,0,2F,0,0,0
+>
+A#,0,A#3,0,C#,0,F,0,A#,0,0,0,0,0,0,0
+A#2,0,C#3,0,F3,0,A#3,0,D,0,0,0,0,F#3,0,F3
+NAME rhythmic ruins
+TMP MED
+SQR P4 P4
+
+BLIP 1
+E5,B5,B5
+NAME meow
+ENV 40 99 4 185 138
+BEAT 61 115
+SQR P2
+
+BLIP 2
+D5,E5,D5
+NAME pick up key
+ENV 99 65 6 96 152
+BEAT 95 0
+SQR P4
+
+BLIP 3
+D2,G2,A2
+NAME bad
+ENV 123 75 4 274 107
+BEAT 126 0
+SQR P4
+
+BLIP 4
+C#3,A2,D#3
+NAME uh oh
+ENV 78 85 2 256 144
+BEAT 32 0
+SQR P8
+
+BLIP 5
+C5,G5,F#5
+NAME nice
+ENV 67 102 8 128 105
+BEAT 59 0
+SQR P2
+
