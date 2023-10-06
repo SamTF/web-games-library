@@ -1,0 +1,16 @@
+// CSS Vars
+:root {
+    --colour-accent: #FF0062;
+
+    --bg-colour: #000;
+    --text-colour: #eaeaea;
+
+    // bitsy colours
+    --background-colour: #000;
+    --tile-colour: #FF0062;
+    --sprite-colour: #FFF;
+}
+
+.accent {
+    color: var(--colour-accent);
+}
