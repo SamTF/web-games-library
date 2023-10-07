@@ -1,0 +1,41 @@
+// Buttons
+
+button, .btn {
+    // font
+    font-family: $second-font;
+    font-size: 2rem;
+    text-decoration: none;
+
+    // design
+    border: none;
+    color: var(--bg-colour);
+    background-color: var(--text-colour);
+
+    // size
+    padding: 4px 16px;
+    flex-grow: 1;
+
+    // cursor
+    cursor: pointer;
+
+    // Hover Effect
+    &:hover {
+        color: var(--text-colour);
+        background-color: var(--bg-colour);
+
+        outline: 2px dashed var(--text-colour);
+    }
+
+    // Click Effect
+    &:active {
+        outline-offset: 2px;
+        outline-style: dashed;
+    }
+}
+
+.btn-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
