@@ -105,7 +105,12 @@
 
                 <br>
 
-                <p class="sub-font">Made in 2.5 days to learn how Bitsy works.</p>
+                <div class="sub-font">
+                    <p>A narrative puzzle game about exploring a strange underground world with two rival factions with ambiguous motivations that can't seem to see eye to eye... where will <i>you</i> stand?</p>
+                    <p>Very simple and rough game I made to learn Bitsy so that I could teach my girlfriend how to make a game. Kinda got into my lil demo so I kept going until it reached some sort of a conclusion</p>
+                    <p>Made in about 2.5 days. </p>
+                    <p>There may or may not be any continuation to this saga.</p>
+                </div>
             </div>
         {/if}
         
@@ -145,6 +150,8 @@
     .game-container {
         height: 30vw;
         width: 30vw;
+
+        margin-bottom: 40rem;
     }
 
     .game-icon {
