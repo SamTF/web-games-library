@@ -320,8 +320,9 @@ EXT 5,15 9 5,0 FX slide_d
 EXT 1,15 9 1,0 FX slide_d
 EXT 0,14 b 15,14 FX slide_l
 EXT 6,0 g 6,15 FX slide_u DLG 17
-EXT 5,0 g 5,15 FX slide_u DLG 17
 EXT 0,14 i 15,14 FX slide_l
+EXT 6,0 h 6,15 FX slide_u
+EXT 5,0 g 5,15 FX slide_u DLG 17
 PAL 2
 
 ROOM b
@@ -377,6 +378,8 @@ EXT 15,15 6 0,1
 EXT 14,0 b 14,15 FX slide_u
 EXT 14,0 i 14,15 FX slide_u
 EXT 1,0 e 1,1 FX fade_b DLG 1a
+EXT 2,0 e 1,1 FX fade_b DLG 1a
+EXT 3,0 e 1,1 FX fade_b DLG 1a
 PAL 2
 
 ROOM e
@@ -427,6 +430,9 @@ f,f,f,f,a,0,0,a,f,a,0,0,a,f,f,f
 NAME A(2,4) Light
 ITM m 8,4
 EXT 5,15 g 5,0 FX slide_d
+EXT 11,15 g 11,0 FX slide_d
+EXT 10,15 g 10,0 FX slide_d
+EXT 6,15 g 6,0 FX slide_d
 PAL 2
 
 ROOM g
@@ -455,11 +461,12 @@ ITM e 13,13
 ITM e 15,9
 ITM e 14,4
 ITM e 15,1
-EXT 6,15 a 6,0 FX slide_d
 EXT 5,0 f 5,15 FX slide_u
-EXT 6,0 f 6,15 FX slide_u
-EXT 10,0 f 10,15 FX slide_u
 EXT 11,0 f 11,15 FX slide_u
+EXT 10,0 f 10,15 FX slide_u
+EXT 6,0 f 6,15 FX slide_u
+EXT 5,15 a 5,0 FX slide_d
+EXT 6,15 a 6,0 FX slide_d
 PAL 2
 
 ROOM h
@@ -481,8 +488,8 @@ k,0,0,l,a,0,0,a,0,a,0,0,a,0,l,0
 0,l,0,l,a,0,0,a,0,a,h,h,a,k,0,0
 NAME A(2,3) Light Shoes
 ITM a 8,7
-EXT 5,15 a 5,0 FX slide_d DLG 16
 EXT 6,15 a 6,0 FX slide_d DLG 16
+EXT 5,15 a 5,0 FX slide_d DLG 16
 PAL 2
 
 ROOM i
@@ -510,6 +517,8 @@ ITM 2 7,8
 EXT 15,14 a 0,14 FX slide_r
 EXT 14,15 d 14,0 FX slide_d
 EXT 1,15 d 1,0 FX slide_d
+EXT 2,15 d 2,0 FX slide_d
+EXT 3,15 d 3,0 FX slide_d
 PAL 2
 
 ROOM j
@@ -917,6 +926,19 @@ SPR 12
 NAME door locked
 DLG 1i
 POS o 8,4
+
+SPR 13
+00000000
+00010100
+00111100
+01111110
+01101010
+01111110
+00111100
+00000000
+NAME A(2,3) Dark Drunk guy
+DLG 1o
+POS m 8,7
 
 SPR A
 00111000
@@ -2205,6 +2227,25 @@ NAME ending 11
 DLG 1n
 The end
 NAME ending 12
+
+DLG 1o
+"""
+{sequence
+  - {wvy}{rbw}eugheueugh...{/rbw}{/wvy}
+    
+    {wvy}{rbw}what the heck is going on?{/rbw}{/wvy}
+    {wvy}{rbw}i must have blacked out from that darn whiskey{/rbw}{/wvy}
+    {wvy}{rbw}got knocked off my horse and everything{/rbw}{/wvy}
+    
+    {wvy}{rbw}errrghh...{/rbw}{/wvy}
+    
+    {wvy}{rbw}*hic*{/rbw}{/wvy}
+  - {wvy}{rbw}errrghh...{/rbw}{/wvy}
+    
+    {wvy}{rbw}*hic*{/rbw}{/wvy}
+}
+"""
+NAME A(2,3) Dark Drunk guy dialog
 
 VAR a
 42
