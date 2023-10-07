@@ -2,6 +2,7 @@
 // / Constants
 @import 'FONTS';
 @import 'COLOURS';
+@import 'Buttons';
 
 * {
     box-sizing: border-box;
@@ -48,4 +49,8 @@ main {
 
 header, footer {
     height: 2rem;
+}
+
+li {
+    list-style: none;
 }
