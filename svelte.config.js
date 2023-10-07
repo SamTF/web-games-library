@@ -1,4 +1,5 @@
-import adapter from '@sveltejs/adapter-auto';
+// import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -10,7 +11,13 @@ const config = {
 		alias: {
 			'$components': 'src/components',
 			'$components/*': 'src/components/*',
-		}
+		},
+		// static adapter options
+		pages: 'build',
+		assets: 'build',
+		fallback: undefined,
+		precompress: false,
+		strict: true
 	}
 };
 
