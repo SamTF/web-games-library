@@ -1,2 +1,3 @@
-export const prerender = true;
-export const trailingSlash = 'always';
+// static adapter options
+// export const prerender = true;
+// export const trailingSlash = 'always';
