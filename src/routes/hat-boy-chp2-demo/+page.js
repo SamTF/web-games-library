@@ -20,8 +20,7 @@ export async function load({ params, url }) {
     if(code2.length < 1) {
         console.log('oops')
         console.log("--- ACCESS DENIED ---")
-        throw redirect(302, '/hat-boy-chp2-demo/access?error="unauthorised code"')
-        return { yikes: 'yikes' }
+        throw redirect(302, '/hat-boy-chp2-demo/access')
     }
 
     const api = `${url.origin}/api/auth/${code2}`
