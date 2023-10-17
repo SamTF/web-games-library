@@ -1,0 +1,13219 @@
+hat boy: chapter two
+
+# BITSY VERSION 8.7
+
+! VER_MAJ 8
+! VER_MIN 7
+! ROOM_FORMAT 1
+! DLG_COMPAT 0
+! TXT_MODE 0
+
+PAL 0
+0,0,0
+255,0,98
+255,255,255
+NAME DARK
+
+PAL el_0
+0,0,0
+255,0,98
+255,255,255
+
+PAL vents_0
+0,0,0
+255,0,98
+255,255,255
+
+ROOM el_hal_0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,a,a,a,a,a,a,a,0,0,0,0,0
+0,0,0,0,a,0,l,j,m,0,a,0,0,0,0,0
+0,0,0,0,a,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,a,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,a,a,o,q,n,a,a,0,0,0,0,0
+0,0,0,0,0,a,o,q,n,a,0,0,0,0,0,0
+0,0,0,0,0,a,o,q,n,a,0,0,0,0,0,0
+0,0,0,0,0,a,o,q,n,a,0,0,0,0,0,0
+0,0,0,0,0,a,0,p,0,a,0,0,0,0,0,0
+0,0,0,0,0,a,0,0,0,a,0,0,0,0,0,0
+0,0,0,0,0,a,0,b,0,a,0,0,0,0,0,0
+0,0,0,0,0,a,0,0,0,a,0,0,0,0,0,0
+0,0,0,0,0,a,a,a,a,a,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME elevator hallway
+PAL 0
+TUNE 6
+
+ROOM el_hal_1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,a,a,a,a,a,a,a,0,0,0,0,0
+0,0,0,0,a,0,l,em,m,0,a,0,0,0,0,0
+0,0,0,0,a,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,a,0,0,0,0,0,a,0,0,0,0,0
+0,0,0,0,a,a,o,q,n,a,a,0,0,0,0,0
+0,0,0,0,0,a,o,q,n,a,0,0,0,0,0,0
+0,0,0,0,0,a,o,q,n,a,0,0,0,0,0,0
+0,0,0,0,0,a,o,q,n,a,0,0,0,0,0,0
+0,0,0,0,0,a,0,p,0,a,0,0,0,0,0,0
+0,0,0,0,0,a,0,0,0,a,0,0,0,0,0,0
+0,0,0,0,0,a,0,b,0,a,0,0,0,0,0,0
+0,0,0,0,0,a,0,0,0,a,0,0,0,0,0,0
+0,0,0,0,0,a,a,a,a,a,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME elevator hallway open
+ITM 3 7,5
+PAL 0
+TUNE 6
+
+ROOM vents_0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,vents_a,0,0,0,0
+vents_b,vents_b,vents_b,vents_c,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_d,vents_b,vents_b,vents_b,vents_b
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_e,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b
+0,0,0,0,0,0,0,vents_f,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Vents (0,0)
+ITM 8 9,11
+EXT 15,11 vents_0_1 0,11 FX slide_r
+EXT 0,11 el_7 15,11 FX tunnel
+PAL vents_0
+TUNE 6
+
+ROOM vents_0_1
+0,0,vents_g,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_h,0,0,0
+0,0,vents_i,0,0,0,0,0,0,0,0,0,vents_i,0,0,0
+0,0,vents_i,0,vents_g,vents_b,vents_b,vents_b,vents_b,vents_b,vents_h,0,vents_i,0,0,0
+0,0,vents_i,0,vents_i,0,0,0,0,0,vents_i,0,vents_i,0,0,0
+0,0,vents_i,0,vents_i,0,0,0,0,0,vents_i,0,vents_i,0,0,0
+0,0,vents_i,0,vents_j,vents_b,vents_h,0,vents_g,vents_b,vents_k,0,vents_i,0,0,0
+0,0,vents_i,0,0,0,vents_i,0,vents_i,0,0,0,vents_i,0,0,0
+0,0,vents_j,vents_b,vents_h,0,vents_i,0,vents_i,0,vents_g,vents_b,vents_k,0,0,0
+0,0,0,0,vents_i,0,vents_i,0,vents_i,0,vents_i,0,0,0,0,0
+0,0,0,0,vents_i,0,vents_i,0,vents_i,0,vents_i,0,0,0,0,0
+vents_b,vents_b,vents_b,vents_b,vents_k,0,vents_i,0,vents_i,0,vents_j,vents_b,vents_b,vents_b,vents_b,vents_b
+0,0,0,0,0,0,vents_i,0,vents_i,0,0,0,0,0,0,0
+vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_k,0,vents_j,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Vents (0,1)
+ITM 9 12,11
+ITM a 7,1
+EXT 0,11 vents_0 15,11 FX slide_l
+EXT 15,11 vents_0_2 0,11 FX slide_r
+PAL vents_0
+TUNE 6
+
+ROOM vents_0_2
+0,0,0,vents_i,0,vents_i,0,0,0,0,0,0,0,0,0,0
+0,0,vents_g,vents_k,0,vents_j,vents_b,vents_h,0,0,0,0,0,0,0,0
+0,0,vents_i,0,0,0,0,vents_j,vents_h,0,0,0,0,0,vents_l,0
+0,0,vents_i,0,vents_g,vents_h,0,0,vents_i,0,0,0,0,0,vents_m,0
+0,vents_g,vents_n,vents_b,vents_n,vents_k,0,0,vents_o,vents_p,0,vents_g,vents_b,vents_b,vents_q,vents_b
+0,vents_i,0,0,0,0,0,0,vents_i,0,0,vents_i,0,0,0,0
+0,vents_i,0,vents_g,vents_b,vents_b,vents_b,vents_b,vents_k,0,0,vents_i,0,vents_g,vents_b,vents_b
+0,vents_i,0,vents_i,0,0,vents_r,0,vents_r,0,0,vents_i,0,vents_i,0,0
+0,vents_i,0,vents_i,0,0,vents_s,0,vents_s,0,0,vents_i,0,vents_i,0,0
+0,vents_i,0,vents_i,0,0,vents_t,0,vents_t,0,0,vents_i,0,vents_i,0,0
+vents_b,vents_k,0,vents_j,vents_b,vents_b,vents_b,vents_b,vents_u,vents_b,vents_b,vents_v,0,vents_j,vents_b,vents_b
+0,0,0,0,0,0,0,0,vents_i,0,0,0,0,0,0,0
+vents_b,vents_b,vents_w,vents_b,vents_b,vents_x,vents_b,vents_b,vents_n,vents_b,vents_b,vents_n,vents_b,vents_e,vents_b,vents_b
+0,0,vents_y,0,0,vents_r,0,0,0,0,0,0,0,vents_f,0,0
+0,0,0,0,0,vents_z,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_11,vents_10,vents_10
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Vents (0,2)
+ITM b 7,11
+ITM c 6,5
+ITM d 4,1
+ITM m 9,11
+ITM h 14,11
+EXT 0,11 vents_0_1 15,11 FX slide_l
+EXT 4,0 vents_1_2 4,15 FX slide_u
+EXT 15,5 vents_0_3 0,5 FX slide_r
+EXT 15,11 vents_0_3 0,11 FX slide_r
+PAL vents_0
+TUNE 7
+
+ROOM vents_1_2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,vents_g,vents_b,vents_12,vents_b,vents_b,vents_13,vents_12,vents_b,vents_b
+0,0,0,0,0,0,0,vents_i,0,0,0,0,0,0,0,0
+0,0,0,0,0,vents_s,vents_t,vents_14,0,vents_g,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b
+0,0,0,0,0,vents_f,0,vents_i,0,vents_i,0,0,0,0,0,0
+0,0,0,0,0,vents_a,0,vents_i,0,vents_i,0,vents_15,vents_10,vents_10,vents_10,vents_10
+0,0,0,vents_g,vents_b,vents_d,vents_b,vents_k,0,vents_i,0,vents_r,vents_16,vents_17,vents_17,vents_17
+0,0,0,vents_i,0,0,0,0,0,vents_18,vents_10,vents_19,vents_1a,0,0,0
+0,0,0,vents_i,0,vents_g,vents_b,vents_b,vents_b,vents_k,0,vents_r,vents_1b,vents_17,vents_17,vents_17
+0,0,vents_1c,vents_1d,0,vents_i,0,0,0,0,0,vents_z,vents_10,vents_10,vents_10,vents_10
+0,0,0,vents_i,0,vents_i,0,0,0,0,0,0,0,0,0,0
+0,0,0,vents_i,0,vents_14,vents_t,0,0,0,0,0,0,0,0,0
+0,0,0,vents_i,0,vents_i,0,0,0,0,0,0,0,0,0,0
+NAME Vents (1,2)
+ITM e 8,6
+ITM f 12,5
+EXT 4,15 vents_0_2 4,0 FX slide_d
+EXT 15,5 vents_1_3 0,5 FX slide_r
+EXT 15,10 vents_1_3 0,10 FX slide_r
+PAL vents_0
+TUNE 6
+
+ROOM vents_1_3
+vents_t,vents_t,vents_i,vents_t,vents_i,0,0,vents_t,vents_t,vents_t,vents_t,vents_t,vents_t,0,0,0
+vents_t,vents_t,vents_14,vents_t,vents_14,vents_t,vents_t,vents_t,vents_t,vents_t,vents_t,vents_t,vents_t,vents_t,vents_t,vents_t
+vents_t,0,vents_i,0,vents_i,vents_t,vents_t,vents_t,0,0,0,vents_t,vents_t,vents_t,vents_t,vents_t
+0,0,vents_i,0,vents_i,0,0,0,0,0,0,0,0,0,vents_t,vents_t
+vents_b,vents_b,vents_n,vents_b,vents_n,vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_h,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,vents_i,0,0,0,0
+vents_b,vents_b,vents_u,vents_b,vents_u,vents_b,vents_b,vents_1e,vents_b,vents_h,0,vents_i,0,0,0,0
+0,0,vents_i,0,vents_i,0,0,vents_t,0,vents_i,0,vents_o,vents_1f,0,0,0
+vents_10,vents_11,vents_i,0,vents_i,0,0,vents_t,0,vents_i,0,vents_i,vents_1g,0,0,0
+vents_b,vents_b,vents_n,vents_b,vents_n,vents_b,vents_b,vents_c,vents_b,vents_k,0,vents_1h,vents_1i,vents_1j,vents_17,vents_17
+0,0,0,0,0,0,0,0,0,0,0,vents_1h,vents_17,vents_1k,vents_17,vents_17
+vents_b,vents_b,vents_u,vents_b,vents_u,vents_b,vents_b,vents_b,vents_b,vents_h,0,vents_i,0,0,0,0
+vents_10,vents_1l,vents_i,0,vents_i,0,0,0,0,vents_i,0,vents_1m,0,0,0,0
+0,vents_r,vents_i,0,vents_i,0,0,0,0,vents_i,0,vents_i,0,0,0,0
+0,vents_r,vents_i,0,vents_1n,0,0,0,0,vents_14,0,vents_i,0,0,0,0
+0,vents_r,vents_i,0,vents_i,0,0,0,0,vents_i,0,vents_i,0,0,0,0
+NAME Vents (1,3)
+ITM g 7,5
+ITM h 3,5
+ITM i 10,13
+EXT 0,5 vents_1_2 15,5 FX slide_l
+EXT 0,10 vents_1_2 15,10 FX slide_l
+EXT 10,15 vents_0_3 10,0 FX slide_d
+PAL vents_0
+TUNE 7
+
+ROOM vents_0_3
+0,vents_r,vents_i,0,vents_i,0,0,0,0,vents_i,0,vents_i,0,0,0,0
+0,vents_r,vents_i,0,vents_i,0,0,0,vents_1c,vents_1d,0,vents_i,0,0,0,0
+0,vents_r,vents_i,0,vents_i,0,0,0,0,vents_i,0,vents_i,0,0,0,0
+0,vents_s,vents_i,0,vents_i,0,0,0,0,vents_i,0,vents_i,0,0,0,0
+vents_b,vents_b,vents_n,vents_b,vents_n,vents_b,vents_b,vents_b,vents_b,vents_k,0,vents_i,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,vents_i,0,0,0,0
+vents_b,vents_b,vents_u,vents_b,vents_u,vents_b,vents_w,vents_b,vents_b,vents_u,vents_b,vents_v,0,0,0,0
+0,0,vents_i,0,vents_i,0,vents_y,0,0,vents_i,0,vents_i,0,0,0,0
+vents_s,0,vents_i,0,vents_i,0,0,0,0,vents_i,0,vents_i,0,0,vents_t,0
+vents_f,0,vents_i,0,vents_i,0,0,0,0,vents_i,0,vents_i,0,0,vents_a,0
+vents_d,vents_b,vents_n,vents_b,vents_n,vents_b,vents_b,vents_b,vents_b,vents_n,vents_b,vents_n,vents_b,vents_e,vents_d,vents_b
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+vents_b,vents_b,vents_u,vents_b,vents_u,vents_b,vents_b,vents_b,vents_b,vents_u,vents_b,vents_u,vents_b,vents_b,vents_b,vents_b
+0,0,vents_i,0,vents_i,0,0,0,0,vents_i,0,vents_i,0,0,0,0
+vents_10,vents_10,vents_1m,vents_t,vents_14,vents_10,vents_10,vents_10,vents_10,vents_1n,vents_t,vents_18,vents_10,vents_10,vents_10,vents_10
+0,0,vents_i,0,vents_i,0,0,0,0,vents_i,0,vents_i,0,0,0,0
+NAME Vents (0,3)
+ITM j 10,5
+ITM g 3,11
+ITM k 5,11
+ITM l 12,11
+EXT 10,0 vents_1_3 10,15 FX slide_u
+EXT 0,5 vents_0_2 15,5 FX slide_l
+EXT 0,11 vents_0_2 15,11 FX slide_l DLG s
+EXT 15,11 vents_0_4 0,11 FX slide_r DLG n
+PAL vents_0
+TUNE 6
+
+ROOM vents_0_4
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,vents_g,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_h,0
+vents_b,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_b
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+vents_b,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_b
+0,vents_j,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_k,0
+vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_11
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Vents (0,4)
+ITM h 10,11
+ITM h 9,11
+ITM h 2,11
+ITM h 6,11
+EXT 0,11 vents_0_3 15,11 FX slide_l DLG t
+PAL vents_0
+TUNE 2
+
+ROOM vents_0_5
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,vents_g,vents_b,vents_b,vents_b,vents_b
+0,0,0,0,0,0,0,0,0,0,0,vents_i,vents_t,vents_t,vents_t,vents_t
+0,0,0,0,0,0,0,0,0,0,0,vents_i,vents_t,vents_t,vents_t,vents_t
+0,0,0,0,0,0,0,0,vents_g,vents_b,vents_b,vents_n,vents_b,vents_b,vents_h,vents_t
+0,0,0,0,0,0,0,0,vents_i,vents_t,vents_t,vents_t,vents_t,vents_t,vents_i,vents_t
+0,0,0,0,0,0,0,0,vents_i,vents_t,vents_t,vents_t,vents_t,vents_t,vents_1h,vents_b
+0,0,0,0,vents_g,vents_b,vents_b,vents_b,vents_n,vents_b,vents_b,vents_h,vents_t,vents_t,vents_i,0
+0,0,0,0,vents_i,vents_t,vents_t,vents_t,vents_t,vents_t,vents_t,vents_i,vents_t,vents_t,vents_i,0
+0,0,0,0,vents_i,vents_t,vents_t,vents_t,vents_t,vents_t,vents_t,vents_1h,vents_b,vents_b,vents_k,0
+vents_b,vents_b,vents_b,vents_b,vents_n,vents_b,vents_b,vents_b,vents_h,vents_t,vents_t,vents_i,0,0,0,0
+0,0,0,0,0,0,0,0,vents_i,vents_t,vents_t,vents_i,0,0,0,0
+vents_b,vents_b,vents_b,vents_b,vents_b,vents_b,vents_h,0,vents_1h,vents_b,vents_b,vents_k,0,0,0,0
+0,0,0,0,0,0,vents_i,0,vents_i,0,0,0,0,0,0,0
+0,0,0,0,0,0,vents_i,0,vents_i,0,0,0,0,0,0,0
+0,0,0,0,0,0,vents_i,0,vents_i,0,0,0,0,0,0,0
+NAME Vents (0,5)
+ITM h 1,11
+ITM h 5,11
+ITM i 7,14
+EXT 0,11 ventv 15,11
+END 13 7,15
+PAL vents_0
+TUNE 2
+
+ROOM ventt
+0,0,0,vents_i,0,vents_i,0,0,0,0,0,0,0,0,0,0
+0,0,vents_g,vents_k,0,vents_j,vents_b,vents_h,0,0,0,0,0,0,0,0
+0,0,vents_i,0,0,0,0,vents_j,vents_h,0,0,0,0,0,vents_l,0
+0,0,vents_i,0,vents_g,vents_h,0,0,vents_i,0,0,0,0,0,vents_m,0
+0,vents_g,vents_n,vents_b,vents_n,vents_k,0,0,vents_o,vents_p,0,vents_g,vents_b,vents_b,vents_q,vents_b
+0,vents_i,0,0,0,0,0,0,vents_i,0,0,vents_i,0,0,0,0
+0,vents_i,0,vents_g,vents_b,vents_b,vents_b,vents_b,vents_k,0,0,vents_i,0,vents_g,vents_b,vents_b
+0,vents_i,0,vents_i,0,0,vents_r,0,vents_r,0,0,vents_i,0,vents_i,0,0
+0,vents_i,0,vents_i,0,0,vents_s,0,vents_s,0,0,vents_i,0,vents_i,0,0
+0,vents_i,0,vents_i,0,0,vents_t,0,vents_t,0,0,vents_i,0,vents_i,0,0
+vents_b,vents_k,0,vents_j,vents_b,vents_b,vents_b,vents_b,vents_u,vents_b,vents_b,vents_v,0,vents_j,vents_b,vents_b
+0,0,0,0,0,0,0,0,vents_i,0,0,0,0,0,0,0
+vents_b,vents_b,vents_w,vents_b,vents_b,vents_x,vents_b,vents_b,vents_n,vents_b,vents_b,vents_n,vents_b,vents_e,vents_b,vents_b
+0,0,vents_y,0,0,vents_r,0,0,0,0,0,0,0,vents_f,0,0
+0,0,0,0,0,vents_z,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_11,vents_10,vents_10
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Vents (0,2) B
+ITM m 9,11
+EXT 15,11 vents_0_3 0,11 FX slide_r DLG r
+EXT 15,5 ventt 14,5 DLG p
+PAL vents_0
+TUNE 6
+
+ROOM ventu
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,vents_g,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_h,0
+vents_b,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_b
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+vents_b,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_b
+0,vents_j,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_k,0
+vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_11
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Vents (0,4) hat
+ITM 2 11,11
+EXT 0,11 vents_0_3 15,11 FX slide_l DLG t
+PAL vents_0
+TUNE 2
+
+ROOM el_0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,el_b,el_c,el_d,0,0,0,0,0,0,0
+0,0,0,0,el_e,el_f,el_f,el_f,el_f,el_f,el_g,0,0,0,0,0
+0,0,0,0,el_h,el_i,el_f,el_f,el_f,el_j,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_l,el_m,el_n,el_k,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_o,el_p,el_q,el_r,el_k,0,0,0,0,0
+0,0,0,0,el_s,el_s,el_t,el_u,el_v,el_w,el_x,0,0,0,0,0
+0,0,0,0,el_y,el_z,el_10,el_11,el_12,el_13,el_14,0,0,0,0,0
+0,0,0,0,el_15,el_16,el_17,el_18,el_19,el_16,el_1a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ITM 7 6,14
+ITM 6 3,10
+ITM 7 11,13
+ITM 6 9,11
+ITM 6 13,10
+ITM 7 13,6
+ITM 6 1,4
+ITM 7 2,1
+ITM 7 1,13
+EXT 9,7 el_1 9,8 DLG w
+PAL el_0
+TUNE 8
+
+ROOM el_1
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,el_b,el_c,el_d,0,0,0,0,0,0,0
+0,0,0,0,el_e,el_f,el_f,el_f,el_f,el_f,el_g,0,0,0,0,0
+0,0,0,0,el_h,el_i,el_f,el_f,el_f,el_j,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_l,el_m,el_n,el_k,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_o,el_p,el_q,el_r,el_k,0,0,0,0,0
+0,0,0,0,el_s,el_s,el_t,el_u,el_v,el_w,el_x,0,0,0,0,0
+0,0,0,0,el_y,el_z,el_10,el_11,el_12,el_13,el_14,0,0,0,0,0
+0,0,0,0,el_15,el_16,el_17,el_18,el_19,el_16,el_1a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ITM 7 0,1
+ITM n 4,0
+ITM n 10,1
+ITM o 13,0
+ITM o 12,5
+ITM 6 13,8
+ITM o 1,2
+ITM n 0,4
+ITM 7 2,3
+ITM o 2,5
+ITM n 2,8
+ITM o 7,10
+ITM 7 5,12
+ITM n 3,14
+ITM 7 10,14
+ITM o 14,13
+ITM 7 11,11
+ITM o 8,13
+ITM o 1,7
+ITM n 15,6
+ITM p 2,1
+ITM q 14,7
+ITM p 0,9
+ITM q 6,15
+EXT 5,8 el_2 5,9 DLG x
+PAL el_0
+TUNE 8
+
+ROOM el_2
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,el_b,el_c,el_d,0,0,0,0,0,0,0
+0,0,0,0,el_e,el_f,el_f,el_f,el_f,el_f,el_g,0,0,0,0,0
+0,0,0,0,el_h,el_i,el_f,el_f,el_f,el_j,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_l,el_m,el_n,el_k,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_o,el_p,el_q,el_r,el_k,0,0,0,0,0
+0,0,0,0,el_s,el_s,el_t,el_u,el_v,el_w,el_x,0,0,0,0,0
+0,0,0,0,el_y,el_z,el_10,el_11,el_12,el_13,el_14,0,0,0,0,0
+0,0,0,0,el_15,el_16,el_17,el_18,el_19,el_16,el_1a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ITM r 12,0
+ITM s 14,7
+ITM r 0,9
+ITM o 5,0
+ITM u 6,1
+ITM q 13,1
+ITM n 13,2
+ITM t 15,2
+ITM n 11,4
+ITM t 2,8
+ITM n 2,6
+ITM o 6,14
+ITM w 4,2
+ITM w 2,4
+ITM v 4,15
+ITM w 14,4
+ITM p 0,5
+ITM q 13,5
+ITM u 9,0
+EXT 9,9 el_3 9,10 DLG y
+PAL el_0
+TUNE 8
+
+ROOM el_3
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,el_b,el_c,el_d,0,0,0,0,0,0,0
+0,0,0,0,el_e,el_f,el_f,el_f,el_f,el_f,el_g,0,0,0,0,0
+0,0,0,0,el_h,el_i,el_f,el_f,el_f,el_j,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_l,el_m,el_n,el_k,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_o,el_p,el_q,el_r,el_k,0,0,0,0,0
+0,0,0,0,el_s,el_s,el_t,el_u,el_v,el_w,el_x,0,0,0,0,0
+0,0,0,0,el_y,el_z,el_10,el_11,el_12,el_13,el_14,0,0,0,0,0
+0,0,0,0,el_15,el_16,el_17,el_18,el_19,el_16,el_1a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+EXT 5,10 el_4 5,11 DLG 12
+PAL el_0
+TUNE 8
+
+ROOM el_4
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,el_b,el_c,el_d,0,0,0,0,0,0,0
+0,0,0,0,el_e,el_f,el_f,el_f,el_f,el_f,el_g,0,0,0,0,0
+0,0,0,0,el_h,el_i,el_f,el_f,el_f,el_j,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_l,el_m,el_n,el_k,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_o,el_p,el_q,el_r,el_k,0,0,0,0,0
+0,0,0,0,el_s,el_s,el_t,el_u,el_v,el_w,el_x,0,0,0,0,0
+0,0,0,0,el_y,el_z,el_10,el_11,el_12,el_13,el_14,0,0,0,0,0
+0,0,0,0,el_15,el_16,el_17,el_18,el_19,el_16,el_1a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+EXT 9,11 el_5 9,11 DLG z
+PAL el_0
+TUNE 8
+
+ROOM el_5
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,el_b,el_c,el_d,0,0,0,0,0,0,0
+0,0,0,0,el_e,el_f,el_f,el_f,el_f,el_f,el_g,0,0,0,0,0
+0,0,0,0,el_h,el_i,el_f,el_f,el_f,el_j,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_l,el_m,el_n,el_k,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_o,el_p,el_q,el_r,el_k,0,0,0,0,0
+0,0,0,0,el_s,el_s,el_t,el_u,el_v,el_w,el_x,0,0,0,0,0
+0,0,0,0,el_y,el_z,el_10,el_11,el_12,el_13,el_14,0,0,0,0,0
+0,0,0,0,el_15,el_16,el_17,el_18,el_19,el_16,el_1a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+EXT 5,11 el_6 5,11 DLG 10
+PAL el_0
+TUNE 4
+
+ROOM el_6
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,el_b,el_c,el_d,0,0,0,0,0,0,0
+0,0,0,0,el_e,el_f,el_f,el_f,el_f,el_f,el_g,0,0,0,0,0
+0,0,0,0,el_h,el_i,el_f,el_f,el_f,el_j,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_l,el_m,el_n,el_k,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_o,el_p,el_q,el_r,el_k,0,0,0,0,0
+0,0,0,0,el_s,el_s,el_t,el_u,el_v,el_w,el_x,0,0,0,0,0
+0,0,0,0,el_y,el_z,el_10,el_11,el_12,el_13,el_1d,0,0,0,0,0
+0,0,0,0,el_15,el_16,el_17,el_18,el_19,el_16,el_1a,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ITM 4 10,11
+ITM 5 10,10
+EXT 9,11 el_7 11,11 DLG 7
+EXT 6,11 el_6 6,11 DLG 11
+PAL el_0
+TUNE 5
+
+ROOM el_7
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,el_a,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,el_b,el_c,el_d,0,0,0,0,0,0,0
+0,0,0,0,el_e,el_f,el_f,el_f,el_f,el_f,el_g,0,0,0,0,0
+0,0,0,0,el_h,el_i,el_f,el_f,el_f,el_j,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_l,el_m,el_n,el_k,el_k,0,0,0,0,0
+0,0,0,0,el_h,el_h,el_o,el_p,el_q,el_r,el_k,el_1b,el_1b,el_1b,el_1b,el_1b
+0,0,0,0,el_s,el_s,el_t,el_u,el_v,el_w,el_x,el_1c,el_1c,el_1c,el_1c,el_1c
+0,0,0,0,el_y,el_z,el_10,el_11,el_12,el_13,ventt,el_1e,el_1f,el_1f,el_1f,el_1f
+0,0,0,0,el_15,el_16,el_17,el_18,el_19,el_16,el_1a,el_1g,el_1h,el_1h,el_1h,el_1h
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ITM 5 10,10
+EXT 15,11 vents_0 0,11 FX tunnel
+PAL el_0
+TUNE 5
+
+ROOM ventv
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,vents_g,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_h,0
+vents_b,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_b
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+vents_b,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_u,vents_b
+0,vents_j,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_n,vents_k,0
+vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_10,vents_11
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Vents (0,4) exit
+ITM h 12,11
+ITM h 15,11
+EXT 0,11 vents_0_3 15,11 FX slide_l DLG t
+EXT 15,11 vents_0_5 0,11
+PAL vents_0
+TUNE 2
+
+TIL a
+11111111
+10000001
+10100101
+10011001
+10011001
+10100101
+10000001
+11111111
+>
+11111111
+10000001
+10010001
+10011101
+10111001
+10001001
+10000001
+11111111
+NAME block
+WAL true
+
+TIL b
+11111111
+10000001
+11100001
+10111001
+10101111
+10101011
+10101011
+11111111
+NAME stairs
+
+TIL j
+00000000
+00000000
+00000000
+11111111
+00000000
+00000000
+11111111
+00000000
+NAME elevator display M
+
+TIL l
+00000000
+00000000
+00000000
+00001111
+00001000
+00001000
+00001111
+00000000
+NAME elevator display L
+
+TIL m
+00000000
+00000000
+00000000
+11100000
+00100000
+00100000
+11100000
+00000000
+NAME elevator display R
+
+TIL n
+11000000
+10000000
+11000000
+10000000
+11000000
+10000000
+11000000
+10000000
+NAME red carpet R
+
+TIL o
+00000011
+00000001
+00000011
+00000001
+00000011
+00000001
+00000011
+00000001
+NAME red carpet L
+
+TIL p
+11111111
+01011010
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME red carpet cap
+
+TIL q
+10000001
+01000010
+00100100
+00011000
+00011000
+00100100
+01000010
+10000001
+NAME red carpet M
+
+TIL em
+00000000
+00000000
+00000000
+11111111
+00000000
+00000000
+11111111
+00000000
+>
+00000000
+00000000
+00000000
+11111111
+00011000
+00011000
+11111111
+00000000
+NAME elevator display M
+
+TIL vents_a
+00001001
+00101000
+00100001
+00111100
+00000100
+00000101
+01100101
+00100111
+WAL false
+
+TIL vents_b
+00000000
+00000000
+00000000
+11111111
+10101010
+11111111
+00000000
+00000000
+WAL true
+
+TIL vents_c
+00100100
+00111100
+00011000
+11111111
+10101010
+11111111
+00000000
+00000000
+WAL true
+
+TIL vents_d
+00110010
+00100010
+00100010
+11111111
+10101010
+11111111
+00000000
+00000000
+WAL true
+
+TIL vents_e
+00000000
+00000000
+00000000
+11111111
+10101010
+11111111
+00011000
+00100100
+WAL true
+
+TIL vents_f
+00111100
+00010000
+00001000
+00010000
+00001000
+00010000
+00001000
+00010000
+WAL false
+
+TIL vents_g
+00000000
+00000000
+00000000
+00011111
+00011010
+00010111
+00011100
+00010100
+WAL true
+
+TIL vents_h
+00000000
+00000000
+00000000
+11111100
+10101100
+11110100
+00011100
+00010100
+WAL true
+
+TIL vents_i
+00011100
+00010100
+00011100
+00010100
+00011100
+00010100
+00011100
+00010100
+WAL true
+
+TIL vents_j
+00011100
+00010100
+00011100
+00010111
+00011010
+00011111
+00000000
+00000000
+WAL true
+
+TIL vents_k
+00011100
+00010100
+00011100
+11110100
+10101100
+11111100
+00000000
+00000000
+WAL true
+
+TIL vents_l
+11111111
+11000011
+10100101
+10011001
+10011001
+10100101
+11000011
+11111111
+WAL true
+
+TIL vents_m
+01000010
+01111110
+01000010
+01111110
+01000010
+01111110
+01000010
+00111100
+WAL true
+
+TIL vents_n
+00010100
+00011100
+00010100
+11111111
+10101010
+11111111
+00000000
+00000000
+WAL true
+
+TIL vents_o
+00011100
+01010111
+00110000
+01010111
+00011100
+01010100
+01111100
+00010100
+WAL true
+
+TIL vents_p
+00000000
+11110000
+00010000
+11010000
+01011110
+01000010
+01111110
+00000000
+WAL false
+
+TIL vents_q
+00111100
+00011000
+00111100
+11111111
+10101010
+11111111
+00000000
+00000000
+WAL true
+
+TIL vents_r
+00111100
+00000000
+00111100
+00000000
+00111100
+00000000
+00111100
+00000000
+WAL false
+
+TIL vents_s
+11111111
+11000011
+10100101
+10011001
+10011001
+10100101
+11000011
+11111111
+WAL false
+
+TIL vents_t
+00000000
+01000000
+00000000
+00001001
+01000000
+00001000
+01000010
+00000000
+WAL false
+
+TIL vents_u
+00000000
+00000000
+00000000
+11111111
+10101010
+11111111
+00010100
+00011100
+WAL true
+
+TIL vents_v
+00011100
+00010100
+00011100
+11110100
+01011100
+11110100
+00011100
+00010100
+WAL true
+
+TIL vents_w
+00000000
+00000000
+00000000
+11111111
+10101010
+11111111
+00101000
+00111000
+WAL true
+
+TIL vents_x
+00000000
+00000000
+00000000
+11111111
+10101010
+11111111
+00111100
+00011000
+WAL true
+
+TIL vents_y
+00010000
+00010000
+00010000
+00101000
+01000100
+00000010
+00000010
+00000000
+WAL false
+
+TIL vents_z
+00000000
+00111100
+00110001
+00111001
+00101101
+00111101
+00000000
+00000000
+WAL false
+
+TIL vents_10
+00000000
+00000000
+10101010
+10101010
+10101010
+10101010
+00000000
+00000000
+WAL false
+
+TIL vents_11
+00000000
+00000000
+10111100
+10110100
+10011100
+10100000
+00111100
+00000000
+WAL false
+
+TIL vents_12
+00010100
+00010100
+00011100
+11110111
+10100010
+11111111
+00000000
+00000000
+WAL true
+
+TIL vents_13
+00000000
+00000000
+00000000
+11111111
+10101010
+11111111
+00001000
+00010000
+WAL true
+
+TIL vents_14
+00011100
+01010100
+00111110
+10010101
+00011100
+01010110
+00011100
+00110101
+WAL true
+
+TIL vents_15
+00000000
+00000000
+00111101
+00101101
+00111001
+00110001
+00111100
+00000000
+WAL false
+
+TIL vents_16
+00000000
+00000000
+00000000
+00011111
+00011010
+00010111
+00011100
+00010100
+WAL true
+
+TIL vents_17
+00000000
+00000000
+00000000
+11111111
+10101010
+11111111
+00000000
+00000000
+WAL true
+
+TIL vents_18
+00011100
+00110110
+00111110
+00100010
+00111110
+00100010
+00111110
+00010100
+WAL true
+
+TIL vents_19
+01111110
+10000001
+11111111
+10000001
+11111111
+10000001
+01111110
+00000000
+WAL false
+
+TIL vents_1a
+00011100
+00010100
+00011100
+00010100
+00011100
+00010100
+00011100
+00010100
+WAL true
+
+TIL vents_1b
+00011100
+00010100
+00011100
+00010111
+00011010
+00011111
+00000000
+00000000
+WAL true
+
+TIL vents_1c
+00000000
+00000000
+00100000
+00100000
+00010011
+00001100
+00010000
+00010000
+WAL false
+
+TIL vents_1d
+00011100
+00010100
+00111100
+01010100
+11011100
+01010100
+00111100
+00010100
+WAL true
+
+TIL vents_1e
+00000000
+00000000
+00000000
+11111111
+10100010
+11110111
+00010100
+00011100
+WAL true
+
+TIL vents_1f
+00011100
+11010100
+01111100
+11010100
+00011100
+01010100
+00111100
+01010100
+WAL false
+
+TIL vents_1g
+00011100
+00110110
+00111110
+00100010
+00111110
+00100010
+00111110
+00010100
+WAL false
+
+TIL vents_1h
+00011100
+00010100
+00011100
+00010111
+00011101
+00010111
+00011100
+00010100
+WAL true
+
+TIL vents_1i
+00010100
+00011100
+00010100
+11111111
+10101010
+11111111
+00000000
+00000000
+WAL false
+
+TIL vents_1j
+00000000
+00000000
+00000000
+11111111
+10101010
+11000001
+00011100
+00101000
+WAL false
+
+TIL vents_1k
+00111100
+00010100
+00010100
+11000001
+10101010
+11111111
+00000000
+00000000
+WAL false
+
+TIL vents_1l
+00000000
+00000000
+10111100
+10110100
+10011100
+10001100
+00111100
+00000000
+WAL false
+
+TIL vents_1m
+00011101
+00010110
+01011101
+01110100
+01111100
+01010101
+00011110
+00010101
+WAL true
+
+TIL vents_1n
+00011100
+11010100
+01111100
+11010100
+00011100
+01010100
+00111100
+01010100
+WAL true
+
+TIL el_a
+01111100
+01111000
+01100100
+00011100
+01111100
+01111000
+01100100
+00011100
+WAL false
+
+TIL el_b
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000011
+00000011
+WAL false
+
+TIL el_c
+01111100
+01111000
+01100100
+00011100
+01111100
+11111111
+11111111
+10000011
+WAL false
+
+TIL el_d
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+10000000
+WAL false
+
+TIL el_e
+11111111
+11000000
+10100000
+10010000
+10001000
+10000100
+10000010
+10000001
+WAL false
+
+TIL el_f
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+WAL false
+
+TIL el_g
+11111111
+00000011
+00000101
+00001001
+00010001
+00100001
+01000001
+10000001
+WAL false
+
+TIL el_h
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+WAL false
+
+TIL el_i
+11111111
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+WAL false
+
+TIL el_j
+11111111
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+WAL false
+
+TIL el_k
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+WAL false
+
+TIL el_l
+00000000
+00000000
+00000000
+00000000
+00111111
+00100000
+00101010
+00100000
+WAL false
+
+TIL el_m
+00000000
+00000000
+00000000
+00000000
+11111111
+00000000
+10101010
+00000000
+WAL false
+
+TIL el_n
+00000000
+00000000
+00000000
+00000000
+11111000
+00001000
+10101000
+00001000
+WAL false
+
+TIL el_o
+00111111
+00000000
+00000000
+00001111
+00001000
+00001000
+00001000
+00001000
+WAL false
+
+TIL el_p
+11111111
+00000000
+00000000
+11111111
+00010000
+00010000
+00010000
+00010000
+WAL false
+
+TIL el_q
+11111000
+00000000
+00000000
+11100000
+00100000
+00100000
+00100000
+00100000
+WAL false
+
+TIL el_r
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+01000001
+10000001
+WAL false
+
+TIL el_s
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+WAL true
+
+TIL el_t
+00001000
+00001000
+00001000
+00001000
+00001000
+00001000
+00001000
+00001000
+WAL true
+
+TIL el_u
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+WAL true
+
+TIL el_v
+00100000
+00100010
+00100001
+00100001
+00100001
+00100001
+00100111
+00100010
+WAL true
+
+TIL el_w
+10100001
+11000001
+11000001
+11010001
+11100001
+11100001
+11111001
+00010001
+WAL true
+
+TIL el_x
+00000001
+00000001
+00100001
+01110001
+01011001
+01101001
+01010101
+01101101
+WAL true
+
+TIL el_y
+10000000
+10000000
+10000000
+10000000
+10000001
+10000010
+10000100
+10001000
+WAL true
+
+TIL el_z
+10000000
+10000000
+10000000
+11111111
+00000000
+00000000
+00000000
+00000000
+WAL false
+
+TIL el_10
+00001000
+00001000
+00001000
+11111111
+00000000
+00011111
+00101010
+01010101
+WAL false
+
+TIL el_11
+00010000
+00010000
+00010000
+11111111
+00000000
+11111111
+10101010
+01010101
+WAL false
+
+TIL el_12
+00100010
+00100010
+00100001
+11111111
+00000000
+11110000
+10101000
+01010100
+WAL false
+
+TIL el_13
+00010001
+00010001
+00100001
+11111111
+00000000
+00000000
+00000000
+00000000
+WAL false
+
+TIL el_14
+01010101
+00101101
+00110101
+00011101
+10001001
+01000001
+00100001
+00010001
+WAL true
+
+TIL el_15
+10010000
+10100000
+11000000
+11111111
+00000000
+00000000
+00000000
+00000000
+WAL true
+
+TIL el_16
+00000000
+00000000
+00000000
+11111111
+00000000
+00000000
+00000000
+00000000
+WAL true
+
+TIL el_17
+01111111
+00000000
+00000000
+11111111
+00000000
+00000000
+00000000
+00000000
+WAL true
+
+TIL el_18
+11111111
+00000000
+00000000
+11111111
+00000000
+00000000
+00000000
+00000000
+WAL true
+
+TIL el_19
+11111100
+00000000
+00000000
+11111111
+00000000
+00000000
+00000000
+00000000
+WAL true
+
+TIL el_1a
+00001001
+00000101
+00000011
+11111111
+00000000
+00000000
+00000000
+00000000
+WAL true
+
+TIL el_1b
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11110011
+WAL false
+
+TIL el_1c
+11111100
+00111111
+11001111
+11111111
+00010000
+00010000
+00010000
+00010000
+WAL true
+
+TIL el_1d
+01010101
+00101101
+00110101
+00011101
+10001001
+01000001
+00100001
+00010001
+WAL false
+
+TIL el_1e
+00010000
+00010000
+11111111
+00001000
+00000100
+00000010
+00000001
+00000000
+WAL false
+
+TIL el_1f
+00010000
+00010000
+11111111
+00001000
+00000100
+00000010
+00000001
+10000000
+WAL false
+
+TIL el_1g
+00000000
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+WAL true
+
+TIL el_1h
+01000000
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+WAL true
+
+TIL ventt
+01111101
+00111101
+00111101
+00011101
+10001001
+01000001
+00100001
+00010001
+NAME vent_bot
+WAL false
+
+SPR A
+00111000
+01110100
+01111110
+01110000
+00111100
+00101000
+00101100
+00100000
+>
+00111000
+01110100
+01111110
+01110000
+00111100
+00101000
+01101000
+00001000
+POS el_hal_0 7,11
+BGC *
+
+SPR b
+00000000
+10101010
+11010010
+01010110
+01101100
+00111000
+00010000
+00000000
+>
+00000000
+00101000
+00010000
+00010100
+01101110
+10111001
+00010000
+00000000
+NAME bat
+DLG 3
+
+SPR c
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+11111111
+NAME elevator A
+DLG 5
+POS el_hal_0 7,5
+
+SPR d
+00000100
+00000100
+00000100
+00000100
+00000100
+00000100
+00000100
+11111111
+NAME elevator BL
+POS el_hal_0 6,5
+
+SPR e
+01011100
+01010100
+01011100
+01000000
+01000000
+01000000
+01000000
+11111111
+NAME elevator BR
+POS el_hal_0 8,5
+
+SPR f
+00000111
+00000100
+00000100
+00000100
+00000100
+00000100
+00000100
+00000100
+NAME elevator CL
+POS el_hal_0 6,4
+
+SPR g
+11000000
+01000000
+01000000
+01000000
+01000000
+01000000
+01000000
+01000000
+NAME elevator CR
+POS el_hal_0 8,4
+
+SPR h
+11111111
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+NAME elevator A2
+POS el_hal_0 7,4
+
+SPR j
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+NAME bottom line
+
+SPR k
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+NAME bottom line2
+POS el_hal 9,5
+
+SPR n
+00000100
+00000100
+00000100
+00000100
+00000100
+00000100
+00000100
+11111111
+NAME elhal_o_3
+POS el_hal_1 6,5
+
+SPR o
+01000000
+01000000
+01000000
+01000000
+01000000
+01000000
+01000000
+11111111
+NAME elhal_o_4
+POS el_hal_1 8,5
+
+SPR p
+11111110
+11111110
+11111110
+11111110
+11111110
+11111110
+11111110
+11111111
+NAME elhal_o_5
+DLG 6
+
+SPR q
+00000111
+00000100
+00000100
+00000100
+00000100
+00000100
+00000100
+00000100
+NAME elhal_o_6
+POS el_hal_1 6,4
+
+SPR r
+11000000
+01000000
+01000000
+01000000
+01000000
+01000000
+01000000
+01000000
+NAME elhal_o_7
+POS el_hal_1 8,4
+
+SPR s
+11111111
+11111110
+11111110
+11111110
+11111110
+11111110
+11111110
+11111110
+NAME elhal_o_8
+DLG 6
+POS el_hal_1 7,4
+
+SPR vents_a
+00000000
+00000000
+00000000
+00000000
+00000000
+00000110
+00110000
+00000000
+
+SPR vents_c
+00000000
+00000000
+00000000
+00000000
+00000000
+00000110
+00110000
+00000000
+
+SPR vents_d
+00000000
+00000000
+00000100
+00000100
+00100000
+00100000
+00000000
+00000000
+
+SPR vents_f
+00000000
+00000111
+00011111
+00111101
+01110011
+01001001
+01010110
+01111000
+
+SPR vents_g
+00010100
+00010100
+00010100
+00010100
+00010100
+00010100
+00010100
+00010100
+NAME vent barrier A
+DLG k
+POS vents_0_2 11,11
+
+SPR vents_i
+00000000
+00000000
+00000000
+00000000
+00000000
+00000110
+00110000
+00000000
+
+SPR vents_k
+00000000
+00111100
+00000000
+01001010
+01111110
+00111100
+00010100
+00000000
+NAME one-eyed skull
+DLG i
+POS vents_1_2 13,10
+
+SPR vents_l
+00000000
+00000000
+00000000
+00000000
+00000000
+00000110
+00110000
+00000000
+
+SPR vents_m
+00010000
+10000010
+00000000
+00100000
+10001000
+00000010
+00100000
+00000000
+
+SPR vents_n
+00000000
+00000000
+00000100
+00000100
+00100000
+00100000
+00000000
+00000000
+
+SPR vents_o
+00000000
+00100000
+00011000
+01000100
+00110000
+10001000
+01100000
+00010000
+
+SPR vents_p
+00010000
+10000010
+00000000
+00100000
+10001000
+00000010
+00100000
+00000000
+
+SPR vents_q
+00000000
+00000000
+00000000
+00000000
+01101000
+00000000
+00001101
+00000000
+
+SPR vents_w
+00111000
+00111100
+10111101
+01111110
+00000000
+00111101
+01011111
+11111110
+>
+00000000
+00111000
+00111100
+10111101
+01111110
+00111100
+01011111
+11111110
+NAME earl w/ hat
+DLG u
+POS vents_0_4 11,11
+
+SPR ventt
+00000000
+00000000
+00000000
+00000010
+00000001
+00111101
+01011110
+11111110
+>
+00000000
+00000000
+00000000
+00000001
+00000010
+00111101
+01011110
+11111110
+NAME earl
+DLG v
+POS ventu 12,11
+
+SPR el_b
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000001
+00000011
+POS el_0 13,1
+
+SPR el_d
+00001111
+01111111
+00111111
+00001110
+00000000
+00000000
+00000000
+00000000
+POS el_0 13,2
+
+SPR el_e
+11000000
+11000000
+10000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_0 14,2
+
+SPR el_v
+00000000
+00000000
+00000000
+00100000
+00110000
+00111000
+00111000
+01111100
+POS el_1 14,1
+
+SPR el_w
+00000000
+00000000
+00000001
+00000111
+01111111
+00111111
+00011111
+00000111
+POS el_1 13,2
+
+SPR el_x
+01111100
+11111100
+11111100
+11111000
+11111000
+11110000
+11100000
+10000000
+POS el_1 14,2
+
+SPR el_1k
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000010
+00000010
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_1 12,10
+
+SPR el_1l
+00000000
+00000000
+00000000
+00111100
+11000011
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00111100
+01000010
+10000001
+POS el_1 13,10
+
+SPR el_1m
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+01000000
+01000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_1 14,10
+
+SPR el_1n
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000111
+00011000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_1 2,11
+
+SPR el_1o
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+01100000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_1 3,11
+
+SPR el_1r
+00000100
+00000100
+00000100
+00000100
+00000010
+00000010
+00000001
+00000000
+>
+00000001
+00000001
+00000001
+00000001
+00000000
+00000000
+00000000
+00000000
+POS el_1 12,11
+
+SPR el_1s
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11000011
+>
+00000000
+00000000
+00000000
+00000000
+10000001
+01000010
+00111100
+00000000
+POS el_1 13,11
+
+SPR el_1t
+00100000
+00100000
+00100000
+00100000
+01000000
+01000000
+10000000
+00000000
+>
+10000000
+10000000
+10000000
+10000000
+00000000
+00000000
+00000000
+00000000
+POS el_1 14,11
+
+SPR el_1u
+00000000
+00000000
+00000000
+00000000
+00000001
+00000001
+00000001
+00000001
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_1 1,12
+
+SPR el_1v
+00100000
+01000111
+10001000
+10010000
+00100000
+00100000
+00100000
+00010000
+>
+00000111
+00011000
+00100000
+00100011
+01000100
+01001000
+01000100
+01000011
+POS el_1 2,12
+
+SPR el_1w
+00010000
+10001000
+01000100
+00100100
+00010010
+00010010
+00010010
+00100010
+>
+10000000
+01100000
+00010000
+00010000
+10001000
+01001000
+10001000
+00001000
+POS el_1 3,12
+
+SPR el_20
+00111100
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_1 13,12
+
+SPR el_23
+10001000
+10000111
+01000000
+00100000
+00011000
+00000111
+00000000
+00000000
+>
+00100000
+00100000
+00011000
+00000111
+00000000
+00000000
+00000000
+00000000
+POS el_1 2,13
+
+SPR el_24
+01000100
+10000100
+00001000
+00010000
+01100000
+10000000
+00000000
+00000000
+>
+00010000
+00010000
+01100000
+10000000
+00000000
+00000000
+00000000
+00000000
+POS el_1 3,13
+
+SPR el_2h
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000001
+>
+00000000
+00000000
+00000001
+00000001
+00000001
+00000001
+00000000
+00000000
+POS el_2 0,1
+
+SPR el_2i
+00000000
+00000000
+00011111
+01111111
+11111111
+11111111
+11111111
+11111111
+>
+01000000
+11110000
+11111100
+11111111
+11111111
+11111111
+11111111
+11111111
+POS el_2 1,1
+
+SPR el_2j
+00000000
+00000000
+00000011
+11000111
+11000111
+11001111
+11001111
+11001111
+>
+00000000
+00000000
+00000000
+00000000
+10001100
+10011110
+10011110
+00111111
+POS el_2 2,1
+
+SPR el_2k
+00000000
+00000000
+11000000
+11100000
+11110000
+11110000
+11110000
+11110000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 3,1
+
+SPR el_2m
+00000000
+00000000
+00000000
+00000000
+00000001
+00000111
+01111111
+11111111
+>
+00000000
+00000000
+00000000
+00000001
+00000011
+00000011
+00011111
+00111111
+POS el_2 9,1
+
+SPR el_2n
+00000000
+00000000
+00000000
+11110000
+11111000
+11111110
+11111111
+11111111
+>
+00000000
+00000000
+11110000
+11111000
+11111100
+11111100
+11111111
+11111111
+POS el_2 10,1
+
+SPR el_2o
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11110000
+11111000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+11000000
+POS el_2 11,1
+
+SPR el_2q
+00000001
+00000001
+00000001
+00000001
+00000000
+00000000
+00000111
+00001111
+>
+00000000
+00000000
+00000000
+00000000
+00000011
+00000010
+00000011
+00000001
+POS el_2 0,2
+
+SPR el_2r
+11111111
+11111111
+11111110
+11111000
+11100000
+00000001
+11111111
+11111111
+>
+11111111
+01111110
+01111100
+00000000
+11010011
+00111111
+00111111
+11111111
+POS el_2 1,2
+
+SPR el_2s
+10001111
+00011111
+00111111
+01111111
+11111111
+11111111
+11111111
+11111110
+>
+00111111
+00111111
+01111111
+11111111
+11111100
+11111100
+11111100
+11110000
+POS el_2 2,2
+
+SPR el_2t
+11110000
+11110000
+11100000
+11000000
+10000000
+10000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 3,2
+
+SPR el_2v
+00000001
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 8,2
+
+SPR el_2w
+11111111
+11111111
+00111111
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+01111111
+01111111
+00111111
+00011111
+00000000
+00000000
+00000000
+00000000
+POS el_2 9,2
+
+SPR el_2x
+11111111
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+POS el_2 10,2
+
+SPR el_2y
+11111100
+11111000
+11100000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11100000
+11100000
+11000000
+10000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 11,2
+
+SPR el_32
+00001000
+00000110
+00000011
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 0,3
+
+SPR el_33
+01111111
+00011111
+11000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 1,3
+
+SPR el_34
+11111100
+11100000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11100000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 2,3
+
+SPR el_3c
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000010
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000000
+00000100
+POS el_2 11,6
+
+SPR el_3d
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+01000000
+POS el_2 12,6
+
+SPR el_3f
+00000001
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000001
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 11,7
+
+SPR el_3g
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00001000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 12,7
+
+SPR el_3i
+00010100
+00100010
+01000001
+00100010
+00010100
+00001000
+00000000
+00000000
+>
+00001000
+00011100
+00110110
+00011100
+00001000
+00000000
+00000000
+00000000
+POS el_2 12,8
+
+SPR el_3j
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00100000
+POS el_2 15,8
+
+SPR el_3k
+00000000
+00000000
+00000000
+00000000
+00000011
+00000000
+00001100
+00000010
+POS el_2 11,9
+
+SPR el_3l
+00000000
+00000001
+00000010
+01000000
+00001111
+00111111
+01111100
+01110001
+POS el_2 12,9
+
+SPR el_3m
+00000100
+10000100
+10100100
+11101000
+11001110
+11111110
+10001110
+00011100
+POS el_2 13,9
+
+SPR el_3n
+00000000
+10111101
+10010100
+11101101
+10110011
+01001111
+10100001
+00000011
+POS el_2 14,9
+
+SPR el_3o
+10010000
+00000010
+11111100
+11101000
+10111011
+11101011
+11010110
+10001110
+POS el_2 15,9
+
+SPR el_3r
+00000101
+00000011
+00001111
+01111111
+01101111
+10100111
+11001111
+11101111
+POS el_2 11,10
+
+SPR el_3s
+11100010
+10000000
+10000000
+10000000
+10000000
+10000000
+11000000
+11000000
+POS el_2 12,10
+
+SPR el_3t
+00101110
+00001110
+00001110
+00001101
+00011101
+00111101
+01111000
+11111000
+POS el_2 13,10
+
+SPR el_3u
+00000110
+01001101
+00001101
+00010101
+01101010
+00111011
+10110111
+11011110
+>
+00000110
+00001101
+00101101
+00010101
+00111110
+10111011
+10111111
+11011110
+POS el_2 14,10
+
+SPR el_3v
+10001111
+00000010
+00000000
+00000000
+00001110
+00101000
+10101010
+10001001
+POS el_2 15,10
+
+SPR el_3w
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000011
+00011111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00100011
+00011111
+POS el_2 2,11
+
+SPR el_3x
+00000000
+00000000
+00000000
+00000001
+00000100
+00000001
+11000010
+11110010
+>
+00000000
+00000000
+00000000
+00011010
+00101011
+10010111
+11011110
+11111111
+POS el_2 3,11
+
+SPR el_3y
+00000001
+00000000
+01010111
+00101110
+00000100
+10100000
+10100000
+00000000
+>
+00001111
+10000011
+11000111
+10101100
+10011111
+11110010
+10000010
+11010100
+POS el_2 4,11
+
+SPR el_3z
+10110001
+11001000
+11111010
+01011110
+11111110
+00110111
+00101111
+00011111
+>
+01100101
+00111111
+11110111
+11000011
+00000010
+00000001
+00000010
+00000000
+POS el_2 5,11
+
+SPR el_40
+00000000
+10000000
+00000000
+10000000
+01000000
+01000000
+10000000
+11000000
+>
+11100000
+11010000
+11110000
+11110000
+01110000
+01100000
+11110000
+11100000
+POS el_2 6,11
+
+SPR el_41
+00000000
+00000000
+00000011
+00000001
+00000010
+00000101
+00001000
+00000111
+POS el_2 9,11
+
+SPR el_42
+01000111
+00100100
+00011000
+01001000
+00100000
+11000101
+01000011
+01010010
+POS el_2 10,11
+
+SPR el_43
+01001111
+00001111
+10000111
+10001011
+11011111
+01100111
+10111011
+11111000
+POS el_2 11,11
+
+SPR el_44
+11100011
+11111111
+11111111
+11111110
+11111110
+10100011
+01000011
+00100001
+POS el_2 12,11
+
+SPR el_45
+11110000
+11000000
+11100000
+00100000
+00010000
+00010000
+10011000
+11001000
+POS el_2 13,11
+
+SPR el_46
+01101100
+01101000
+01101000
+01111111
+01111111
+01110001
+01010000
+01110000
+POS el_2 14,11
+
+SPR el_47
+01001011
+00000001
+00100101
+10011101
+11000001
+11100000
+11110000
+01110000
+POS el_2 15,11
+
+SPR el_48
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00010011
+POS el_2 0,12
+
+SPR el_49
+00000000
+00000001
+00000011
+00000111
+00000111
+00000111
+00000111
+00000111
+>
+00000000
+00000001
+00000011
+00010111
+00110111
+11000111
+00000111
+00000111
+POS el_2 1,12
+
+SPR el_4a
+01111111
+11111111
+11111110
+10111100
+01000000
+10010000
+11000011
+11111111
+>
+01111111
+11111111
+11111110
+10111000
+00010100
+10000000
+11001011
+11111111
+POS el_2 2,12
+
+SPR el_4b
+11110010
+10111010
+00011100
+00011100
+00111111
+11111101
+11111101
+11111111
+>
+11110110
+10111010
+00011100
+01111100
+00111111
+11111101
+11111101
+11111111
+POS el_2 3,12
+
+SPR el_4c
+00000000
+00000000
+00000001
+11110000
+11111010
+11111101
+11111111
+11100101
+>
+01000000
+00000000
+00000000
+11110000
+11111010
+11111101
+11111111
+11100101
+POS el_2 4,12
+
+SPR el_4d
+00001110
+00111101
+00101001
+10111001
+11110000
+10010000
+01000100
+11110000
+>
+00000011
+00000011
+00001110
+01001111
+11101110
+00001110
+01111001
+11111001
+POS el_2 5,12
+
+SPR el_4e
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11000000
+01000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 6,12
+
+SPR el_4f
+00000000
+00001000
+00001000
+00110110
+00001000
+00001000
+00000000
+00000000
+>
+00001000
+00101010
+00011100
+01110111
+00011100
+00101010
+00001000
+00000000
+POS el_2 7,12
+
+SPR el_4g
+00000110
+00000111
+00000100
+10101010
+10101100
+00011000
+11111000
+11000000
+POS el_2 9,12
+
+SPR el_4h
+00000011
+00010011
+00000011
+10011101
+10100110
+00001111
+00101100
+01110010
+>
+00000011
+00010011
+00000011
+10011111
+10100110
+00011111
+00101100
+01110010
+POS el_2 10,12
+
+SPR el_4i
+11111100
+01010100
+11011000
+10000000
+00001000
+10000000
+11000000
+10100000
+POS el_2 11,12
+
+SPR el_4j
+00110000
+00001100
+00011000
+00111100
+00110010
+01100001
+01000000
+01000000
+>
+00110000
+00011100
+00001000
+01010100
+00110010
+01110001
+01000000
+01000000
+POS el_2 12,12
+
+SPR el_4k
+11001100
+01100110
+01100010
+00110000
+00010000
+00000011
+10000111
+01111100
+POS el_2 13,12
+
+SPR el_4l
+01111000
+00111000
+00110000
+01100000
+11100000
+11000001
+10000011
+00000111
+POS el_2 14,12
+
+SPR el_4m
+01110000
+01110000
+01110000
+11110000
+11110000
+11100000
+11000000
+11000000
+>
+01110000
+01110000
+01110000
+11110000
+11110000
+11100001
+11000000
+11000011
+POS el_2 15,12
+
+SPR el_4n
+00000000
+00000000
+00000001
+00000011
+00000011
+00000111
+00000111
+00000011
+>
+00000000
+00000000
+00010001
+00100011
+00000011
+01110111
+11000111
+00000011
+POS el_2 0,13
+
+SPR el_4o
+00110111
+11111111
+11110111
+11100111
+11000011
+11001000
+11011000
+11011100
+POS el_2 1,13
+
+SPR el_4p
+11111111
+11111111
+11111111
+11111111
+11111111
+11111100
+00000000
+00000011
+POS el_2 2,13
+
+SPR el_4q
+11111011
+11110011
+11110111
+00110111
+01100111
+01101110
+11001101
+11011110
+POS el_2 3,13
+
+SPR el_4r
+11010101
+11000000
+01011010
+11111010
+00100100
+11111010
+11000000
+00011000
+>
+11010100
+11000000
+01011010
+11111010
+00100100
+11111010
+11000000
+00011000
+POS el_2 4,13
+
+SPR el_4s
+01000000
+00000000
+00010000
+00101000
+00010000
+10000000
+00000000
+00000000
+>
+01100100
+11110000
+01000000
+01000100
+01000000
+10010000
+00000000
+00000000
+POS el_2 5,13
+
+SPR el_4t
+00000011
+00000101
+00000010
+00000101
+00001111
+00000100
+00000011
+00000111
+>
+00000011
+00000101
+00000010
+00000111
+00001111
+00000101
+00000011
+00000111
+POS el_2 8,13
+
+SPR el_4u
+11010100
+11111001
+00100100
+11010110
+01000111
+10110100
+10000011
+01001001
+>
+11010100
+11110101
+00100100
+11000010
+00010111
+10100100
+10001001
+01001001
+POS el_2 9,13
+
+SPR el_4v
+01100001
+01001010
+10000001
+11010000
+10100000
+10000000
+00000000
+01100000
+>
+01001111
+01011010
+10110001
+10110100
+10011000
+10010000
+11011000
+11011000
+POS el_2 10,13
+
+SPR el_4w
+00010000
+00001000
+00010000
+10100000
+01000000
+00000000
+00000000
+00000000
+POS el_2 11,13
+
+SPR el_4x
+01000000
+01000000
+01100000
+00110000
+00011111
+00011111
+10000011
+00100000
+>
+01000000
+01000000
+01100000
+00110000
+00011111
+00011111
+00000011
+00000000
+POS el_2 12,13
+
+SPR el_4y
+00000000
+00000000
+00000000
+00000111
+00111111
+11111110
+11110000
+00000000
+POS el_2 13,13
+
+SPR el_4z
+00001111
+00011111
+01111110
+11111000
+11000000
+00000000
+00000000
+00000000
+POS el_2 14,13
+
+SPR el_50
+10000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000010
+00100010
+>
+10000000
+00000000
+00000001
+00000001
+00000001
+00000000
+00000100
+00001001
+POS el_2 15,13
+
+SPR el_51
+00000011
+00000111
+00011011
+10010001
+00100111
+00111111
+01011101
+01111111
+>
+00000011
+00000011
+00000011
+00000001
+00000011
+00000111
+00010111
+00000001
+POS el_2 0,14
+
+SPR el_52
+11011111
+11011000
+11011111
+11111110
+11111111
+11111111
+11111111
+01111111
+POS el_2 1,14
+
+SPR el_53
+00011011
+00001111
+10001111
+01111111
+11111110
+11111100
+11111110
+11111001
+POS el_2 2,14
+
+SPR el_54
+10111100
+10111101
+11110010
+11100100
+11100000
+11000000
+10000000
+10000000
+>
+10111100
+10111101
+11110010
+11100101
+11100101
+11001100
+10101000
+11100000
+POS el_2 3,14
+
+SPR el_55
+01000000
+00100000
+01000000
+00000000
+00000000
+00010000
+00010011
+00001000
+>
+01000000
+01110000
+01100000
+11000000
+01000000
+00000000
+00000000
+00000000
+POS el_2 4,14
+
+SPR el_56
+00000000
+00000000
+00000100
+00011001
+00001000
+01000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 5,14
+
+SPR el_59
+00100111
+00001101
+00000011
+00000100
+00010110
+00001000
+00101101
+00011110
+>
+00000111
+00001111
+00000011
+00000111
+00010111
+00001011
+00001111
+00001110
+POS el_2 8,14
+
+SPR el_5a
+10000001
+01000000
+01000000
+11000010
+00000000
+00000001
+00000000
+00000000
+>
+10000001
+11000000
+01000000
+11000010
+00000000
+10000001
+10100000
+01111000
+POS el_2 9,14
+
+SPR el_5b
+00000000
+10000000
+00001000
+00000001
+00000001
+00000000
+00000011
+00000001
+>
+11110100
+10111010
+11111000
+11111111
+10101001
+01111111
+00010011
+00001111
+POS el_2 10,14
+
+SPR el_5c
+00000000
+00000001
+00000001
+10000101
+01000010
+00101111
+00010011
+10100011
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+10100000
+01110101
+01110111
+POS el_2 11,14
+
+SPR el_5d
+10000000
+01100000
+11100000
+11100100
+10010100
+10010000
+10100001
+10110100
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00100000
+00101010
+10001010
+POS el_2 12,14
+
+SPR el_5e
+00000000
+01001000
+00000000
+00010100
+01000100
+00110100
+00000011
+10010111
+>
+00000000
+00000100
+00100000
+00000011
+00010100
+10001000
+00111001
+10000000
+POS el_2 13,14
+
+SPR el_5f
+00000000
+00000001
+00000000
+00000001
+00000000
+10010111
+11101111
+00100101
+>
+01010000
+01000000
+00000000
+10000000
+00000001
+00000000
+00000000
+00001101
+POS el_2 14,14
+
+SPR el_5g
+01110101
+00100010
+10000010
+10111100
+01100110
+11011000
+10000010
+10001000
+>
+00000100
+00001011
+00001101
+01000000
+10100000
+11000000
+00000000
+01000000
+POS el_2 15,14
+
+SPR el_5h
+11111110
+11111111
+11011100
+11110101
+10111100
+01111111
+00000001
+00000000
+>
+00001000
+00011100
+00010110
+00010101
+00111000
+00000011
+00010101
+00001101
+POS el_2 0,15
+
+SPR el_5i
+11111111
+00111111
+00011111
+01000011
+00000100
+10100000
+11010001
+00101000
+>
+11111111
+00111111
+00011111
+01000111
+00000111
+11001110
+00111100
+11000100
+POS el_2 1,15
+
+SPR el_5j
+11111111
+11111110
+11111000
+11000101
+00000000
+01101000
+00001000
+00000000
+>
+11111111
+11111110
+11111000
+11100000
+00000000
+00000000
+00000000
+00000000
+POS el_2 2,15
+
+SPR el_5k
+00000000
+00001000
+00000000
+10010100
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+10000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 3,15
+
+SPR el_5m
+00000101
+00110001
+00100110
+00100100
+00100101
+00010110
+00111101
+00111011
+>
+00000101
+00000001
+00000110
+00000000
+00000001
+00000000
+00000001
+00000000
+POS el_2 8,15
+
+SPR el_5n
+10000000
+00000000
+00000000
+00000000
+10000000
+00000000
+00000000
+00000000
+>
+11110000
+10011000
+10010000
+01001010
+10111110
+00011011
+00101111
+00000011
+POS el_2 9,15
+
+SPR el_5o
+00000100
+00000001
+00000001
+00001001
+00000111
+00000011
+00011010
+00000000
+>
+00000010
+00000010
+00000000
+00000000
+10000000
+10000000
+00000000
+10100000
+POS el_2 10,15
+
+SPR el_5p
+00000101
+00000111
+00000001
+10000111
+00000000
+00000000
+01000000
+00000000
+>
+10001000
+10001110
+10000001
+00100100
+00000000
+00000000
+00000000
+00000000
+POS el_2 11,15
+
+SPR el_5q
+11001010
+11111001
+10010111
+01111100
+10000111
+00000001
+00000000
+00000000
+>
+10000010
+00000000
+01000110
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 12,15
+
+SPR el_5r
+00001111
+11111111
+11001001
+00001010
+11110010
+00100100
+00000000
+00000000
+>
+01100000
+10000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 13,15
+
+SPR el_5s
+10111110
+00010101
+10100110
+11000110
+10000000
+00000001
+00010000
+00010000
+>
+00001000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 14,15
+
+SPR el_5t
+01110000
+10000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_2 15,15
+
+SPR el_5u
+00000001
+00000001
+00000000
+00000001
+00000001
+00000001
+00000000
+00000000
+POS el_3 4,0
+
+SPR el_5v
+11011111
+00111111
+11111111
+11111100
+11110000
+11100000
+11000011
+10001111
+POS el_3 5,0
+
+SPR el_5w
+11111100
+11111000
+10000000
+00000000
+00000001
+01111111
+11111111
+11011000
+POS el_3 6,0
+
+SPR el_5x
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+11111111
+11111111
+POS el_3 8,0
+
+SPR el_5y
+00000000
+00000000
+00000111
+11111111
+11111111
+11000000
+10000000
+00000000
+POS el_3 9,0
+
+SPR el_5z
+01111100
+11111100
+11111110
+11111110
+11111111
+01111111
+00011111
+00001111
+POS el_3 10,0
+
+SPR el_60
+00011110
+00011110
+00011110
+00011110
+00011110
+00011110
+00011101
+00011101
+POS el_3 11,0
+
+SPR el_61
+11100000
+11100000
+11100000
+11100000
+11100000
+11100000
+11000000
+11000000
+POS el_3 12,0
+
+SPR el_62
+00000000
+00000000
+00000000
+00000000
+00000001
+00000010
+00000100
+00001000
+POS el_3 13,0
+
+SPR el_63
+00000000
+00000000
+00000000
+01111000
+10000110
+00000001
+00000000
+00000000
+POS el_3 14,0
+
+SPR el_64
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+01000000
+POS el_3 15,0
+
+SPR el_65
+00011110
+00111001
+00100111
+00001110
+00111000
+00100010
+00001100
+00011000
+POS el_3 5,1
+
+SPR el_66
+00100011
+11111111
+11000000
+00010000
+10000000
+00000000
+00000111
+01111111
+POS el_3 6,1
+
+SPR el_67
+11111111
+11111111
+01111111
+11111111
+01111111
+00001111
+01111000
+00011111
+POS el_3 8,1
+
+SPR el_68
+10001111
+00011111
+10111110
+11111110
+11111101
+11110001
+00000100
+11110000
+POS el_3 9,1
+
+SPR el_69
+00000111
+01000111
+01000111
+11000111
+11000111
+00000111
+00000110
+00001110
+POS el_3 10,1
+
+SPR el_6a
+00111101
+00111101
+00111011
+00111011
+00111111
+01110110
+01100110
+11101110
+POS el_3 11,1
+
+SPR el_6b
+11000000
+11000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_3 12,1
+
+SPR el_6c
+00001000
+00010000
+00010000
+00010000
+00010000
+00001000
+00001000
+00000100
+POS el_3 13,1
+
+SPR el_6d
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000100
+00001110
+00000100
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_3 14,1
+
+SPR el_6e
+01000000
+00100000
+00100000
+00100000
+00100000
+01000000
+01000000
+10000000
+POS el_3 15,1
+
+SPR el_6f
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+POS el_3 0,2
+
+SPR el_6g
+00000000
+00000011
+00001111
+00011111
+00111111
+01111111
+11111111
+11000001
+POS el_3 1,2
+
+SPR el_6h
+01111111
+11111110
+11111110
+11111111
+11111111
+11111111
+11111111
+11001111
+POS el_3 2,2
+
+SPR el_6i
+00000000
+00000000
+11110000
+11111000
+11111100
+11111110
+11111110
+11111111
+POS el_3 3,2
+
+SPR el_6j
+00000001
+00000011
+00000011
+00000011
+00000000
+00000000
+00000000
+00000000
+POS el_3 5,2
+
+SPR el_6k
+11111111
+11100000
+10001111
+00100000
+01000000
+10000000
+00011111
+00111100
+POS el_3 6,2
+
+SPR el_6l
+00001111
+00000000
+10000000
+11000000
+00111000
+11000111
+01110011
+01111001
+POS el_3 8,2
+
+SPR el_6m
+11000000
+00000000
+00000000
+00000001
+00001111
+11111111
+11111111
+11111100
+POS el_3 9,2
+
+SPR el_6n
+00011111
+00111111
+01111011
+11110011
+11100111
+11001110
+00011111
+01111111
+POS el_3 10,2
+
+SPR el_6o
+11101100
+11001100
+11111000
+10111000
+01100000
+11000000
+10000000
+00000000
+POS el_3 11,2
+
+SPR el_6p
+00000010
+00000001
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_3 13,2
+
+SPR el_6q
+00000001
+10000110
+01111000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_3 14,2
+
+SPR el_6r
+00000001
+00000011
+00000011
+00000011
+00000010
+00000010
+00000000
+00000000
+POS el_3 0,3
+
+SPR el_6s
+10011110
+10111111
+01111111
+01111111
+11111111
+11100001
+11101101
+11101111
+POS el_3 1,3
+
+SPR el_6t
+00011111
+00111111
+10011101
+11011111
+11000001
+11011111
+11011111
+11011111
+POS el_3 2,3
+
+SPR el_6u
+11110000
+11011010
+11111110
+11111111
+11111111
+11111111
+11111111
+11111111
+POS el_3 3,3
+
+SPR el_6v
+00000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+POS el_3 4,3
+
+SPR el_6w
+00001011
+00000111
+00000001
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_3 6,3
+
+SPR el_6x
+00011100
+00001111
+00000111
+10000111
+11000111
+01000111
+00000000
+00000000
+POS el_3 8,3
+
+SPR el_6y
+01111111
+00011111
+10001111
+11100000
+11111111
+11100000
+00000000
+00000000
+POS el_3 9,3
+
+SPR el_6z
+11111100
+11111000
+11110000
+00000000
+10000000
+00000000
+00000000
+00000000
+POS el_3 10,3
+
+SPR el_70
+00000000
+00000000
+00000000
+00000000
+00000001
+00001000
+00000000
+00100000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00001000
+00000000
+POS el_3 11,3
+
+SPR el_71
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10010000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00001000
+00010001
+POS el_3 12,3
+
+SPR el_72
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000010
+POS el_3 13,3
+
+SPR el_73
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+POS el_3 14,3
+
+SPR el_74
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+POS el_3 15,3
+
+SPR el_75
+11101111
+11100111
+11110111
+01111000
+01111111
+01111111
+01111111
+00111111
+POS el_3 1,4
+
+SPR el_76
+11011111
+10011000
+00000111
+01111111
+11111111
+11111111
+10111111
+10111111
+POS el_3 2,4
+
+SPR el_77
+11111111
+01111111
+00111111
+11001111
+11101110
+11100110
+11110100
+11111000
+POS el_3 3,4
+
+SPR el_78
+10000000
+10000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_3 4,4
+
+SPR el_79
+00000000
+00000000
+00000000
+00000100
+00000000
+00000000
+00000001
+00000001
+>
+00000000
+00000000
+00000000
+00000000
+00000010
+00000000
+00000001
+00000001
+POS el_3 10,4
+
+SPR el_7a
+00000001
+01000101
+00000100
+00011010
+11101000
+00111010
+00010110
+11011110
+>
+10010001
+00000100
+00000100
+00011010
+11101000
+00111010
+00010110
+11011110
+POS el_3 11,4
+
+SPR el_7b
+00100010
+00000000
+00000000
+00011111
+01111010
+11000000
+00010000
+00011111
+>
+10000000
+01000000
+00000000
+00011111
+01111010
+11000000
+00010000
+00011111
+POS el_3 12,4
+
+SPR el_7c
+00101100
+11000011
+00101100
+11111100
+00000011
+00000011
+11111111
+11111101
+POS el_3 13,4
+
+SPR el_7d
+00000001
+00001010
+00010000
+11100100
+10100111
+11111110
+10111111
+01001111
+>
+00000101
+00001000
+00000000
+11100100
+10100111
+11111110
+10111111
+01001111
+POS el_3 14,4
+
+SPR el_7e
+00000000
+00000000
+00000000
+00000000
+10000000
+00000000
+00000010
+00110000
+>
+00000000
+00000000
+00000000
+00000000
+10000000
+00000100
+00000000
+00110000
+POS el_3 15,4
+
+SPR el_7f
+00011111
+00001110
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_3 1,5
+
+SPR el_7g
+00111111
+00011111
+00011111
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_3 2,5
+
+SPR el_7h
+11110000
+11000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_3 3,5
+
+SPR el_7i
+01111110
+11111110
+11111111
+10010000
+00000000
+00000110
+10111011
+01101111
+POS el_3 11,5
+
+SPR el_7j
+00000000
+00000000
+11000100
+00001111
+00000000
+10000000
+10101111
+10011111
+POS el_3 12,5
+
+SPR el_7k
+10110110
+00000000
+00000000
+11111111
+00000011
+00000000
+11110000
+11100111
+POS el_3 13,5
+
+SPR el_7l
+00010100
+00011011
+00000001
+10000000
+11000100
+00000000
+00000000
+11111110
+POS el_3 14,5
+
+SPR el_7m
+10100000
+11100000
+01011000
+00100100
+00000100
+00000000
+00000000
+00110000
+>
+10100000
+11100000
+01011000
+00100100
+00000100
+00000000
+00000000
+00110010
+POS el_3 15,5
+
+SPR el_7n
+00000000
+00000000
+00000000
+00000000
+00000000
+01000100
+00100000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000100
+00000100
+00100000
+00000000
+POS el_3 1,6
+
+SPR el_7o
+00000000
+00000000
+00000000
+00000000
+00000000
+00100000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00100000
+01000000
+00000000
+POS el_3 2,6
+
+SPR el_7p
+00000111
+00000000
+00000000
+10000010
+10000100
+01110000
+00001111
+10001000
+POS el_3 11,6
+
+SPR el_7q
+11011111
+10111111
+10100011
+00000000
+11011000
+11101111
+11111111
+00011101
+POS el_3 12,6
+
+SPR el_7r
+11111111
+11111111
+11111111
+01000000
+00100010
+10011100
+11110110
+11110111
+POS el_3 13,6
+
+SPR el_7s
+11111101
+11100111
+11100111
+11100111
+11100011
+10000011
+10000110
+11111111
+POS el_3 14,6
+
+SPR el_7t
+00110000
+10111001
+10111000
+01110000
+11110000
+11000010
+01000110
+11001110
+>
+00110000
+10111000
+10111000
+01110000
+11110000
+11000010
+01000110
+11001110
+POS el_3 15,6
+
+SPR el_7u
+00000000
+00000001
+00000000
+00000000
+00000000
+00001100
+00000000
+00000000
+>
+00000010
+00000001
+00000000
+00000000
+00000000
+00000100
+00000000
+00000000
+POS el_3 0,7
+
+SPR el_7v
+00000000
+00001111
+00111111
+01111111
+01111111
+11111111
+11111111
+11111110
+POS el_3 1,7
+
+SPR el_7w
+00000000
+00000000
+11000000
+11100000
+10000000
+00000000
+00000000
+00000000
+POS el_3 2,7
+
+SPR el_7x
+00000001
+10001101
+11111111
+01100011
+11010111
+01111111
+01110111
+00000000
+POS el_3 11,7
+
+SPR el_7y
+10101011
+00000000
+01000000
+10010110
+10001001
+10001111
+11111100
+11111001
+POS el_3 12,7
+
+SPR el_7z
+11111111
+00000111
+01000111
+11111111
+01001111
+11111111
+10001111
+00011100
+POS el_3 13,7
+
+SPR el_80
+11111111
+11111111
+11111110
+11100000
+11000111
+11001111
+11111111
+01111111
+POS el_3 14,7
+
+SPR el_81
+11111110
+10111100
+00001100
+00001100
+11111100
+11001000
+11111000
+11010000
+POS el_3 15,7
+
+SPR el_82
+00000000
+00000000
+00000100
+00000000
+00000000
+00000000
+00000001
+00000000
+>
+00000000
+00000010
+00000100
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_3 0,8
+
+SPR el_83
+11111110
+01111110
+01111110
+00111110
+00001111
+10000000
+00001000
+00000000
+>
+11111110
+01111110
+01111110
+00111110
+00001111
+10000000
+00001000
+00001000
+POS el_3 1,8
+
+SPR el_84
+00000000
+11100100
+11110111
+11111111
+00010000
+00000000
+00101111
+01000100
+POS el_3 11,8
+
+SPR el_85
+00001111
+00000111
+11111111
+11110000
+00000000
+00000100
+11000011
+00001111
+POS el_3 12,8
+
+SPR el_86
+11111100
+11111110
+11111110
+00111111
+01111010
+01111110
+11111111
+11111111
+POS el_3 13,8
+
+SPR el_87
+01111111
+00111010
+00111111
+01111111
+11111101
+11111001
+01111110
+11111111
+POS el_3 14,8
+
+SPR el_88
+11110011
+11110011
+11110000
+00100000
+11000000
+10000101
+10000010
+11100100
+>
+11110000
+11110010
+11110000
+00100000
+11001001
+10000000
+10001100
+11100010
+POS el_3 15,8
+
+SPR el_89
+11000100
+11111111
+10111111
+01011110
+10000000
+00000000
+00011111
+00000000
+POS el_3 11,9
+
+SPR el_8a
+00111110
+11110000
+11111111
+00000000
+00000000
+00011100
+11111111
+10011111
+POS el_3 12,9
+
+SPR el_8b
+00000000
+00000000
+11111000
+01111000
+01110000
+11100000
+01110000
+11100011
+POS el_3 13,9
+
+SPR el_8c
+10111111
+01111111
+00111110
+00111110
+00111010
+00111100
+01100110
+01100000
+POS el_3 14,9
+
+SPR el_8d
+11001000
+01001001
+01000000
+00000001
+10000000
+10100000
+11000000
+01000000
+>
+11000010
+01000000
+01001000
+00000000
+10000000
+10100000
+11000000
+01000000
+POS el_3 15,9
+
+SPR el_8e
+00000000
+00000000
+00000000
+00000000
+00000011
+00000011
+00000111
+10001110
+>
+00000000
+00000000
+00000000
+00000000
+00000010
+00000001
+00011101
+10111011
+POS el_3 0,10
+
+SPR el_8f
+00000000
+00000000
+00000001
+00100000
+11000001
+10000101
+00001111
+00011111
+>
+00000000
+00000000
+00000000
+00100000
+11101000
+11010001
+10100011
+01000110
+POS el_3 1,10
+
+SPR el_8g
+00000000
+10000000
+00100000
+11011100
+11100010
+10110000
+01110001
+11100011
+>
+00000000
+00000000
+00100000
+01010100
+11101100
+11010010
+00100110
+11001101
+POS el_3 2,10
+
+SPR el_8h
+00000000
+00000000
+00000000
+00000000
+00000000
+11100000
+11110000
+11101110
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+01100000
+11110000
+11101010
+POS el_3 3,10
+
+SPR el_8i
+00000000
+00000000
+00001001
+00000011
+01000000
+00010100
+00000000
+00000000
+>
+00000000
+00000000
+00100000
+00000010
+00001011
+00000000
+01000001
+00000000
+POS el_3 12,10
+
+SPR el_8j
+00000001
+00000000
+11110000
+00001000
+01011000
+00000000
+10100000
+00000000
+>
+00000001
+00000000
+01111100
+00111000
+00100000
+01000010
+00000000
+00010000
+POS el_3 13,10
+
+SPR el_8k
+11101000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11101000
+00000000
+00000000
+10000000
+00000000
+00000000
+00000000
+00000000
+POS el_3 14,10
+
+SPR el_8l
+00011100
+01011000
+00110000
+00000001
+00000111
+00111111
+01111100
+11111011
+>
+01110110
+11110101
+11101010
+11010100
+10101000
+01010000
+00100001
+01000011
+POS el_3 0,11
+
+SPR el_8m
+00111011
+01110011
+11101111
+11011111
+10111111
+01111110
+11111001
+11110101
+>
+10001101
+00011011
+00100110
+01011101
+10111011
+01110110
+11001100
+10011001
+POS el_3 1,11
+
+SPR el_8n
+11110111
+11001111
+11011110
+10111101
+01111011
+11110111
+11101111
+11011111
+>
+10011011
+01110111
+11101111
+11011100
+00111011
+01110111
+11001110
+10111101
+POS el_3 2,11
+
+SPR el_8o
+11011111
+00111110
+11111101
+11111011
+11110111
+11101110
+11101100
+11011001
+>
+11010110
+10101100
+01011001
+10110101
+10101011
+01010111
+10101100
+01011011
+POS el_3 3,11
+
+SPR el_8p
+11110111
+11101111
+11011111
+00111111
+01111110
+11111101
+11111011
+11110110
+>
+00000111
+00001110
+00011101
+00111011
+01110111
+11101110
+11011000
+10110101
+POS el_3 0,12
+
+SPR el_8q
+11101011
+11010111
+10101100
+01011011
+10110111
+01101111
+01011111
+10111111
+>
+01110011
+11100110
+11001101
+10011011
+00110111
+01001111
+10111110
+01111100
+POS el_3 1,12
+
+SPR el_8r
+10111111
+01111111
+11111110
+11111101
+11111010
+11110101
+11101000
+11010010
+>
+01111010
+11110101
+11100011
+11001110
+10011101
+00111010
+01110001
+11100111
+POS el_3 2,12
+
+SPR el_8s
+10110001
+01100010
+11000100
+10010011
+00100111
+01010111
+00101110
+10011110
+>
+10110110
+01101100
+01011001
+10111011
+01110110
+11101101
+10011101
+00111011
+POS el_3 3,12
+
+SPR el_8t
+00011001
+11110000
+11100000
+10110101
+11100010
+11011101
+11111111
+11111111
+>
+01011001
+11011100
+10111110
+01111110
+11111100
+11111000
+11110001
+11100011
+POS el_3 4,12
+
+SPR el_8u
+00000000
+00000000
+10000000
+00000000
+10100000
+10000000
+11000000
+11100000
+>
+00000000
+00000000
+00000000
+00000000
+00100000
+10000000
+11000000
+10100000
+POS el_3 5,12
+
+SPR el_8v
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000111
+00101111
+POS el_3 14,12
+
+SPR el_8w
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+01110000
+01111010
+POS el_3 15,12
+
+SPR el_8x
+11101101
+11011010
+00110101
+01100011
+11001111
+11011111
+10111111
+01111111
+>
+01101010
+01010101
+10101011
+01010111
+10101111
+01011111
+10111110
+01111100
+POS el_3 0,13
+
+SPR el_8y
+01111111
+11111111
+11111111
+11111110
+11111100
+11111000
+11110001
+11100011
+>
+11111001
+11110011
+11100111
+11001111
+10011110
+00111101
+01111011
+11110111
+POS el_3 1,13
+
+SPR el_8z
+10100101
+01001010
+00010110
+00101101
+01011001
+11010011
+10110111
+01101110
+>
+11001111
+10011110
+10111001
+01110011
+11100111
+11001111
+10011111
+00111110
+POS el_3 2,13
+
+SPR el_90
+00111100
+01111011
+11110111
+11101110
+11011101
+10111101
+01111011
+11110001
+>
+01110111
+11101111
+11101111
+11011110
+10111101
+01111011
+01111010
+11110101
+POS el_3 3,13
+
+SPR el_91
+00011111
+10111111
+01111111
+11111110
+11111101
+11111101
+11110001
+11101111
+>
+11010111
+10101111
+01011110
+10111110
+01111101
+01111011
+11111011
+11110111
+POS el_3 4,13
+
+SPR el_92
+11000000
+10000000
+00100000
+10111000
+11111000
+11111000
+11111000
+11110000
+>
+01100000
+01100000
+11110000
+11101000
+11010000
+10100000
+01001000
+00010000
+POS el_3 5,13
+
+SPR el_93
+00000000
+00000000
+00000000
+00000001
+00000011
+00000111
+00000111
+00001111
+>
+00000000
+00000001
+00000011
+00000111
+00000111
+00001111
+00011000
+00000011
+POS el_3 13,13
+
+SPR el_94
+00000111
+00101111
+01101111
+11101111
+11001111
+11011111
+10011110
+00111110
+>
+01101111
+11101111
+11001111
+11011111
+10011110
+00111110
+11111110
+11111101
+POS el_3 14,13
+
+SPR el_95
+01110000
+01111010
+11111011
+11111011
+11110011
+01110111
+01110111
+11110111
+>
+11111011
+11111011
+11110011
+01110111
+01110111
+11110111
+11101111
+11111110
+POS el_3 15,13
+
+SPR el_96
+11111111
+11111111
+11111111
+11111110
+11111100
+11111001
+11110011
+11100111
+>
+11111001
+11110011
+11100111
+11001111
+10011111
+00111100
+01111001
+01110011
+POS el_3 0,14
+
+SPR el_97
+11001110
+10011101
+00111011
+01110111
+11101110
+11101100
+11011001
+10110011
+>
+11101111
+11011110
+10011101
+10111011
+01110111
+11101111
+11011111
+10111111
+POS el_3 1,14
+
+SPR el_98
+11011110
+10011101
+00111011
+01110111
+01101111
+11011111
+10111110
+01111110
+>
+01111101
+11111011
+11110111
+11110111
+11101110
+11011101
+10111011
+10110110
+POS el_3 2,14
+
+SPR el_99
+11101011
+11101111
+11011100
+10111101
+10111101
+01110111
+11101110
+11011110
+>
+11101011
+11010111
+10100111
+01101111
+11011111
+10111111
+01111111
+01111110
+POS el_3 3,14
+
+SPR el_9a
+00101101
+10011111
+01001111
+11001111
+01111110
+10111100
+11110001
+11101011
+>
+11110110
+11101100
+11101010
+11010100
+11001001
+10100011
+01001011
+10100111
+POS el_3 4,14
+
+SPR el_9b
+11100000
+11001000
+10010000
+00110000
+01100000
+11010000
+10100000
+10100000
+>
+00111000
+01111000
+01111000
+11110000
+11101000
+11101000
+11011000
+11011000
+POS el_3 5,14
+
+SPR el_9c
+00011000
+00000011
+00011111
+00111111
+00111111
+00111111
+00111110
+00000001
+>
+00011111
+00111111
+00111111
+00111111
+00111110
+00000001
+00011111
+00011111
+POS el_3 13,14
+
+SPR el_9d
+11111110
+11111101
+11111101
+11111011
+11110111
+10111111
+01111111
+11111101
+>
+11111101
+11111011
+11110111
+10111111
+01111111
+11111101
+11111011
+11100111
+POS el_3 14,14
+
+SPR el_9e
+11101111
+11111110
+11111110
+10111100
+10111101
+01111001
+11110011
+11100111
+>
+11111110
+10111100
+10111101
+01111001
+11110011
+11100111
+11001111
+00011111
+POS el_3 15,14
+
+SPR el_9f
+01001111
+00011110
+00111101
+01111011
+11110111
+11110110
+11101101
+00011101
+>
+11110111
+11101110
+11011101
+10111011
+01110111
+01101111
+11001111
+10011111
+POS el_3 0,15
+
+SPR el_9g
+01101010
+11010101
+10101011
+10100111
+01001111
+10011111
+00111111
+01111111
+>
+01111111
+11111110
+11111110
+11111101
+11111011
+11110110
+11101101
+11101011
+POS el_3 1,15
+
+SPR el_9h
+11111101
+11111011
+11111010
+11110101
+11101011
+11100111
+11001111
+10011111
+>
+01101110
+11011101
+11011011
+10110111
+01100111
+11101111
+11011111
+10111111
+POS el_3 2,15
+
+SPR el_9i
+10111101
+01111011
+11110110
+11110101
+11101011
+11010111
+10001111
+00111110
+>
+11111110
+11111101
+11111010
+11111001
+11110010
+11100101
+11101010
+11000101
+POS el_3 3,15
+
+SPR el_9j
+11011011
+10110110
+01101101
+11011101
+10111011
+10110110
+01101110
+11101101
+>
+01001111
+00101111
+01011111
+00111110
+10111110
+01111101
+11111011
+11110111
+POS el_3 4,15
+
+SPR el_9k
+01010000
+11010000
+10100000
+01100000
+01000000
+11000000
+10000000
+10000000
+>
+10111000
+01110000
+01110000
+11100000
+11100000
+11000000
+10000000
+10000000
+POS el_3 5,15
+
+SPR el_9l
+00000000
+00000000
+00000001
+00000011
+00000111
+00001111
+00011111
+00011111
+>
+00000001
+00000011
+00000111
+00001111
+00011111
+00011111
+00001111
+00000011
+POS el_3 12,15
+
+SPR el_9m
+00011111
+00011111
+11011111
+11000011
+10001111
+10000111
+11100000
+11111111
+>
+11011111
+11000011
+10001111
+10000111
+11100000
+11111111
+11111111
+11111111
+POS el_3 13,15
+
+SPR el_9n
+11111011
+11100111
+11011110
+11111100
+11110001
+10000011
+00001111
+11111111
+>
+11011110
+11111100
+11110001
+10000011
+00001111
+11111111
+11111111
+11111111
+POS el_3 14,15
+
+SPR el_9o
+11001111
+00011111
+00111111
+11111111
+11111111
+11111111
+11111110
+11111000
+>
+00111111
+11111111
+11111111
+11111111
+11111110
+11111000
+11110000
+11000000
+POS el_3 15,15
+
+SPR el_9p
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+POS el_4 1,1
+
+SPR el_9q
+00000000
+00000000
+00010000
+00110000
+01000000
+01000000
+00110000
+00110000
+POS el_4 2,1
+
+SPR el_9r
+00000000
+00000000
+01000000
+11000000
+11100000
+11100000
+11100000
+11100000
+POS el_4 3,1
+
+SPR el_9s
+00000000
+00000100
+00000000
+00010000
+00010000
+00010000
+00010000
+00010000
+POS el_4 1,2
+
+SPR el_9t
+01110000
+00010000
+00110000
+00010001
+00010001
+00011001
+00011001
+11011001
+POS el_4 2,2
+
+SPR el_9u
+11100000
+11100000
+11110000
+11110000
+11110000
+11110000
+11110000
+11110000
+POS el_4 3,2
+
+SPR el_9v
+00000000
+00000000
+00000001
+00000000
+00000010
+00000101
+00001010
+00000101
+POS el_4 4,2
+
+SPR el_9w
+00000000
+00000000
+00000101
+00000010
+00000101
+00001010
+00000101
+00001010
+POS el_4 5,2
+
+SPR el_9x
+00000000
+00000000
+00000000
+10000000
+01000000
+10100000
+01000000
+10100000
+POS el_4 6,2
+
+SPR el_9y
+00000100
+00000000
+00000000
+00000000
+00000100
+00000001
+00000011
+00001010
+POS el_4 0,3
+
+SPR el_9z
+00000000
+00000000
+00000000
+10000000
+10010000
+10011000
+11111000
+00010000
+POS el_4 1,3
+
+SPR el_a0
+00111001
+00011001
+00011001
+00111001
+00011111
+00011111
+00011111
+00011111
+POS el_4 2,3
+
+SPR el_a1
+11110000
+11100000
+11100000
+11100000
+11100000
+11100000
+11100000
+11100000
+POS el_4 3,3
+
+SPR el_a2
+00001010
+00010101
+00001010
+00010101
+00101010
+00010101
+00101010
+00010101
+POS el_4 4,3
+
+SPR el_a3
+00000101
+00001010
+00000101
+00001010
+00000101
+00001010
+10000101
+01001010
+POS el_4 5,3
+
+SPR el_a4
+01010100
+10101000
+01010000
+10101000
+01010100
+10101010
+01010101
+11101010
+POS el_4 6,3
+
+SPR el_a5
+00000000
+00010000
+00100000
+00010000
+00101000
+00010100
+00101000
+10010100
+POS el_4 9,3
+
+SPR el_a6
+00001100
+00000000
+00000000
+00000000
+00010000
+00010000
+00010000
+00011000
+POS el_4 0,4
+
+SPR el_a7
+00000000
+00000000
+00000000
+00011000
+00111100
+01111111
+11101111
+01111111
+POS el_4 1,4
+
+SPR el_a8
+00011111
+00111111
+01111111
+01111111
+11111111
+11111111
+11111111
+11111111
+POS el_4 2,4
+
+SPR el_a9
+11100000
+11100000
+11100000
+11100000
+11100000
+11100000
+11100000
+11100000
+POS el_4 3,4
+
+SPR el_aa
+00101010
+01010101
+00101010
+01010111
+00101111
+11011111
+11111111
+11111111
+POS el_4 4,4
+
+SPR el_ab
+10000101
+01001011
+10110101
+01111011
+11111111
+11111111
+11111111
+11111111
+POS el_4 5,4
+
+SPR el_ac
+11110101
+11111010
+11111101
+11111111
+11101110
+11010101
+10101010
+01010000
+POS el_4 6,4
+
+SPR el_ad
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000001
+00000001
+POS el_4 8,4
+
+SPR el_ae
+10101000
+01010100
+00101010
+01010100
+00101010
+01010101
+00101010
+01010101
+POS el_4 9,4
+
+SPR el_af
+00000000
+00000000
+00000000
+00000000
+10100000
+01010000
+10100000
+01010000
+POS el_4 10,4
+
+SPR el_ag
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+11111111
+11111111
+POS el_4 11,4
+
+SPR el_ah
+00000000
+00000000
+00000000
+00000101
+00000011
+00000111
+11111111
+11111111
+POS el_4 12,4
+
+SPR el_ai
+00000000
+00000000
+10100000
+10100000
+11011000
+11101000
+11110000
+11110000
+POS el_4 13,4
+
+SPR el_aj
+00011000
+00111100
+00111000
+00100000
+01000000
+10000001
+10000000
+11000000
+POS el_4 0,5
+
+SPR el_ak
+01111001
+00110000
+00010000
+00011001
+00111111
+11111111
+11111111
+11111111
+POS el_4 1,5
+
+SPR el_al
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+POS el_4 2,5
+
+SPR el_am
+11000000
+11100000
+11100001
+11100011
+11100011
+11111011
+11111111
+11111111
+POS el_4 3,5
+
+SPR el_an
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+POS el_4 4,5
+
+SPR el_ao
+11111111
+11111110
+11111110
+11111101
+11111010
+11110100
+11101000
+11010000
+POS el_4 5,5
+
+SPR el_ap
+00101010
+01010101
+10101010
+01010101
+10101111
+01011111
+10111111
+01111111
+POS el_4 9,5
+
+SPR el_aq
+10100000
+01010000
+10100000
+01010000
+10100000
+11010100
+11001000
+11100100
+POS el_4 10,5
+
+SPR el_ar
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+POS el_4 11,5
+
+SPR el_as
+11111111
+11111111
+11111111
+11111111
+11111111
+11100111
+11010111
+10011011
+POS el_4 12,5
+
+SPR el_at
+11110000
+11111001
+11111011
+11111101
+11111110
+11111111
+11111111
+11111111
+POS el_4 13,5
+
+SPR el_au
+00000000
+10000000
+11000000
+11000000
+11000000
+01100000
+01100000
+10100000
+POS el_4 14,5
+
+SPR el_av
+11000001
+10000011
+10000111
+00000111
+00001111
+10011111
+11111111
+11111111
+POS el_4 0,6
+
+SPR el_aw
+11111111
+11110011
+11110001
+11100001
+11100000
+11001100
+11001010
+10010010
+>
+11111111
+11110011
+11110001
+11100001
+11100000
+11000000
+11000100
+10000000
+POS el_4 1,6
+
+SPR el_ax
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+01111111
+00111111
+POS el_4 2,6
+
+SPR el_ay
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+POS el_4 3,6
+
+SPR el_az
+11111111
+11111111
+11111110
+11111100
+11111000
+11100001
+11001010
+11011010
+POS el_4 11,6
+
+SPR el_b0
+00011001
+00101100
+01101110
+01100110
+11000111
+01000101
+11000101
+11000101
+>
+00011001
+00101100
+01101110
+01100110
+11001111
+01000101
+11010101
+11000101
+POS el_4 12,6
+
+SPR el_b1
+11111111
+11111111
+01111111
+01111111
+00111111
+00111111
+00011111
+10011111
+POS el_4 13,6
+
+SPR el_b2
+11010000
+11010000
+11101000
+11110000
+11110000
+11111011
+11111101
+11111110
+POS el_4 14,6
+
+SPR el_b3
+00000000
+00000000
+00000000
+00000000
+10000000
+10000000
+10000000
+11000000
+POS el_4 15,6
+
+SPR el_b4
+11111111
+11111111
+11111111
+11111110
+11111110
+11111100
+11111100
+11111001
+>
+11111111
+11111111
+11111111
+11111110
+11111110
+11111100
+11111100
+11111000
+POS el_4 0,7
+
+SPR el_b5
+10010001
+00100001
+00101000
+01001100
+01001100
+10010010
+10010010
+00100001
+>
+10000100
+00000000
+00010001
+00001010
+01010000
+10000010
+00010001
+10100000
+POS el_4 1,7
+
+SPR el_b6
+00111111
+00011111
+10011111
+01001111
+01000111
+00100111
+00100011
+00010011
+>
+00111111
+00011111
+00011111
+00001111
+00000111
+00000111
+01000011
+10100011
+POS el_4 2,7
+
+SPR el_b7
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+POS el_4 3,7
+
+SPR el_b8
+10100101
+01101001
+10001010
+10010010
+00100011
+00100101
+01000101
+10001001
+POS el_4 11,7
+
+SPR el_b9
+10000111
+10000111
+10000011
+10000010
+00000010
+00000010
+00000011
+00000011
+>
+10010111
+10010111
+10000011
+10010010
+00101010
+00000010
+00101011
+00000011
+POS el_4 12,7
+
+SPR el_ba
+10001111
+11000111
+11000111
+11100011
+11100001
+11110001
+11110000
+11101000
+POS el_4 13,7
+
+SPR el_bb
+11111110
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+01111111
+POS el_4 14,7
+
+SPR el_bc
+11000000
+01000000
+10000000
+10110000
+11010000
+11101000
+11101000
+11110100
+POS el_4 15,7
+
+SPR el_bd
+11111001
+11110010
+11110010
+11100100
+11100100
+11001001
+10001001
+10010010
+>
+11111001
+11110010
+11110001
+11100010
+11100101
+11001000
+10000001
+10000010
+POS el_4 0,8
+
+SPR el_be
+00100000
+01000000
+01000100
+10001010
+10001010
+00010001
+00010001
+00100000
+>
+01000000
+00000000
+01000100
+10001100
+00001010
+00010101
+00001010
+00110101
+POS el_4 1,8
+
+SPR el_bf
+10001001
+10001001
+01000100
+01000010
+00100010
+00010001
+00010001
+10001000
+>
+01000001
+10101001
+01010100
+00100000
+00010010
+00001001
+00010100
+10001000
+POS el_4 2,8
+
+SPR el_bg
+11111110
+11111101
+11111010
+01110101
+01101010
+00100100
+00001000
+10000001
+>
+11111110
+11111101
+11111010
+01110101
+01101010
+00100100
+00001000
+00000001
+POS el_4 3,8
+
+SPR el_bh
+10001010
+00001010
+00010010
+00010010
+00100010
+00100100
+00100100
+01000100
+POS el_4 11,8
+
+SPR el_bi
+00000011
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+>
+00100011
+00010001
+00000001
+01010001
+00000001
+01010101
+00100001
+00000101
+POS el_4 12,8
+
+SPR el_bj
+10111000
+10110100
+10101100
+11011010
+11011010
+11010101
+11010101
+11001100
+POS el_4 13,8
+
+SPR el_bk
+00111111
+00111111
+00011111
+00001111
+00001111
+00000111
+00000011
+10000011
+POS el_4 14,8
+
+SPR el_bl
+11111000
+11111100
+11111101
+11111110
+11111111
+11111111
+11111111
+11111111
+POS el_4 15,8
+
+SPR el_bm
+00010010
+00100100
+00100100
+01001000
+01001001
+10010001
+00010010
+00100010
+>
+00010100
+00001000
+00010100
+00101000
+00010001
+00100001
+10010010
+01000001
+POS el_4 0,9
+
+SPR el_bn
+00100000
+01000100
+10001010
+10001010
+00010001
+00010001
+00100000
+01000000
+>
+00101010
+01011101
+10101010
+01011011
+10110001
+01110001
+10100000
+01000000
+POS el_4 1,9
+
+SPR el_bo
+10001000
+01000100
+00100010
+00100010
+00010001
+00010001
+10001000
+10001000
+>
+10000100
+01000010
+10100001
+01000010
+10110001
+11010000
+10101000
+11011000
+POS el_4 2,9
+
+SPR el_bp
+01000010
+01000100
+00100000
+00100000
+00010001
+00000000
+10000000
+00000000
+>
+01000010
+00000100
+00100000
+10000000
+00100001
+10001000
+01010100
+00101000
+POS el_4 3,9
+
+SPR el_bq
+01000100
+10001000
+10001000
+00001000
+00001000
+00010000
+00010000
+00010000
+>
+01000100
+10001000
+10001000
+00001001
+00001010
+00010001
+00010010
+00010101
+POS el_4 11,9
+
+SPR el_br
+00000001
+00000001
+00000010
+00000010
+00000010
+00000010
+00000010
+00000100
+>
+10001001
+01010001
+10001010
+00000010
+10100010
+01010010
+10101010
+01010100
+POS el_4 12,9
+
+SPR el_bs
+11001010
+01001010
+01001001
+01100101
+01100101
+01100100
+01100010
+00100010
+POS el_4 13,9
+
+SPR el_bt
+10000001
+01000000
+01000000
+00100000
+00100000
+10010000
+10010000
+10001000
+POS el_4 14,9
+
+SPR el_bu
+11111111
+11111111
+11111111
+01111111
+00111111
+00011111
+00011111
+00001111
+POS el_4 15,9
+
+SPR el_bv
+00100100
+00011111
+11111111
+11110000
+01010000
+00000000
+00110000
+01100000
+>
+00000010
+11111111
+11111111
+11110000
+01010000
+00000000
+00110000
+01100000
+POS el_4 0,10
+
+SPR el_bw
+01000000
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11000000
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_4 1,10
+
+SPR el_bx
+01011111
+11111111
+11110000
+00000000
+10010000
+00000000
+01100000
+00000000
+>
+01111111
+11111111
+11110000
+00000000
+10010000
+00000000
+01100000
+00000000
+POS el_4 2,10
+
+SPR el_by
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_4 3,10
+
+SPR el_bz
+00010000
+00100000
+00100000
+11100000
+11111000
+01111111
+00001111
+00000000
+>
+00010000
+00100101
+00101010
+11100000
+11111000
+01111111
+00001111
+00000000
+POS el_4 11,10
+
+SPR el_c0
+00000100
+00000100
+00000100
+00000010
+00000010
+11100010
+11111110
+00111111
+>
+10100100
+01010100
+10101100
+01010110
+00001010
+11100010
+11111110
+00111111
+POS el_4 12,10
+
+SPR el_c1
+00100010
+00100010
+00100001
+00110001
+00110001
+00010001
+00010000
+00010000
+POS el_4 13,10
+
+SPR el_c2
+01001000
+01000100
+00100100
+00100010
+00100010
+00010001
+10010001
+10010000
+POS el_4 14,10
+
+SPR el_c3
+00000111
+00000111
+00000011
+00000001
+00000001
+00000000
+00000000
+10000000
+POS el_4 15,10
+
+SPR el_c4
+00010000
+00010000
+01010000
+00000100
+00000100
+00001100
+00010100
+00011100
+POS el_4 0,11
+
+SPR el_c5
+00100000
+00000000
+00100000
+00000000
+01100000
+00100000
+00100000
+00100000
+POS el_4 2,11
+
+SPR el_c6
+00000000
+00010000
+00000000
+00000000
+00001000
+00000000
+00000000
+00001000
+POS el_4 11,11
+
+SPR el_c7
+00000111
+00000001
+00000001
+00000001
+00000001
+00000001
+00000000
+00000000
+POS el_4 12,11
+
+SPR el_c8
+11110000
+11111100
+10011111
+11000111
+11000000
+10000000
+00000000
+10000000
+POS el_4 13,11
+
+SPR el_c9
+10001000
+10001000
+11000100
+11100100
+11110100
+01111110
+00011111
+00011111
+POS el_4 14,11
+
+SPR el_ca
+10000000
+01000000
+01000000
+00100000
+00100000
+00010000
+10010000
+11101000
+POS el_4 15,11
+
+SPR el_cb
+00011100
+00111100
+00101100
+01111100
+01111100
+01101100
+01101100
+01101100
+POS el_4 0,12
+
+SPR el_cc
+00001000
+00001000
+00101000
+00001000
+00010100
+00011100
+00011100
+00011110
+POS el_4 1,12
+
+SPR el_cd
+10000000
+10000000
+10000000
+10000000
+10000000
+00000000
+00000000
+00000000
+POS el_4 13,12
+
+SPR el_ce
+00011011
+00010101
+00011010
+00010101
+00001010
+00000101
+00001010
+00010101
+POS el_4 14,12
+
+SPR el_cf
+11111111
+01111111
+10100000
+01000000
+10100000
+01000001
+10100011
+01000011
+POS el_4 15,12
+
+SPR el_cg
+01101100
+01101100
+01101100
+11100111
+11111110
+11110110
+10101100
+10101100
+POS el_4 0,13
+
+SPR el_ch
+00011010
+00011011
+00001010
+11111111
+00001100
+00001100
+00010101
+00011110
+POS el_4 1,13
+
+SPR el_ci
+10101000
+01010100
+10101010
+11110101
+11111110
+00001111
+00000000
+00000000
+POS el_4 2,13
+
+SPR el_cj
+00000000
+00000000
+10101010
+01010101
+10101010
+11111111
+00000000
+00000000
+POS el_4 3,13
+
+SPR el_ck
+00100000
+10010000
+00100000
+01000000
+10101010
+11010101
+01111111
+00000000
+POS el_4 4,13
+
+SPR el_cl
+00000000
+00000000
+00000000
+00000000
+10101010
+01010101
+11111111
+00000000
+POS el_4 5,13
+
+SPR el_cm
+00000000
+00000000
+00000000
+00000000
+10101010
+01010101
+11111111
+00000000
+POS el_4 6,13
+
+SPR el_cn
+00000000
+00000000
+00000000
+00000000
+10101010
+01010101
+11111111
+00000000
+POS el_4 7,13
+
+SPR el_co
+00000000
+00000000
+00000000
+00000000
+10101010
+01010101
+11111110
+00000011
+POS el_4 8,13
+
+SPR el_cp
+00000000
+00000000
+00000000
+00000000
+10101010
+01010101
+10101010
+11111111
+POS el_4 9,13
+
+SPR el_cq
+00000000
+00000000
+00000000
+00000000
+10101010
+01010101
+10101010
+11111111
+POS el_4 10,13
+
+SPR el_cr
+00000000
+00000000
+00000000
+00000000
+10101011
+01010100
+10101011
+11111110
+POS el_4 11,13
+
+SPR el_cs
+00000000
+00000000
+00000000
+00000000
+01010100
+10101010
+01010101
+10101010
+POS el_4 12,13
+
+SPR el_ct
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+01010000
+10101010
+POS el_4 13,13
+
+SPR el_cu
+00011010
+00010101
+00001010
+00000101
+00001010
+00000101
+00000000
+00000000
+POS el_4 14,13
+
+SPR el_cv
+10100011
+01000011
+10100011
+01000010
+10100010
+01000010
+10100010
+01000010
+POS el_4 15,13
+
+SPR el_cw
+10101100
+10101100
+10111100
+10111100
+10111100
+10101100
+10111100
+10111100
+POS el_4 0,14
+
+SPR el_cx
+00011110
+00011111
+00010111
+00010111
+00110111
+00111111
+00111111
+00110111
+POS el_4 1,14
+
+SPR el_cy
+00000000
+00000000
+00000000
+00000000
+00011111
+10001111
+10000000
+01011000
+POS el_4 2,14
+
+SPR el_cz
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+00000000
+00000000
+POS el_4 3,14
+
+SPR el_d0
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+00000000
+00000000
+POS el_4 4,14
+
+SPR el_d1
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+00000000
+00000000
+POS el_4 5,14
+
+SPR el_d2
+00000000
+00000000
+00000000
+00111111
+11111111
+11111111
+00000000
+00000000
+POS el_4 6,14
+
+SPR el_d3
+00000000
+00000000
+00000000
+11111111
+11111111
+11111111
+00000000
+00000000
+POS el_4 7,14
+
+SPR el_d4
+00000000
+00000000
+00000000
+11111111
+11111111
+11111111
+00000000
+00000000
+POS el_4 8,14
+
+SPR el_d5
+00000000
+00000000
+00000000
+11111111
+11111111
+11111110
+00000000
+00000000
+POS el_4 9,14
+
+SPR el_d6
+00000111
+00000000
+00000000
+11111110
+11111111
+11111111
+00000001
+00000000
+POS el_4 10,14
+
+SPR el_d7
+11111111
+00000000
+00000000
+00000000
+11110000
+11111111
+11111111
+00001111
+POS el_4 11,14
+
+SPR el_d8
+11111101
+01110111
+00001111
+00000000
+00000000
+11000000
+11111111
+11111111
+POS el_4 12,14
+
+SPR el_d9
+01010101
+11111010
+10001111
+01100000
+00010000
+00000000
+00000000
+11100000
+POS el_4 13,14
+
+SPR el_da
+01010000
+10101000
+11010101
+00111110
+00000001
+00000000
+00000000
+10000000
+POS el_4 14,14
+
+SPR el_db
+00100011
+00000011
+00000011
+10000011
+01000010
+00111010
+00001110
+00101110
+POS el_4 15,14
+
+SPR el_dc
+10101100
+10101100
+10101101
+10110101
+10110111
+10110111
+10111011
+10011010
+POS el_4 0,15
+
+SPR el_dd
+00110101
+11110111
+11010111
+11010101
+11010111
+11010111
+01010111
+01010101
+POS el_4 1,15
+
+SPR el_de
+11001111
+11001111
+10100111
+11100111
+11100111
+11000111
+11100000
+11010000
+POS el_4 2,15
+
+SPR el_df
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+00000000
+00000000
+POS el_4 3,15
+
+SPR el_dg
+11111111
+11111111
+11111111
+11111111
+11111111
+10000000
+00000000
+00000000
+POS el_4 4,15
+
+SPR el_dh
+11111111
+11111111
+11111111
+11111111
+11111111
+00000000
+00000000
+00000000
+POS el_4 5,15
+
+SPR el_di
+11111111
+11111111
+11111111
+11111111
+11111111
+00000000
+00000000
+00001111
+POS el_4 6,15
+
+SPR el_dj
+00000000
+11111111
+11111111
+11111111
+11111000
+00000000
+00011111
+11111111
+POS el_4 7,15
+
+SPR el_dk
+00000000
+11111111
+11111111
+11111111
+00011111
+01111111
+11111111
+11111111
+POS el_4 8,15
+
+SPR el_dl
+00000000
+11110000
+11111000
+11111111
+11111111
+11111111
+11111111
+11111000
+POS el_4 9,15
+
+SPR el_dm
+00000000
+00000000
+00000000
+10000000
+11111000
+11111100
+11111000
+00000000
+POS el_4 10,15
+
+SPR el_dn
+00111111
+00000000
+00000111
+00011111
+00111111
+01111111
+00111111
+00001111
+POS el_4 12,15
+
+SPR el_do
+11110000
+11111000
+11111000
+11110000
+10000000
+11000000
+11111100
+11111111
+POS el_4 13,15
+
+SPR el_dp
+00010000
+00000000
+00000000
+00000100
+00000000
+00000000
+00000000
+11000000
+POS el_4 14,15
+
+SPR el_dq
+01011110
+01100110
+01111110
+01111110
+01101010
+01101010
+01101010
+01101010
+POS el_4 15,15
+
+SPR el_dr
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+01000001
+POS el_5 0,1
+
+SPR el_ds
+00000000
+00011000
+00010000
+00110000
+01100000
+00000111
+01000001
+00000000
+>
+00000000
+00001000
+00001000
+00000000
+00010000
+00010000
+01001000
+10000110
+POS el_5 1,1
+
+SPR el_dt
+00000000
+00000100
+00000000
+00000100
+00000100
+00000010
+00100000
+00000000
+>
+00000000
+00000000
+00000000
+00000100
+00000110
+00001100
+00000010
+11100010
+POS el_5 2,1
+
+SPR el_du
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 3,1
+
+SPR el_dv
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000010
+00000000
+00000001
+POS el_5 4,1
+
+SPR el_dw
+00000000
+00000000
+00000000
+00000000
+00000000
+01000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 5,1
+
+SPR el_dx
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000100
+POS el_5 9,1
+
+SPR el_dy
+00000000
+00000000
+00000000
+00000010
+00000001
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000100
+00000000
+POS el_5 11,1
+
+SPR el_dz
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+01000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 12,1
+
+SPR el_e0
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000001
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 13,1
+
+SPR el_e1
+00000000
+00000000
+00000000
+00000000
+00000000
+00000100
+00010000
+00101000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 15,1
+
+SPR el_e2
+00001000
+01000010
+10000000
+01000000
+00000000
+00000000
+00000000
+00000000
+>
+00000010
+00001100
+11010000
+00000000
+00000000
+01000000
+00000000
+00000000
+POS el_5 0,2
+
+SPR el_e3
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+01000000
+POS el_5 1,2
+
+SPR el_e4
+00000000
+00000000
+00000000
+00010000
+00000000
+10001000
+00000100
+11000000
+>
+00000001
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 2,2
+
+SPR el_e5
+00000000
+00110000
+00001000
+00000001
+00000001
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+01000000
+00000000
+00010000
+01000010
+00000010
+00000000
+POS el_5 3,2
+
+SPR el_e6
+00000000
+00000000
+00000001
+00010100
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000011
+00001000
+01000000
+00100000
+00000000
+POS el_5 4,2
+
+SPR el_e7
+00100000
+00010000
+00010000
+00000000
+11101000
+00000000
+00000100
+00000000
+>
+00000000
+01000000
+00000000
+00000000
+00100000
+00010000
+10000000
+00000000
+POS el_5 5,2
+
+SPR el_e8
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 8,2
+
+SPR el_e9
+00001100
+00000000
+00000000
+00000100
+00000001
+00000101
+00001000
+00000000
+>
+00000000
+00000000
+00000100
+00000000
+00000010
+00000000
+00000010
+00000101
+POS el_5 9,2
+
+SPR el_ea
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00010100
+00000010
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 10,2
+
+SPR el_eb
+00000000
+00000000
+00000001
+00000010
+00001000
+00000100
+01100000
+00000000
+>
+00000001
+00000000
+00000000
+00000010
+00000100
+00000000
+00010000
+00100000
+POS el_5 11,2
+
+SPR el_ec
+00000000
+01000000
+00010000
+00010000
+00000011
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+10000000
+01000000
+00100000
+00010000
+00000000
+00000010
+POS el_5 12,2
+
+SPR el_ed
+00000000
+00000110
+11000100
+00010000
+00000100
+00000000
+00000000
+00000000
+>
+00000000
+00000010
+00000000
+00000000
+00000001
+00000010
+01000000
+01001000
+POS el_5 13,2
+
+SPR el_ee
+00000000
+00110100
+10000010
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00100000
+01000000
+10100000
+00011011
+00000000
+00000000
+00000000
+POS el_5 14,2
+
+SPR el_ef
+00010000
+11000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000001
+00000010
+00001000
+00110000
+01000000
+00000000
+00000000
+00000000
+POS el_5 15,2
+
+SPR el_eg
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000100
+00000000
+00000000
+00100000
+00000000
+00100000
+00001000
+00010000
+POS el_5 0,3
+
+SPR el_eh
+00000000
+00000010
+00000010
+00000000
+00100001
+00100011
+00001001
+00011111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000000
+00000010
+POS el_5 1,3
+
+SPR el_ei
+10111000
+00110000
+10110100
+10110000
+00100100
+11111000
+11110110
+10110010
+>
+00000000
+00000000
+00000000
+00000001
+01100000
+00000000
+00000001
+01100010
+POS el_5 2,3
+
+SPR el_ej
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00010000
+00000000
+00000100
+00000000
+00000001
+00000000
+00000000
+POS el_5 3,3
+
+SPR el_ek
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000001
+00000000
+00000000
+00000000
+01001000
+10000000
+00000000
+POS el_5 4,3
+
+SPR el_el
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000100
+00000010
+00000001
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 5,3
+
+SPR el_em
+00000000
+01000000
+00100000
+00001001
+00010000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+01000000
+00110000
+00000101
+00000000
+00000000
+POS el_5 6,3
+
+SPR el_en
+00000000
+00101011
+01000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000001
+00000010
+00010000
+00000000
+00000000
+POS el_5 8,3
+
+SPR el_eo
+01000000
+01000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000101
+00011000
+01000000
+00010000
+00000000
+00000000
+00000110
+00000000
+POS el_5 9,3
+
+SPR el_ep
+00000000
+00000000
+00000000
+00000010
+01011111
+00001111
+00110111
+00011111
+>
+10000001
+00100000
+00001010
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 10,3
+
+SPR el_eq
+00000000
+00000000
+00000000
+00000000
+10000000
+11000000
+10100000
+11110000
+>
+10000000
+00000000
+00000000
+00000000
+10000000
+00000000
+00000000
+00000000
+POS el_5 11,3
+
+SPR el_er
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000100
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 12,3
+
+SPR el_es
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00100000
+00000000
+00010000
+00000000
+00000000
+00000000
+00100000
+POS el_5 13,3
+
+SPR el_et
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000010
+00000000
+10100000
+00000000
+00000001
+00100000
+10100000
+00010000
+POS el_5 14,3
+
+SPR el_eu
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+10100000
+00000000
+00010000
+POS el_5 15,3
+
+SPR el_ev
+00000000
+01001000
+00000110
+00000100
+10010101
+11000100
+00011001
+00001111
+>
+00000001
+00001000
+00010000
+00000000
+00000000
+10110000
+00001000
+00000000
+POS el_5 0,4
+
+SPR el_ew
+11011001
+00110010
+01001111
+00011100
+10011011
+11111011
+11111111
+10111111
+>
+00000000
+10110000
+00010110
+00000000
+01000000
+00100000
+00000000
+00101000
+POS el_5 1,4
+
+SPR el_ex
+01110001
+11100010
+10100111
+11010111
+11101110
+11110011
+11111110
+00101000
+>
+01100001
+11000000
+00000010
+01001000
+00000000
+00000000
+00101000
+01001000
+POS el_5 2,4
+
+SPR el_ey
+10000000
+11000000
+00100000
+11001000
+01011111
+11000100
+11101110
+10111111
+>
+10000010
+00000010
+00101000
+00000000
+00000000
+00000000
+00000000
+00001000
+POS el_5 3,4
+
+SPR el_ez
+00000000
+00000000
+01001110
+10100000
+01000110
+11100100
+01101000
+00100001
+>
+01000000
+10000000
+00010000
+00000000
+00000000
+01000000
+00010000
+00000000
+POS el_5 4,4
+
+SPR el_f0
+00000000
+00000000
+00000000
+10000000
+00110000
+00010000
+10001000
+10001001
+>
+00000000
+00000000
+00000000
+00000000
+01000100
+00001100
+00000000
+00001101
+POS el_5 5,4
+
+SPR el_f1
+00000000
+00000000
+00000000
+00000000
+10000000
+00000000
+00000101
+01000011
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00010000
+00000000
+00000001
+POS el_5 6,4
+
+SPR el_f2
+00000000
+00000100
+00110000
+11000000
+11010100
+11111111
+11111101
+11111100
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 8,4
+
+SPR el_f3
+00000000
+00000000
+00000010
+00000010
+01000001
+00000010
+00010001
+00001011
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 9,4
+
+SPR el_f4
+00011011
+10011111
+01111111
+10111111
+01111001
+11100000
+10010001
+00110000
+>
+00000000
+00000000
+00010000
+00000000
+00000000
+00000001
+00001100
+00000001
+POS el_5 10,4
+
+SPR el_f5
+10100000
+11110000
+11011010
+11110110
+01111111
+01111011
+11111111
+01101010
+>
+01000000
+00000000
+01000000
+00000000
+00000111
+00100100
+00001000
+00000000
+POS el_5 11,4
+
+SPR el_f6
+10110101
+11100101
+10100111
+11111110
+10111001
+11101110
+10001111
+10110010
+>
+00000000
+00100000
+00001001
+00000000
+00000010
+00000000
+00000000
+01000000
+POS el_5 12,4
+
+SPR el_f7
+00000000
+10000000
+11111100
+11110011
+11111011
+11111111
+11011101
+11010110
+>
+01000000
+00000000
+00000001
+01010000
+00000100
+00100000
+00100010
+00010010
+POS el_5 13,4
+
+SPR el_f8
+00000000
+01101000
+00000010
+11111100
+01001100
+11110110
+11111101
+01101101
+>
+00000000
+00010000
+00000000
+00000000
+00010110
+01000000
+01010010
+10100000
+POS el_5 14,4
+
+SPR el_f9
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+10000000
+10000000
+>
+00001000
+00000000
+00001000
+10000001
+00100000
+00000000
+10101000
+00000000
+POS el_5 15,4
+
+SPR el_fa
+00111111
+11111101
+11111111
+11011111
+11111001
+01011111
+10001111
+11111101
+>
+00000100
+11000010
+01100111
+00101001
+10000000
+00001010
+00001011
+00110110
+POS el_5 0,5
+
+SPR el_fb
+10111011
+11111011
+11100101
+10110111
+11111110
+11111111
+11111111
+01111111
+>
+00010000
+00000100
+10010000
+01111001
+01010000
+10100100
+11001110
+11111011
+POS el_5 1,5
+
+SPR el_fc
+01111111
+11010111
+01111011
+11101011
+11111110
+11111111
+11111111
+11111111
+>
+10011000
+00000001
+01000000
+00000000
+00000000
+01011000
+10000000
+10101101
+POS el_5 2,5
+
+SPR el_fd
+11111111
+11111111
+11111111
+11111111
+10111111
+11111111
+11111111
+11111111
+>
+00000100
+01001000
+00000000
+00000000
+00000000
+10100000
+00000100
+00000000
+POS el_5 3,5
+
+SPR el_fe
+11110110
+11111011
+11111000
+11111101
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000100
+00000110
+00000100
+01000010
+00100010
+00001000
+POS el_5 4,5
+
+SPR el_ff
+11100011
+00010010
+10110100
+11111101
+11111111
+11111111
+11111111
+11111111
+>
+01000001
+00000000
+00100000
+00110001
+00000000
+01011000
+10011000
+00000010
+POS el_5 5,5
+
+SPR el_fg
+00000111
+01100100
+11111111
+11011111
+00011110
+01111110
+01111100
+00110000
+>
+00000000
+00010000
+00000000
+00001000
+00000000
+00010000
+01000000
+00000000
+POS el_5 9,5
+
+SPR el_fh
+10011000
+11000000
+10101000
+01000000
+01000000
+00001010
+00000000
+01001000
+>
+01001001
+00100001
+00000000
+00000000
+00000000
+00001100
+00001000
+01010000
+POS el_5 10,5
+
+SPR el_fi
+00001110
+00110010
+00000000
+00001000
+00000000
+10000000
+00000100
+00010110
+>
+11100000
+00100000
+00000110
+01100000
+00001010
+00000000
+10000000
+00000000
+POS el_5 11,5
+
+SPR el_fj
+00000101
+10000000
+00001010
+00000000
+00100100
+01000000
+00010000
+00000100
+>
+00000000
+00110110
+00010010
+01010000
+01000000
+00100000
+00000000
+00010000
+POS el_5 12,5
+
+SPR el_fk
+00000100
+01010011
+00000000
+00000001
+00000000
+10100100
+00001100
+01000000
+>
+00000010
+01000000
+00000010
+00100100
+01100100
+00000000
+01000100
+00000000
+POS el_5 13,5
+
+SPR el_fl
+00111110
+10011111
+00001111
+00111111
+10000011
+01000111
+00000011
+00000110
+>
+01111100
+00100000
+00010010
+01000000
+10000010
+00000000
+11100000
+00010000
+POS el_5 14,5
+
+SPR el_fm
+01000000
+11000000
+01110000
+11010001
+11101101
+11110011
+01111110
+10111011
+>
+00000000
+00000000
+00000000
+01000000
+00000001
+00010000
+00000000
+01100000
+POS el_5 15,5
+
+SPR el_fn
+11111111
+11101111
+11111111
+11101011
+11111111
+11111111
+11111111
+11111111
+>
+11001110
+10100000
+01111001
+11000111
+01110110
+10111101
+11101111
+11111111
+POS el_5 0,6
+
+SPR el_fo
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+11110111
+10010001
+11010111
+01101011
+11010011
+11111111
+11011001
+01110011
+POS el_5 1,6
+
+SPR el_fp
+11111111
+11111111
+11111111
+11111111
+11111100
+11111011
+11111010
+11111011
+>
+00000000
+10100100
+10111001
+11011010
+01011010
+11111111
+11111111
+11010111
+POS el_5 2,6
+
+SPR el_fq
+10111111
+11111111
+01111110
+11011110
+11111100
+00110111
+11111111
+01111000
+>
+00000100
+01000010
+01010000
+00110100
+11110000
+00101001
+10111100
+01001110
+POS el_5 3,6
+
+SPR el_fr
+00011101
+00110010
+00100000
+00000100
+00000000
+00000100
+00000000
+00000010
+>
+00000000
+00010010
+01000000
+11010000
+01000000
+10000110
+00011000
+00000001
+POS el_5 11,6
+
+SPR el_fs
+10001101
+01010000
+00000000
+00010110
+00000000
+01001000
+00000001
+00000000
+>
+00100010
+00001000
+00100000
+00000000
+00011001
+00000000
+11100010
+10000000
+POS el_5 12,6
+
+SPR el_ft
+01011110
+01000101
+10011001
+00011001
+00000000
+00100000
+10000000
+00000000
+>
+00010000
+10000000
+01000010
+00001000
+00000000
+00100000
+11000001
+00000000
+POS el_5 13,6
+
+SPR el_fu
+10101101
+00010011
+00010010
+00000000
+00000100
+00000101
+00010111
+01001000
+>
+10000000
+00100100
+00000000
+00111000
+00000100
+00000000
+00000000
+00000001
+POS el_5 14,6
+
+SPR el_fv
+10011111
+10111011
+00100100
+00001101
+10100010
+00000010
+11011000
+10010110
+>
+00010000
+00010000
+00000000
+00000000
+00000000
+00000000
+11000000
+00000000
+POS el_5 15,6
+
+SPR el_fw
+11111111
+11111110
+11111111
+11011111
+11110111
+01111110
+11111110
+11111111
+>
+11101111
+11111111
+10111001
+10101111
+11111011
+01110011
+11011111
+10100011
+POS el_5 0,7
+
+SPR el_fx
+11111111
+11110111
+11111110
+11110110
+10110011
+11110100
+11111011
+11110001
+>
+11111100
+11111011
+11111011
+11111111
+11111111
+10111111
+10111111
+11111111
+POS el_5 1,7
+
+SPR el_fy
+11111111
+11111010
+11101011
+11110010
+10001011
+10001000
+11011100
+00111000
+>
+11111101
+11111101
+01111111
+01101111
+11111110
+11111111
+11111110
+11111110
+POS el_5 2,7
+
+SPR el_fz
+10001101
+11100000
+00100100
+01110010
+00011100
+01101000
+01111010
+01011000
+>
+11111111
+11000101
+11111101
+11100101
+11111101
+11111111
+11111111
+11111110
+POS el_5 3,7
+
+SPR el_g0
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+01010001
+00011011
+00000110
+10010100
+01011000
+10110110
+10101010
+11000100
+POS el_5 11,7
+
+SPR el_g1
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000101
+00000010
+10001000
+10000000
+01010001
+00000000
+01010001
+10010011
+POS el_5 12,7
+
+SPR el_g2
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00100000
+00000000
+>
+00000100
+00010000
+01000100
+00100000
+00011000
+00001000
+00000011
+00100000
+POS el_5 13,7
+
+SPR el_g3
+00001001
+00000001
+00000010
+00000000
+00000000
+00000001
+00000001
+00000000
+>
+00001001
+00000000
+00000001
+00010100
+00000000
+00001000
+00000000
+00001000
+POS el_5 14,7
+
+SPR el_g4
+00100000
+11001000
+11000001
+01000100
+00000001
+00000000
+00000000
+00000000
+>
+10000000
+00000000
+01000000
+00000000
+01000000
+00000000
+00000000
+00000000
+POS el_5 15,7
+
+SPR el_g5
+10111111
+11110111
+11111101
+01111000
+11110011
+11111100
+11110001
+11100001
+>
+01111111
+00111100
+11010110
+00111101
+00100110
+00001001
+00010011
+00000000
+POS el_5 0,8
+
+SPR el_g6
+01110011
+01101100
+01111111
+11111100
+01111110
+00101100
+11011111
+10111111
+>
+11111111
+11111101
+01111110
+11011111
+11011101
+11100101
+11111100
+11110110
+POS el_5 1,8
+
+SPR el_g7
+01100110
+01111111
+01101111
+11111001
+11100111
+01011011
+11111001
+11010111
+>
+10111111
+11111111
+11111111
+01110111
+11010011
+11111101
+10110110
+01111011
+POS el_5 2,8
+
+SPR el_g8
+00100010
+11001100
+10111110
+11101000
+01111001
+11011000
+11111101
+11111101
+>
+11111110
+11111111
+11111111
+11111111
+10011111
+11111111
+01110101
+01111111
+POS el_5 3,8
+
+SPR el_g9
+00000000
+00000000
+01000000
+10100000
+00010000
+11100010
+00000000
+11000010
+>
+10110000
+10110100
+11011110
+11111010
+10011110
+11110111
+11111111
+01010100
+POS el_5 11,8
+
+SPR el_ga
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00100000
+00000000
+>
+11000000
+00110110
+10111000
+01110010
+11010100
+10011000
+11010000
+01111010
+POS el_5 12,8
+
+SPR el_gb
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+01000010
+00000001
+00000000
+00001000
+00000000
+00000010
+00000000
+00011010
+POS el_5 13,8
+
+SPR el_gc
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11010010
+00110100
+01100100
+00000001
+00001000
+01001010
+00000000
+01000000
+POS el_5 14,8
+
+SPR el_gd
+00000010
+00000001
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+01000001
+10000000
+11000000
+01000000
+00100000
+00000001
+00100000
+00000100
+POS el_5 15,8
+
+SPR el_ge
+11100001
+11110001
+10110011
+01111010
+00101011
+10011111
+01111001
+01111111
+>
+10000000
+01000011
+00000110
+00000000
+00000001
+10010010
+00000001
+10100010
+POS el_5 0,9
+
+SPR el_gf
+10011111
+11110111
+11011111
+01011111
+00011111
+10000010
+10111111
+01111111
+>
+11011111
+11000011
+00010111
+00100111
+00011111
+00000001
+00010100
+11010010
+POS el_5 1,9
+
+SPR el_gg
+11011111
+11111111
+11111111
+10111111
+11101111
+11101110
+01110111
+00110001
+>
+00101101
+11000000
+11110010
+01110110
+10011000
+00101110
+10010001
+00100111
+POS el_5 2,9
+
+SPR el_gh
+01011000
+11111111
+11101100
+11111100
+11110101
+11011110
+11110000
+00111110
+>
+01111101
+11110011
+00111111
+00101011
+11010011
+00111011
+10100011
+00111100
+POS el_5 3,9
+
+SPR el_gi
+01110000
+10100110
+10000011
+00110001
+11101100
+11000100
+11100110
+11110111
+>
+01101101
+11110101
+10011100
+10100010
+10100011
+01110110
+11101010
+11101011
+POS el_5 11,9
+
+SPR el_gj
+00010000
+00000000
+00010000
+10000100
+00010100
+00000011
+00000101
+01000001
+>
+11000011
+10101001
+11100101
+10011100
+10001100
+11110000
+11111111
+01111111
+POS el_5 12,9
+
+SPR el_gk
+00000000
+00000000
+00000000
+00100000
+00000000
+00000000
+10000000
+00000000
+>
+11000100
+11100010
+00001110
+11010010
+11101110
+00110000
+10000011
+00111101
+POS el_5 13,9
+
+SPR el_gl
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+11101010
+10001101
+10101000
+01000000
+00110000
+POS el_5 14,9
+
+SPR el_gm
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+10000000
+00000100
+00100000
+00010000
+00100001
+00101000
+00110000
+10001100
+POS el_5 15,9
+
+SPR el_gn
+11110110
+11100000
+11101010
+01100101
+11000011
+01110000
+10100111
+11110010
+>
+01000000
+10001000
+00100110
+01001010
+00000001
+00001000
+10001001
+11100100
+POS el_5 0,10
+
+SPR el_go
+00111011
+01110110
+01111111
+00111011
+10111111
+11011110
+11101001
+10010011
+>
+00010100
+01110110
+00101000
+01110000
+10100000
+10010100
+00011001
+00111001
+POS el_5 1,10
+
+SPR el_gp
+00011111
+10010110
+11101110
+11101011
+10101110
+11111010
+11110011
+11111110
+>
+10000000
+11001010
+00010000
+00000010
+00000001
+01010100
+00111000
+10000001
+POS el_5 2,10
+
+SPR el_gq
+10100000
+11111011
+01100100
+11001100
+11110111
+00000000
+00100000
+00100000
+>
+00100100
+00110100
+01000000
+00100001
+00000000
+00000000
+11000000
+01000000
+POS el_5 3,10
+
+SPR el_gr
+10111100
+11111101
+11111001
+11011101
+10110100
+11011101
+11110110
+11111111
+>
+10100001
+10101011
+11111001
+10100011
+10001100
+01000111
+00011110
+10001011
+POS el_5 11,10
+
+SPR el_gs
+10000100
+10110100
+00011000
+11001100
+10111110
+00111111
+01100011
+11001011
+>
+01111010
+10010110
+00011110
+01011101
+11011111
+11101111
+01111101
+01111100
+POS el_5 12,10
+
+SPR el_gt
+01010000
+01101101
+00101110
+10010110
+10000010
+01100001
+01101001
+01010000
+>
+10010100
+11101100
+01010001
+00110010
+01011111
+11111110
+11000111
+11111010
+POS el_5 13,10
+
+SPR el_gu
+00000000
+00000000
+00000000
+10000000
+00100000
+11100000
+01100000
+10011100
+>
+10110000
+01111110
+10010000
+01101101
+10101100
+01000101
+11111101
+11111111
+POS el_5 14,10
+
+SPR el_gv
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+01000000
+00000000
+10001000
+00100010
+01110101
+11100000
+11010101
+11010110
+POS el_5 15,10
+
+SPR el_gw
+00110001
+10101100
+11100010
+10111001
+00101000
+01001011
+11111101
+11010101
+>
+10000001
+00000000
+10000110
+10010100
+01000000
+00000000
+00010011
+00000100
+POS el_5 0,11
+
+SPR el_gx
+11111110
+10011100
+01001000
+10011100
+00001110
+10001110
+10001111
+01001000
+>
+00011001
+11111010
+10101010
+11000001
+01001010
+00000110
+00101000
+00100000
+POS el_5 1,11
+
+SPR el_gy
+00011110
+00011100
+01011110
+00101110
+00110110
+00000111
+00001111
+00000010
+>
+10000010
+11010010
+00000001
+01011000
+00101001
+11110000
+00010000
+01000100
+POS el_5 2,11
+
+SPR el_gz
+00000000
+00000001
+00000100
+10010100
+00000011
+01001000
+01001011
+01100000
+>
+10100000
+00000000
+00000000
+00010010
+00000000
+01000000
+00000000
+01000000
+POS el_5 3,11
+
+SPR el_h0
+11111111
+11101110
+11000110
+11100001
+11000000
+10010100
+11100101
+11101010
+>
+10111111
+01111111
+00111111
+00110010
+10111111
+00101111
+00001110
+01111101
+POS el_5 11,11
+
+SPR el_h1
+10001111
+00111001
+00010111
+00010111
+10110111
+10100111
+00111011
+00001001
+>
+01011111
+10111110
+01000100
+11111110
+11101011
+11010011
+10011011
+01010011
+POS el_5 12,11
+
+SPR el_h2
+00110110
+10111011
+00111011
+00111001
+10101011
+11101011
+11111111
+11111000
+>
+11001000
+11100111
+01100111
+01100111
+11111111
+11111010
+11111011
+11111010
+POS el_5 13,11
+
+SPR el_h3
+11001000
+01010000
+00110000
+00010100
+10010000
+11011000
+10001000
+10000000
+>
+11110010
+10111101
+11010111
+11100001
+01111111
+11101101
+10001100
+11100111
+POS el_5 14,11
+
+SPR el_h4
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111001
+00111111
+11011111
+01010111
+10010101
+10111010
+01000001
+10101100
+POS el_5 15,11
+
+SPR el_h5
+01001011
+10010100
+11110001
+11111111
+01011110
+11111001
+11011010
+11111011
+>
+00110100
+00010000
+01011000
+11101000
+00000000
+00000100
+10000001
+00000000
+POS el_5 0,12
+
+SPR el_h6
+00001110
+00011110
+10000010
+01010101
+01101000
+01001101
+10001000
+11000000
+>
+01001000
+10000000
+00001000
+10000000
+10100000
+00101100
+10110000
+10010010
+POS el_5 1,12
+
+SPR el_h7
+00001000
+01000011
+01001000
+11101011
+11111111
+00000010
+00000001
+00000010
+>
+01100100
+00000001
+10101100
+01001110
+01011110
+00110010
+00001000
+00001000
+POS el_5 2,12
+
+SPR el_h8
+10100000
+11100000
+01010000
+10110000
+10000000
+10000000
+10100001
+00011000
+>
+01101000
+10111011
+10100000
+00000100
+01000010
+00000000
+01010000
+01000001
+POS el_5 3,12
+
+SPR el_h9
+11011111
+00110110
+10100110
+10011011
+11001011
+11000110
+11100101
+11111111
+>
+10111010
+01011110
+00011101
+00110000
+01110110
+11111111
+11111111
+11011111
+POS el_5 11,12
+
+SPR el_ha
+00010111
+11110001
+11011101
+01111111
+10111111
+11111111
+11111111
+11111111
+>
+11100111
+01011101
+00111111
+11111111
+11111111
+11111111
+11111111
+11111111
+POS el_5 12,12
+
+SPR el_hb
+11111110
+11111111
+01111111
+11111111
+11111111
+10011011
+11010100
+10110000
+>
+11111101
+11111101
+11111000
+11111110
+11111111
+10111111
+01111111
+11001001
+POS el_5 13,12
+
+SPR el_hc
+11000000
+11000000
+10001011
+11110010
+11110010
+11100010
+10110100
+11110010
+>
+01100111
+10010000
+11100001
+10010011
+10101001
+11101110
+10101110
+01011101
+POS el_5 14,12
+
+SPR el_hd
+00000000
+00000000
+00000000
+00000000
+10110000
+10000011
+01000000
+01100000
+>
+11011101
+11000111
+00010010
+11000101
+11010001
+00001010
+01100110
+11110110
+POS el_5 15,12
+
+SPR el_he
+10101101
+11111000
+01101111
+11111010
+00101111
+11111111
+11111111
+11111110
+>
+00010010
+00000000
+00000000
+10011000
+11010000
+01000000
+00000001
+11000000
+POS el_5 0,13
+
+SPR el_hf
+00100000
+00000100
+01000100
+11100100
+01101100
+11100000
+01010000
+11111011
+>
+10010000
+10000100
+11101101
+00000000
+10001010
+01010100
+00000001
+00001111
+POS el_5 1,13
+
+SPR el_hg
+10000011
+00001001
+00011000
+10000100
+00111010
+00110011
+00011110
+00111001
+>
+00000000
+00011100
+00001001
+00001001
+00010001
+00000001
+00100000
+00000000
+POS el_5 2,13
+
+SPR el_hh
+00111000
+01001000
+11010001
+11111010
+10010010
+00101000
+01010110
+11101001
+>
+00000000
+10001000
+00000000
+00000100
+10000000
+01101000
+00000000
+00000010
+POS el_5 3,13
+
+SPR el_hi
+00001010
+00001111
+10001001
+00001100
+01000010
+01100110
+10000010
+00000000
+>
+00000000
+00001000
+00000000
+00000000
+10010000
+00000000
+00010100
+00000000
+POS el_5 4,13
+
+SPR el_hj
+01101010
+00001110
+10111010
+01011010
+10010100
+00111011
+01110100
+11101010
+>
+00000000
+10100100
+00001100
+00000110
+00000000
+00000000
+11000110
+10010010
+POS el_5 5,13
+
+SPR el_hk
+11111101
+00110111
+01011110
+01111111
+11000111
+10111111
+11010111
+01001011
+>
+00100000
+01001000
+00000101
+10101100
+00001000
+11100000
+00000001
+00000001
+POS el_5 6,13
+
+SPR el_hl
+01100000
+11001100
+01111100
+11101001
+11111111
+11110110
+11111111
+01111110
+>
+10000000
+00000000
+00000010
+00100000
+00000010
+00000000
+00010011
+00001001
+POS el_5 7,13
+
+SPR el_hm
+00000101
+00000000
+00000001
+00000000
+11000010
+11000010
+11010000
+10011000
+>
+00100000
+00000110
+00100000
+00111000
+00000100
+10111010
+00111001
+10111111
+POS el_5 8,13
+
+SPR el_hn
+01100110
+00011110
+11000101
+00111001
+10000111
+00110001
+00000111
+00000000
+>
+00001111
+10100100
+10000101
+00100000
+01011100
+00001011
+01000001
+10101011
+POS el_5 9,13
+
+SPR el_ho
+11110111
+01110111
+01111001
+11101111
+11010110
+01110110
+01100010
+00000001
+>
+10001011
+10011011
+10111111
+01010111
+11010011
+00101111
+10011111
+10011111
+POS el_5 10,13
+
+SPR el_hp
+11111111
+11111111
+11111111
+11101111
+11011111
+00011111
+00011101
+01111111
+>
+11111111
+10011111
+01111011
+10111111
+11111111
+11111111
+11111111
+11101011
+POS el_5 11,13
+
+SPR el_hq
+11111111
+11111111
+11111110
+11101110
+11111011
+11111101
+01111100
+10110000
+>
+11111111
+11111111
+11111111
+11111110
+11101110
+00111111
+11101101
+11011101
+POS el_5 12,13
+
+SPR el_hr
+11110010
+00011010
+10111000
+00000010
+00010000
+00100000
+00000000
+00100000
+>
+01111010
+10111001
+11101111
+01100110
+11101111
+11100110
+00011010
+11100110
+POS el_5 13,13
+
+SPR el_hs
+00010101
+00011101
+00111011
+00001101
+00011010
+00010000
+00001000
+00000101
+>
+00111111
+01101100
+11101110
+01111011
+00101011
+01011110
+10000110
+00100010
+POS el_5 14,13
+
+SPR el_ht
+10100000
+11000000
+10010001
+01110100
+11100000
+11110000
+01110000
+11111100
+>
+01000011
+00101000
+11010100
+10000110
+10010000
+01010000
+00001110
+00010100
+POS el_5 15,13
+
+SPR el_hu
+11110111
+11111111
+01101101
+01111111
+01101111
+01111111
+00001101
+00001100
+>
+00000000
+00000101
+00000100
+01101010
+00011000
+10110010
+00001000
+00000000
+POS el_5 0,14
+
+SPR el_hv
+11111111
+11111111
+11111111
+11101011
+11111111
+11111111
+11111111
+11111111
+>
+00000010
+10000100
+10000001
+01000111
+00010101
+10000110
+10110010
+00000100
+POS el_5 1,14
+
+SPR el_hw
+11100111
+11101100
+00001100
+11101111
+11111101
+11110101
+11100011
+10011111
+>
+01000101
+11101001
+01001000
+11010000
+00001000
+10000000
+00001101
+10000000
+POS el_5 2,14
+
+SPR el_hx
+11101010
+01111110
+01111100
+11111111
+11110100
+11111100
+11111110
+01001111
+>
+00011000
+10000000
+00000011
+00000001
+00000000
+10010100
+00001000
+00000000
+POS el_5 3,14
+
+SPR el_hy
+00000110
+10000110
+11100100
+10000000
+11000011
+01000000
+11000000
+10000001
+>
+01110000
+00000000
+01100000
+01100000
+00000000
+00100101
+00010000
+10000000
+POS el_5 4,14
+
+SPR el_hz
+01000110
+01001111
+10101000
+00011011
+00110011
+01001101
+00010000
+01001101
+>
+00100000
+00001100
+00000001
+10000000
+00000010
+10000000
+00010000
+00010000
+POS el_5 5,14
+
+SPR el_i0
+11110000
+11010100
+00101011
+00011100
+10101001
+00001101
+11101110
+10001000
+>
+00100000
+11100001
+10000000
+00000000
+00000000
+00110100
+00000001
+01000110
+POS el_5 6,14
+
+SPR el_i1
+11101111
+00111111
+11111111
+01101110
+11111111
+10111110
+11011111
+00110011
+>
+01001001
+01001000
+00001110
+00100000
+00110000
+01111010
+00000000
+11010001
+POS el_5 7,14
+
+SPR el_i2
+01111110
+11001010
+11111010
+11111101
+11101101
+11111110
+11111110
+11011111
+>
+01101111
+00111111
+00011101
+01010101
+10100101
+11010000
+00001000
+10110001
+POS el_5 8,14
+
+SPR el_i3
+00000000
+00000000
+01100010
+10011000
+10010000
+11000001
+00101100
+11011000
+>
+00011011
+00111110
+11001110
+11101111
+11101111
+00110111
+10011100
+01110110
+POS el_5 9,14
+
+SPR el_i4
+10101000
+00000011
+00001000
+00001000
+00000010
+01010000
+00000000
+00000000
+>
+00111111
+11111111
+11110110
+10111111
+10111011
+11100110
+10100101
+00111011
+POS el_5 10,14
+
+SPR el_i5
+10000100
+00111011
+00000100
+00010000
+00000000
+00001000
+00000000
+10000000
+>
+11111111
+01111011
+11101001
+11110101
+10101111
+10001011
+11011111
+01110101
+POS el_5 11,14
+
+SPR el_i6
+11101000
+10001000
+00100010
+10010000
+10000001
+00011100
+01010000
+00000000
+>
+11101111
+10001111
+01010010
+11111101
+01111100
+01101001
+00110010
+01110001
+POS el_5 12,14
+
+SPR el_i7
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+10101100
+11110110
+01101010
+01111110
+11000100
+00001000
+00001000
+01000001
+POS el_5 13,14
+
+SPR el_i8
+00100010
+00000011
+00001000
+00001011
+00011111
+00101101
+00011111
+00100011
+>
+10101001
+00000110
+00000110
+00010011
+10001001
+11000000
+01010000
+00000000
+POS el_5 14,14
+
+SPR el_i9
+11101000
+10111010
+10000000
+10100000
+01100000
+01010010
+00000000
+10100000
+>
+00010000
+01001010
+01110000
+00100100
+00000000
+00000000
+00001000
+00001000
+POS el_5 15,14
+
+SPR el_ia
+10000111
+01101111
+01101111
+01111111
+10011111
+11010011
+11101101
+00001100
+>
+00100000
+00000000
+01000000
+00000000
+01000000
+00000000
+00000000
+00000000
+POS el_5 0,15
+
+SPR el_ib
+11111111
+11111111
+11111111
+01111011
+11111111
+01101111
+11011001
+11010101
+>
+00000010
+10000000
+00000001
+00000001
+10000010
+10000010
+00000000
+00000100
+POS el_5 1,15
+
+SPR el_ic
+10111011
+00101111
+11111111
+11110110
+11110011
+11101111
+11110011
+11111011
+>
+00000100
+01000000
+00000010
+00000000
+00000000
+00000000
+01000000
+00001000
+POS el_5 2,15
+
+SPR el_id
+11011111
+11111111
+11111011
+11100111
+11101111
+11111011
+11100101
+11111011
+>
+00110000
+00001000
+01100000
+01000000
+11001000
+00000000
+00000001
+00000001
+POS el_5 3,15
+
+SPR el_ie
+10010000
+10100100
+00100000
+01100000
+11101000
+11010110
+01111110
+01110101
+>
+10000000
+00000000
+00010011
+00010001
+10000000
+00000000
+00000001
+00100000
+POS el_5 4,15
+
+SPR el_if
+00000011
+00110001
+00100011
+01000100
+00000101
+00001110
+10110001
+00010001
+>
+10100000
+01100000
+01010000
+00000000
+01000000
+00000100
+00000000
+00000000
+POS el_5 5,15
+
+SPR el_ig
+10101100
+00011100
+11010111
+11110100
+10111001
+11000011
+11100111
+00110101
+>
+00000100
+01000001
+00001000
+00001010
+10100000
+01000101
+00000001
+10000010
+POS el_5 6,15
+
+SPR el_ih
+01111111
+00011111
+00011111
+00000011
+00101101
+00100010
+10111101
+00010000
+>
+01101000
+00000000
+00000000
+00010000
+01000001
+00000000
+00000000
+00000000
+POS el_5 7,15
+
+SPR el_ii
+11111011
+11111111
+11111111
+01111111
+11101111
+01101101
+10100010
+01100101
+>
+10010001
+10000010
+01010000
+00010000
+01100001
+00001100
+00011000
+00010000
+POS el_5 8,15
+
+SPR el_ij
+11111110
+11100000
+11110000
+00010110
+01100000
+11000100
+00000100
+00100000
+>
+10010001
+01100010
+11110000
+11000010
+10011000
+00000010
+10000001
+00000000
+POS el_5 9,15
+
+SPR el_ik
+00000000
+00000000
+00000000
+10000000
+00000000
+00000000
+10000000
+00000000
+>
+11110110
+11001010
+00001001
+01000101
+10010000
+00000000
+00100001
+00000011
+POS el_5 10,15
+
+SPR el_il
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+01100000
+00001011
+00100010
+01000000
+00000000
+00010100
+10001000
+00001010
+POS el_5 11,15
+
+SPR el_im
+01001000
+10000000
+00000000
+01000000
+00000000
+01000000
+00000000
+00000000
+>
+10001010
+00010100
+00000000
+00000000
+00010000
+00000000
+10000000
+00000000
+POS el_5 12,15
+
+SPR el_in
+00000000
+00000000
+00100000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000001
+00000000
+00000000
+00000000
+00000000
+POS el_5 13,15
+
+SPR el_io
+00000111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00010000
+00000000
+00000011
+00000000
+00100001
+00000000
+00000000
+00000000
+POS el_5 14,15
+
+SPR el_ip
+00000000
+00000000
+00010000
+00000000
+00000000
+00000000
+00000001
+00000000
+>
+01000010
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS el_5 15,15
+
+SPR el_c
+00000000
+00000000
+00000000
+10000000
+11000000
+11100000
+11100000
+11100000
+POS el_0 14,1
+
+ITM 2
+00000000
+00000000
+00000000
+00011100
+00111100
+10111101
+01111110
+00000000
+>
+00000000
+00000000
+00011100
+00111100
+10111101
+01111110
+00000000
+00000000
+NAME hat
+DLG 4
+BLIP 2
+
+ITM 3
+11111110
+11111110
+11111110
+11111110
+11111110
+11111110
+11111110
+11111111
+NAME el_doors
+
+ITM 4
+01010101
+00101101
+00110101
+00011101
+10001001
+01000001
+00100001
+00010001
+NAME vent_bot
+DLG 7
+
+ITM 5
+00000001
+00000001
+00100001
+01110001
+01011001
+01101001
+01010101
+01101101
+NAME vent_top
+
+ITM 6
+00000000
+00000000
+00000000
+00010000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00010000
+00101000
+00010000
+00000000
+00000000
+00000000
+NAME star A1
+
+ITM 7
+00000000
+00000000
+00010000
+00101000
+00010000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00010000
+00000000
+00000000
+00000000
+00000000
+NAME star A2
+
+ITM 8
+00000000
+00000000
+00000000
+00000000
+00000000
+00000110
+00110000
+00000000
+NAME footprints A
+DLG 9
+BLIP 2
+
+ITM 9
+00000000
+00000000
+00000000
+00000000
+00000000
+00000110
+00110000
+00000000
+NAME footprints B
+DLG a
+BLIP 2
+
+ITM a
+00111000
+01000100
+10000010
+10000010
+01000100
+00101000
+11101110
+00000000
+>
+00000000
+00111000
+01000100
+10000010
+11000110
+01101100
+11101110
+00000000
+NAME omega
+DLG b
+
+ITM b
+00000000
+00001010
+00010101
+00000000
+00010100
+00101010
+00000000
+00000000
+>
+00000000
+00010100
+00101010
+00000000
+00001010
+00010101
+00000000
+00000000
+NAME cheese smell
+DLG c
+BLIP 2
+
+ITM c
+00000000
+00000000
+01110111
+00110011
+00010001
+00010001
+00000000
+00000000
+NAME fangs
+DLG d
+BLIP 5
+
+ITM d
+00000000
+00000000
+00000100
+00000100
+00100000
+00100000
+00000000
+00000000
+NAME footprints C
+DLG e
+BLIP 2
+
+ITM e
+00010000
+10000010
+00000000
+00100000
+10001000
+00000010
+00100000
+00000000
+>
+00000000
+00010000
+01000100
+00000000
+00100000
+10001000
+00000010
+00100000
+NAME dust intro
+DLG f
+BLIP 5
+
+ITM f
+00000000
+00000000
+00000000
+00000000
+00000000
+00000110
+00110000
+00000000
+NAME footprints D
+DLG g
+BLIP 2
+
+ITM g
+00010000
+10000010
+00000000
+00100000
+10001000
+00000010
+00100000
+00000000
+>
+00000000
+00010000
+01000100
+00000000
+00100000
+10001000
+00000010
+00100000
+NAME dust
+DLG h
+BLIP 5
+
+ITM h
+00000000
+00000000
+00000000
+00000000
+00000000
+00000110
+00110000
+00000000
+NAME footprints
+BLIP 2
+
+ITM i
+00000000
+00000000
+00000000
+00000100
+00000100
+00100000
+00100000
+00000000
+NAME footprints down
+BLIP 2
+
+ITM j
+00000000
+00100000
+00011000
+01000100
+00110000
+10001000
+01100000
+00010000
+NAME claw marks
+DLG j
+
+ITM k
+00000000
+00000000
+00000000
+00000000
+01101000
+00000000
+00001101
+00000000
+NAME cigarettes
+DLG l
+BLIP 2
+
+ITM l
+00000000
+00101000
+00010000
+00010000
+00010000
+00010000
+00010000
+00101000
+NAME bone
+DLG m
+
+ITM m
+00000000
+00000111
+00011111
+00111101
+01110011
+01001001
+01010110
+01111000
+>
+00000111
+00011111
+00111101
+01110011
+01001001
+01010110
+01111000
+00000000
+NAME cheese
+DLG o
+BLIP 2
+
+ITM n
+00000000
+00000000
+00000000
+00000000
+00000100
+00001010
+00000100
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000100
+00000000
+00000000
+NAME star A4
+
+ITM o
+00000000
+00000000
+00000000
+00000000
+00000000
+00100000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00100000
+01010000
+00100000
+00000000
+NAME star A3
+
+ITM p
+00000000
+00000000
+00001000
+00011100
+00001000
+00000000
+00000000
+00000000
+>
+00000000
+00001000
+00011100
+00111110
+00011100
+00001000
+00000000
+00000000
+NAME star C1
+
+ITM q
+00000000
+00000000
+00100000
+01110000
+11111000
+01110000
+00100000
+00000000
+>
+00000000
+00000000
+00000000
+00100000
+01110000
+00100000
+00000000
+00000000
+NAME star C2
+
+ITM r
+00000000
+00001000
+00001000
+00111110
+00001000
+00001000
+00000000
+00000000
+>
+00001000
+00101010
+00011100
+01110111
+00011100
+00101010
+00001000
+00000000
+NAME star D1
+
+ITM s
+00001000
+00101010
+00011100
+01110111
+00011100
+00101010
+00001000
+00000000
+>
+00000000
+00001000
+00001000
+00111110
+00001000
+00001000
+00000000
+00000000
+NAME star D2
+
+ITM t
+00000000
+00000000
+00010000
+00101000
+00010000
+00000000
+00000000
+00000000
+>
+00000000
+00010000
+00000000
+01000100
+00000000
+00010000
+00000000
+00000000
+NAME star E1
+
+ITM u
+00000000
+00010000
+00000000
+01000100
+00000000
+00010000
+00000000
+00000000
+>
+00000000
+00000000
+00010000
+00101000
+00010000
+00000000
+00000000
+00000000
+NAME star E2
+
+ITM v
+00000000
+01001000
+00000000
+00010100
+01000000
+00010000
+00000010
+00000000
+>
+00000000
+00000100
+00100000
+00000000
+00010100
+10000000
+00001001
+00000000
+NAME stardust 1
+
+ITM w
+00000000
+00000100
+00100000
+00000000
+00010100
+10000000
+00001001
+00000000
+>
+00000000
+01001000
+00000000
+00010100
+01000000
+00010000
+00000010
+00000000
+NAME stardust 2
+
+DLG 3
+Hello i am a bat and I will suck your BLOOOD!!!
+NAME bat dialog
+
+DLG 4
+"""
+{hats = hats + 1}I am a hat
+
+You have collected {wvy}{say hats} hats {drwi "hat"}{/wvy}
+"""
+NAME hat dialog
+
+DLG 5
+"""
+you come upon a seemingly working elevator
+you don't know where it leads but there's nowhere else to go
+you press the button to call the elevator
+{blip "4"}...
+
+you're unsure if it's coming from above or below
+...
+
+after a short wait the elevator arrives{blip "3"}
+{wvy}it dings reassuringly{/wvy}
+{wvy}and beckons you inside{/wvy}{exit "el_hal_1" 7 6}
+"""
+NAME elevator A dialog
+
+DLG 6
+"""
+The {clr 1}blinking red blip{/clr} and {rbw}blinding bright light{/rbw} inspire you to move forward
+
+wherever it goes, you trust it will lead you to solve this tunnels' mysteries...
+
+you step inside the elevator and hope for the best...{exit "el_0" 5 7 "tunnel"}
+"""
+NAME elevator B dialog
+
+DLG 7
+"""
+{blip "1"}looking around for an escape, you notice the {clr 1}ventilation cover{/clr} on the wall there
+
+you try to get it open
+
+using the power of {wvy}{say hats} hats {drwi "hat"}{/wvy},
+you {shk}PRY OPEN{/shk} the vent cover with ease!
+good thinking!{exit "el_7" 9 11}
+"""
+NAME El exit dialog
+
+DLG 8
+"""
+...{blip "5"}the elevator {shk}shakes{/shk} and {wvy}sways,{/wvy} creaks and squeaks
+until it arduously {shk}grinds to a halt{/shk}...
+you wait for a few minutes
+...
+but it seems you really are stuck here now
+"""
+NAME elevator halt
+
+DLG 9
+"""
+using your {shk}astute perception{/shk}, you take note of {clr 1}some tracks{/clr} left behind on the ground
+
+it seems someone... {wvy}or something{/wvy}... has been here before
+the fact that you're not utterly alone is relieving
+but you are still filled with apprehension as you wonder what this creature could be
+"""
+NAME foot prints A dialog
+
+DLG 10
+"""
+{shk}woOoOoOSHhh{/shk}
+
+{shk}AaAaaAaAAaAaaAA!!{/shk}
+
+some kind of massive storm has formed!
+or you teleported into the eye of a storm
+{wvy}who knows what the heck is going on...{/wvy}
+the important thing is... there's a storm!!
+{shk}AAAAAAA{/shk}
+
+and to make matters worse, the elevator has come to a {clr 1}grinding halt{/clr}
+
+it doesn't feel like it's moving anymore
+maybe if you wait here long enough it will start moving again?
+
+if you manage to withstand the storm, that is
+...
+"""
+NAME el_5 narration
+
+DLG 11
+"""
+{sequence
+  - huh
+    
+    it seems the storm has subsided
+    
+    {wvy}or you're somewhere else now?{/wvy}
+    
+    it didn't feel like you moved at all tho
+    {shk}hey, where have the stars and planets gone?{/shk}
+    where are you now?
+    
+    the elevator is still not moving
+    
+    it's {clr 1}unlikely it will move{/clr} any time soon
+  - you pace back and forth anxiously
+    trying to kill some time
+    as you wait for a miracle
+    {clr 1}but the elevator is still not moving{/clr}
+  - no amount of waiting and hoping is gonna get this bad boy up and running again
+    
+    {wvy}maybe it's time to look for an escape route?{/wvy}
+}
+"""
+NAME el_6 narration
+
+DLG 12
+"""
+every new sight is more awe-stricking than the last
+you wonder what the next will be
+
+and for how long this scenic route will continue
+as tear-jerkingly beautiful as it is, you'd {clr 1}rather not be spend the rest of your life in this tube{/clr}...
+"""
+NAME el_3 narration
+
+DLG 13
+"""
+THAT'S ALL FOR NOW!
+
+thank you very much for playing {clr 1}the hat boy chapter 2 beta{/clr}
+the full chapter will release {wvy}SOON(tm){/wvy}
+stay tuned!
+
+"""
+NAME BETA ENDING
+
+DLG a
+"""
+the unknown creature's tracks continue
+something about them {wvy}allures{/wvy} you into {clr 1}following them{/clr}...
+"""
+NAME footprints B dialog
+
+DLG b
+"""
+you have found an OMEGA symbol {drwi "omega"}
+kinda looks like a {clr 1}toilet seat{/clr}, doesn't it?
+{wvy}you wonder what it's doing here, of all places...{/wvy}
+you know one thing for certain, it sure as heck is not a hat {drwi "hat"}
+"""
+NAME omega dialog
+
+DLG c
+"""
+you sense the {wvy}comforting aroma of {rbw}C H E E S E{/rbw}{/wvy}
+it evokes memories of the last time you had a comfy grilled cheese sandwich
+
+or a piquant gorgonzola with crackers and red wine, on Mediterranean shores with your fiancé...
+...
+{shk}don't get distracted!{/shk}
+you have a job to do.
+"""
+NAME cheese smell dialog
+
+DLG d
+"""
+you found fangs!
+
+what a {shk}worrisome{/shk} discovery, it sends {shk}shivers{/shk} down your spine
+what foul beast could these belong to?
+you wonder if it's such a good idea to follow these tracks {drwi "foot prints A"}
+"""
+NAME fangs dialog
+
+DLG e
+"""
+you steady your resolve
+
+you've dealt with {clr 1}scary monsters{/clr} before
+placing your faith in your {wvy}trusty hats {drwi "hat"}{/wvy} has never let you down!
+...
+besides, it doesn't seem like there's {clr 1}anywhere else to go{/clr}...
+"""
+NAME footprints C dialog
+
+DLG f
+"""
+{dust = dust + 1}ahh...
+aaahhhh...
+{shk}AAACHOOOOOO!!!{/shk}
+
+you've inhaled {clr 1}electricity powder{/clr}, your biggest allergy!
+these old unmantained devices must be emitting dangerous amounts of electricty powder like crazy...
+try your best to avoid it!
+
+still... collecting some powder could be useful if you want to {clr 1}control electronic devices{/clr}
+
+{wvy}if only you had your antihistamine pills{/wvy}
+"""
+NAME dust dialog
+
+DLG g
+"""
+hmmm...
+
+it seems the creature kept moving right past the powder
+maybe they've developed a {clr 1}natural immunity{/clr} after living down here in these old vents for so long?
+you {shk}shudder{/shk} to imagine what other horripilant mutations it might have developed...
+"""
+NAME footprints D dialog
+
+DLG h
+"""
+{dust = dust + 1}{shk}AAACHOoOoo!{/shk}
+
+you have found *sniff* more powder!
+you now have {wvy}{say dust} powder {drwi "dust"}{/wvy}
+"""
+NAME dust dialog 1
+
+DLG i
+"""
+{sequence
+  - *you found a skull!*
+    
+    *at last, another living(?) creature*
+    *you rejoice and feel like things are going back to normal*
+    my oh my, woulda ya look at that?
+    another soul found its way to these labyrinthine vents
+    never thought I'd see the day
+    
+    the name's jack
+    they call me {clr 1}one-eyed jack{/clr}
+  - they call me one-eyed jack on account of my eye-patch
+    it's actually a misnomer, i have two working eyes
+    just one day i found an eye patch down here and thought {wvy}"whoo-weee! that would look {clr 1}killer{/clr} on me"{/wvy}
+    i became a real hit with the ladies, if you know what i mean
+    and ever since then, they've called me one-eyed jack
+  - anyway tourist, i have a message for you
+    {wvy}"the plants are not what they seem"{/wvy}
+    or was it the hats?
+    
+    {wvy}"the hats are not what they seem?"{/wvy}
+    i dunno, they both sound right to me, i'm not sure which it is
+    either way, you'd better {clr 1}keep collecting those hats {drwi "hat"}!{/clr}
+
+  - i have some advice for you from myself as well
+    it's a strange and myserious world down here, look out for yourself and keep an eye open
+    
+    {clr 1}don't neglect to make some friends{/clr}
+    you'll need all the allies you can get
+    {wvy}hehehehe *dry heave*{/wvy}
+  - what, you forgot the advice already?
+    *sigh*
+    
+    {wvy}"the hats are not what they seem"{/wvy}
+  - {wvy}"the plants are not what they seem"{/wvy}
+  -  {wvy}hehehehe *dry heave*{/wvy}
+}
+"""
+NAME one-eyed skull dialog
+
+DLG j
+"""
+*gasp*
+
+{clr 1}{shk}claw marks!{/shk}{/clr}
+
+i wouldn't wanna be on the recieving end of those
+you start to get a bad feeling about this creature you're chasing
+"""
+NAME claw marks dialog
+
+DLG k
+"""
+{
+  - {hats} >= 11 ?
+    you give it another shot, putting your whole body weight into it
+    with the power of {wvy}{say hats} hats {drwi "hat"}{/wvy}, you {shk}CRUSH{/shk} the vent panel!
+    {wvy}the path to the cheese is clear{/wvy}{exit "ventt" 12 11}
+  - else ?
+    {sequence
+      - you notice this vent panel is flimsier than the rest
+        you can sniff the intoxicating allure of the cheese from here!
+        you try to break the panel down...
+        but you're not strong enough
+        
+        you're gonna need {wvy}11 hats 
+        {drwi "hat"}{/wvy} for this one
+      - you're gonna need {wvy}11 hats 
+        {drwi "hat"}{/wvy} for this one
+    }
+}
+"""
+NAME vent barrier A dialog
+
+DLG l
+"""
+you found more tracks
+...
+wait a minute
+...
+upon closer inspection, these are actually {clr 1}discarded cigarettes{/clr}
+fuuuuu, gross >~<
+in retrospect, that powder from before was probably ash
+"""
+NAME cigarettes dialog
+
+DLG m
+"""
+you found a large bone!
+
+!!!
+
+{shk}could this be the remains of one of the {clr 1}creature's victims{/clr}?{/shk}
+*gulp*
+
+it's time to {wvy}brace yourself{/wvy} and find out once and for all what's awaiting at the end of these vents...
+"""
+NAME bone dialog
+
+DLG n
+"""
+{
+  - {item "cheese"} >= 1 ?
+    {property locked true}time to do your end of the deal and deliver the dairy payload to earl the rodent
+    
+    you must bid farewell to cheese now
+    it would be embarassing to get sentimental in front of earl{exit "ventu" 0 11 "slide_r"}
+  - else ?
+    this is it
+    ...
+    the end of the line
+    ...
+    time to see what kind of creature you're up against
+    it's not too late to go back, you know
+    return to the cozy elevator
+    it has a lovely plant
+    wouldn't you prefer to live out the rest of your in that comfy cubicle?
+    no?
+    ...
+    very well
+    if you insist
+    
+    time to find what you came here for
+}
+"""
+NAME Vents (0,3) exit narration
+
+DLG o
+"""
+{cheese = cheese + 1}you found cheese!
+
+as much as you want to eat it, you need to give it to the rat
+{shk}don't fall into the temptation{/shk}
+"""
+NAME cheese dialog
+
+DLG p
+"""
+{
+  - {item "cheese"} == 1 ?
+    {sequence
+      - ...
+        
+        you're not trying to run away, are you?
+        after the nice young rodent gave you his hat {drwi "hat"}?
+        you're not trying to keep the cheese all for yourself,
+        are you?
+        
+        don't give in to the temptations
+        
+        {shk}it's not gonna bring back your fiancé{/shk}
+        {shk}nothing can take you back to those mediterranean shores{/shk}
+        so go on back there and give the nice young rodent his well-deserved cheese {drwi "cheese"}
+        
+        and solve the mysteries of these vents!{exit "ventt" 14 5}
+      - {property locked false}no...
+        
+        you're running away?
+        
+        you can't be serious
+        
+        after that nice young rodent gave you his hat
+        after he trusted you
+        
+        you're just gonna steal his cheese and run?
+        you disappoint me
+        
+        but very well
+        have it your way
+        {wvy}enjoy the cheese {drwi "cheese"}{/wvy}{pg}{end}[teleport the player to a new unique elevator room from which there is no escape]
+    }
+  - else ?
+    {property locked true}looks like you forgot to pick up the cheese there
+    go get it!
+    earl is waiting
+}
+"""
+NAME Cheese Ending?
+
+DLG q
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}The key opens the door!
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 1
+
+DLG r
+"""
+{
+  - {item "cheese"} >= 1 ?
+    {property locked false}oh boy oh boy, here we go
+    
+    that nice young rodent is just gonna love this!
+    ...
+    
+    you catch yourself {wvy}salivating{/wvy}
+    
+    {shk}{clr 1}control yourself!{/clr}{/shk}
+
+  - else ?
+    {property locked true}Hey uh buddy, you missed the cheese
+    it's right over there!
+    <----------
+    come on now, earl is waiting anxiously for you :)
+}
+"""
+NAME Vents (0,2) B exit
+
+DLG s
+"""
+{
+  - {item "cheese"} >= 1 ?
+    {property locked true}you already commited to this
+    it's too late to turn back
+    steady your resolve!
+    {wvy}believe in the hats {drwi "hat"}{/wvy}
+  - else ?
+    {property locked false}{wvy}doodlie doo{/wvy}
+    
+    {wvy}walking across the vents{/wvy}
+}
+"""
+NAME locked exit 2
+
+DLG t
+"""
+{
+  - {item "cheese"} >= 1 ?
+    {property locked true}the nice young rodent is standing right there
+    eagerly and expectantly
+    
+    it would be very embrassing to turn back now
+    go on, don't be afraid!
+  - else ?
+    {
+      - {met_earl} >= 2 ?
+        {property locked false}seems things were not quite what you expected
+        in a good way!
+        
+        turns out the creature was just a nice young rodent
+        in this strange hostile world, you need to take all the friends you can get
+        so you'd better get his cheese and become his friend!
+      - else ?
+        {property locked true}come on now, this is no time to get cold feet
+        especially with those comfy shoes of yours!
+        now go on, the creature is staring right at you
+        it would be very embrassing to bolt now
+    }
+}
+"""
+NAME Vents (0, 4) locked exit
+
+DLG u
+"""
+{
+  - {item "cheese"} >= 1 ?
+    {wvy}OOoOooOOooOo!!{/wvy}
+    
+    {wvy}MMmmMmMmMMmm{/wvy}
+    
+    i recognise that mouth-watering fragrance from a mile away
+    woweee, i knew i was right to trust you!
+    *you give the cheese to earl*{gave_earl_cheese = 1}{cheese = cheese - 1}{item "cheese" {{item "cheese"} - 1}}you're the best friend i ever had!
+    here, take a piece of this deliciousness
+    *earl hands you piece of cheese*
+    *you eat it quickly, careful not to savour it*
+    *and avoiding longing visions of the past*
+    yippie!
+    cheers to a {rbw}{wvy}n e w  f r i e n d s h i p{/wvy}{/rbw}well buddy, that was a grand old time
+    what do you wanna do now, pal?
+    we could stay here and live in these vents, and scavenge what we want without competition from other rats
+    ah i see
+    you want to keep going...
+    see the world...
+    solve mysteries...
+    you know what?
+    ME TOO!
+    i'm tired of hiding in here
+    i'm going with you!!
+  - else ?
+    {sequence
+      - {met_earl = 1}hi
+        
+        my name is earl
+        
+        nice to meet you
+        
+        what is your name?
+        
+        [write your name]
+        (prompt "name")
+        (p)
+        that's a funny name
+        you must be a funny fella
+        how'd you end up down here?
+        
+        i can tell this is not the place for you
+        you were on your way to somewhere else
+        long story eh?
+        too bad
+        i don't have time for a long story, i'm starving!
+        boy that smelly cheesy cheese smell just drives me nuts
+        i tried my hardest to get it, but it's no use :(
+        i'm just not strong enough
+        
+        fought tooth and nail for it too
+        broke my fangs trying to get it
+        not even with a huge bone i found could i smack it open
+        
+        it's just not use :(
+      - i'm not skilled at hunting like all the other rats
+        that's why i'm alone here in these vents
+        at least there's no bullies
+        
+        so i can keep all the cool stuff i find
+        like this hat {drwi "hat"}
+      - oh about the hat?
+        
+        heh, well it's not all bad news i guess
+        i found it while i was scavenging in the vents
+        pretty nifty right?
+        
+        gives me a lot of character i think
+        the rats down there are {shk}CRAZY{/shk} for hats {drwi "hat"}
+        they're always hungry so they'll cook anything
+        even cowboy hats like this to eat their leather
+        they're nuts!
+        
+        such a cool hat
+        
+        that's also why i'm hiding up here
+        don't want any of them getting ideas about {wvy}my hat {drwi "hat"}{/wvy}
+      - what's that?
+        
+        {shk}AAAHHHHH!!{/shk}
+        
+        you're after my hat too, i knew it!!
+        it's just {wvy}too cool{/wvy}
+        ...
+        wait
+        
+        you mean if i give you the hat, you can use its power to break open the vent and get me the cheese?
+        buddy, what the doggone are you talking about?
+        ...
+        
+        ok fine
+        
+        you seem nice
+        
+        i'm gonna trust you
+        
+        and that cheese looks {rbw}{wvy}sooooo yummmyyy{/wvy}{/rbw}
+        you look like you need my hat more than me anyway
+        at least i still have my natural charm :)
+        here, take it
+        
+        looking forward to that cheese :){met_earl = 2}{exit "ventu" 10 11}
+    }
+}
+"""
+NAME earl w/ hat dialog
+
+DLG v
+"""
+{
+  - {item "cheese"} >= 1 ?
+    {wvy}OOoOooOOooOo!!{/wvy}
+    
+    {wvy}MMmmMmMmMMmm{/wvy}
+    
+    i recognise that mouth-watering fragrance from a mile away
+    {shk}woweee{/shk}, i knew i was right to {clr 1}trust you{/clr}!
+    *you give the cheese to earl*{pg}{gave_earl_cheese = 1}{cheese = cheese - 1}{item "cheese" {{item "cheese"} - 1}}{sequence
+      - {wvy}you're the best friend i ever had!{/wvy}
+        here, take a piece of this deliciousness
+        *earl hands you a piece*
+        
+        *you eat it quickly, careful not to savour it*
+        *and avoiding longing visions of the past*
+        yippie!
+        
+        cheers to a {rbw}{wvy}n e w  f r i e n d s h i p{/wvy}{/rbw}
+        well buddy, that was a grand old time
+        what do you wanna do now?
+        
+        we could stay here and live in these vents, and scavenge what we want without competition from other rats
+        ah i see
+        
+        you want to keep going...
+        
+        see the world...
+        
+        solve mysteries...
+        
+        you know what?
+        
+        ME TOO!
+        
+        i'm tired of hiding in here
+        
+        {wvy}{rbw}i'm going with you!!{/rbw}{/wvy}
+        follow me, i'll show you the way into the rat town{exit "ventv" 10 11}
+      - well buddy, that was a grand old time
+        what do you wanna do now?
+        
+        we could stay here and live in these vents, and scavenge what we want without competition from other rats
+        ah i see
+        
+        you want to keep going...
+        
+        see the world...
+        
+        solve mysteries...
+        
+        you know what?
+        
+        ME TOO!
+        
+        i'm tired of hiding in here
+        
+        {wvy}{rbw}i'm going with you!!{/rbw}{/wvy}
+        follow me, i'll show you the way into the rat town
+    }
+  - else ?
+    {sequence
+      - enjoy your hat {drwi "hat"}, my new friend 
+        and good luck getting that cheese!
+        i'm really excited to eat it :)
+      - did you get it yet?
+        
+        boy am i hungry, lemme tell ya
+      - *mouth-watering noises*
+        
+        how's it going with fetching the cheese?
+        is the hat working out for you?
+      - please i'm really hungry
+        just stop talking and get the cheese
+      - {wvy} gimme cheese {drwi "cheese"}{/wvy}
+    }
+}
+"""
+NAME V(0,4) earl dialog
+
+DLG w
+"""
+well...
+
+even in this strange place, that was certainly unexpected
+peeping thru a window in the elevator you can see what appears to be some kind of night sky
+filled with stars and planets {drwi "star A1"}
+"""
+NAME el_0 narration
+
+DLG x
+"""
+you seem to be blankted by stars of all shapes and sizes from all sides {drwi "star C2"}
+
+could there be a view of the sky from down here?
+are you in space?
+...
+{wvy}and just where is this elevator going? {/wvy}
+"""
+NAME el_1 narration
+
+DLG y
+"""
+{rbw}it's beautiful :o {drwi "hat"}{/rbw}
+
+it feels like the elevator is descending deeper and deeper
+but it looks like you're getting farther and farther away from earth...
+
+this has to be a dream
+
+but how can you dream such fantastical sights?
+you never could have imagined this on your own
+with such detail and vividness
+
+feels more real than the world you had just been in
+almost feels like you can reach out and grab the stars
+"""
+NAME el_2 narration
+
+DLG z
+"""
+what the...
+
+what kind of impossible vistas are these?
+"""
+NAME el_4 narration
+
+VAR a
+42
+
+VAR hats
+10
+
+VAR dust
+0
+
+VAR cheese
+0
+
+VAR met_earl
+0
+
+VAR gave_earl_cheese
+0
+
+VAR name
+undefined
+
+TUNE 1
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16d2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+4l,0,0,0,s,0,3l,0,0,0,2s,0,2m,0,2r,0
+16m2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16l2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3l,0,0,0,s,0,4m,0,0,0,4r,0,0,0,0,0
+16s2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME finale fanfare
+KEY C,D,E,F,G,A,B d,r,m,s,l
+TMP XFST
+SQR P2 P8
+ARP INT8
+
+TUNE 2
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,2G,0
+G3,0,D,0,G3,0,D,0,2A3,0,E,0,C,0,E,0
+>
+2F#,0,G,0,A,0,F#,0,2E,0,F#,E,4D,0,0,0
+2D,0,E,0,F#,0,D,0,2C,0,2G3,0,2F#3,0,D2,0
+>
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,G,0
+2G2,0,D,D5,G3,G,D,0,2C2,0,E,E5,C3,C,E5,0
+>
+2D,0,C5,B,A,0,A,0,4A,0,0,0,F#,0,0,0
+A2,0,E3,0,C3,0,E3,0,D3,0,A3,0,D,0,0,0
+>
+2E5,0,2G,0,2G5,0,2G,0,2F#5,0,2E5,0,2D5,0,2C5,0
+2C3,0,2E,0,2E5,0,2C,0,2A3,0,2C,0,2F#,0,2E,0
+>
+3B,0,0,0,2E5,0,D5,0,4A,0,0,0,G,0,0,0
+2G3,0,B3,0,2D,0,D3,0,2C3,0,G3,0,D#,0,0,0
+>
+0,0,2G,0,A,0,2B,0,C5,0,B,C5,A,0,G,0
+A2,0,A3,0,C,0,2D,0,D#,0,D,E,C,0,C3,0
+>
+8B,0,0,0,0,0,0,0,A,0,2F#,0,E,0,D,0
+D3,0,A3,0,F#,0,D,0,C,0,2D3,0,C3,0,F#3,0
+NAME tuneful town
+TMP FST
+SQR P4 P2
+
+TUNE 3
+3F5,0,0,A#,0,2C#5,0,A#,3F5,0,0,F#5,0,0,2F5,0
+A#3,C#,F,0,0,F,C#,F,A#3,C#,F,A#,0,A#,C#,F
+>
+3F5,0,0,A,0,2C#5,0,A,3F5,0,0,2A#5,0,A#,D#5,0
+A3,C#,F,A3,0,F,C#,F,A,C#,F,0,D#,0,C#5,0
+>
+4F5,0,0,0,G#,2C#5,0,G#,3F5,0,0,D#5,0,F5,2C#5,0
+G#3,C#,F,3F#,0,0,2F,0,G#3,C#,F,F#,B,A,F,D#
+>
+4D#5,0,0,0,0,0,2A#,0,4A#,0,0,0,0,0,A#,C5
+G3,D#,F,G,0,D#,F,G,G3,D#,G,F,0,F,D#,C#3
+>
+4C#5,0,0,0,0,0,2C#5,0,3C#5,0,0,D#5,0,0,2C#5,0
+F#2,C#,F#3,A#3,0,F#3,C#3,F#3,F#2,A,F#3,C#,0,F#3,A3,F#3
+>
+3C#5,0,0,F,3C5,0,0,C,3C5,0,0,D#,3A#,0,0,0
+F2,D#3,A3,0,0,F3,C#,0,F#2,A#3,D#3,0,0,F#3,C#,C
+>
+3A#,0,0,0,C5,0,C#5,0,A#,0,C#,D#,G#,G#3,0,C#3
+C3,A#3,C,E,A,0,A#,0,0,B2,B3,0,2F,0,0,0
+>
+A#,0,A#3,0,C#,0,F,0,A#,0,0,0,0,0,0,0
+A#2,0,C#3,0,F3,0,A#3,0,D,0,0,0,0,F#3,0,F3
+NAME rhythmic ruins
+TMP MED
+SQR P4 P4
+
+TUNE 4
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C2,D#2,G2,C3,C2,D#2,G2,C3,C2,D#2,G2,C3,C2,D#2,G2,C3
+>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C2,D#2,G2,C3,C2,D#2,G2,C3,C2,D#2,G2,C3,C2,D#2,G2,C3
+>
+2C,0,0,0,D,C,D,C,0,D,C,0,D,C,2D#,0
+C2,D#2,G2,C3,C2,D#2,G2,C3,C2,D#2,G2,C3,C2,D#2,G2,C3
+>
+2C,0,0,0,D,C,D,C,0,D,C,0,D,C,2D#,0
+C2,D#2,G2,C3,C2,D#2,G2,C3,C2,D#2,G2,C3,C2,D#2,G2,C3
+>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+D#2,F#2,A#2,C#3,D#2,F#2,A#2,C#2,D#2,F#2,A#2,C#3,D#2,F#2,A#2,C#2
+>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+D#2,F#2,A#2,C#3,D#2,F#2,A#2,C#2,D#2,F#2,A#2,C#3,D#2,F#2,A#2,C#2
+>
+2D#,0,2F#,0,0,0,A#,0,2G#,0,2C#,0,0,0,0,0
+D#2,F#2,A#2,C#3,D#2,F#2,A#2,C#2,D#2,F#2,A#2,C#3,D#2,F#2,A#2,C#2
+>
+2D#,0,2F#,0,0,0,A#,0,2G#,0,2C#,0,0,0,0,0
+D#2,F#2,A#2,C#3,D#2,F#2,A#2,C#2,D#2,F#2,A#2,C#3,D#2,F#2,A#2,C#2
+NAME CREEP
+TMP SLW
+SQR P4 P8
+
+TUNE 5
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C2,D#2,G2,C3,C2,D#2,F#2,F2,C2,D#2,G2,C3,A#2,G#2,F#2,G2
+>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C2,D#2,G2,C3,C2,D#2,F#2,F2,C2,D#2,G2,C3,A#2,G#2,G2,A#2
+NAME creepy bassline
+TMP SLW
+SQR P2 P4
+
+TUNE 6
+2C3,0,2G3,0,0,0,2F#3,0,2C3,0,0,0,2G#3,0,2A#3,0
+C2,D#2,G2,C3,C2,D#2,F#2,F2,C2,D#2,G2,C3,A#2,G#2,G2,A#2
+>
+2C3,0,2G3,0,2D#3,0,0,0,2C3,0,2D#3,0,2G#3,0,2A#3,0
+C2,D#2,G2,C3,C2,D#2,F#2,F2,C2,D#2,G2,C3,A#2,G#2,G2,A#2
+>
+C3,D#3,G3,C,C3,D#3,F#3,F3,C3,D#3,G3,C,G3,F3,E3,C
+C2,D#2,G2,C3,C2,D#2,F#2,F2,C2,D#2,G2,C3,A#2,G#2,G2,A#2
+>
+A3,C3,F3,C,G3,A#3,C#,C,A3,C3,F3,C3,G3,F3,E3,C
+C2,D#2,G2,C3,C2,D#2,F#2,F2,C2,D#2,G2,C3,A#2,G#2,G2,A#2
+NAME creepy bass + melody
+TMP SLW
+SQR P4 P4
+
+TUNE 7
+2C3,0,2G3,0,2D#3,0,0,0,2C3,0,2D#3,0,2G#3,0,2A#3,0
+C2,D#2,G2,C3,C2,D#2,F#2,F2,C2,D#2,G2,C3,A#2,G#2,G2,A#2
+>
+2C,0,2D#,0,0,D#,2C,0,2E,0,2G,0,A#3,G#3,G3,A#3
+C2,D#2,G2,C3,C2,D#2,F#2,F2,C2,D#2,G2,C3,A#2,G#2,G2,A#2
+>
+D#,C#,F,A,G,A#,C,D,D#,A#,D#,G,D#,C#,F,A
+C2,D#2,G2,C3,C2,D#2,F#2,F2,C2,D#2,G2,C3,A#2,G#2,F#2,G2
+>
+D#,C#,F,A,G,A#,C,D,D#,A#,D#,G,D#,C#,F,A
+C2,D#2,G2,C3,C2,D#2,F#2,F2,C2,D#2,G2,C3,A#2,G#2,G2,A#2
+NAME creepy bass + melody 2
+TMP SLW
+SQR P4 P4
+
+TUNE 8
+2E,0,2B,0,2G,0,2D5,0,2E,0,2B,0,2G,0,2D5,0
+2E2,0,2B2,0,2G2,0,2D3,0,2E2,0,2B2,0,2G2,0,2D3,0
+>
+2E,0,2B,0,2G,0,2D5,0,2E,0,2B5,0,2G5,0,2D5,0
+2E2,0,2B2,0,2G2,0,2D3,0,2E2,0,2B3,0,2G3,0,2D3,0
+NAME robot stop
+TMP MED
+SQR P2 P8
+
+BLIP 1
+E5,B5,B5
+NAME meow
+ENV 40 99 4 185 138
+BEAT 61 115
+SQR P2
+
+BLIP 2
+D5,E5,D5
+NAME pick up key
+ENV 99 65 6 96 152
+BEAT 95 0
+SQR P4
+
+BLIP 3
+D#5,A5,A5
+NAME ding
+ENV 110 121 3 273 83
+BEAT 96 0
+SQR P2
+
+BLIP 4
+F#2,B3,B3
+NAME bloop
+ENV 29 44 7 48 24
+BEAT 0 0
+SQR P2
+
+BLIP 5
+C2,F3,F3
+NAME blap
+ENV 29 44 7 240 24
+BEAT 96 0
+SQR P2
+
