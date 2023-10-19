@@ -52,7 +52,7 @@
             // redirect instantly
             // goto('/hat-boy-chp2-demo')
         } else {
-            error = 'unautorised code!'
+            error = 'access denied'
             // reset code
             code = ''
         }
