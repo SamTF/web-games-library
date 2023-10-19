@@ -6,16 +6,14 @@ import { accessCode } from '$lib/stores/accessCode'
 import { getAccessCode } from "$lib/services/accessCode"
 
 export async function load({ params, url }) {
-	const code = get(accessCode)
+	// const code = get(accessCode)
+    let code = getAccessCode()
 
-    const code2 = getAccessCode()
-
-    if(code2.length < 1) {
-        console.log("--- ACCESS DENIED ---")
+    if(code.length < 1) {
         throw redirect(302, '/hat-boy-chp2-demo/access')
     }
 
-    const api = `${url.origin}/api/auth/${code2}`
+    const api = `${url.origin}/api/auth/${code}`
     const res = await fetch(api)
     const authorised = await res.json()
 
