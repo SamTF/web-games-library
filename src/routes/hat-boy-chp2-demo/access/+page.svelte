@@ -5,17 +5,24 @@
 
     // import store
     import { accessCode } from '$lib/stores/accessCode'
-    import { setAccessCode, getAccessCode } from "$lib/services/accessCode";
+    import { setAccessCode, getAccessCode } from "$lib/services/accessCode"
     import { goto } from '$app/navigation'
+    import { onMount } from 'svelte'
     
     let code = ''
     let error = ''
+    let success = ''
 
     // Reg ex pattern for XXX-XXX-XXX where X is a number or uppercase letter
     const accessCodePattern = /^[A-Z0-9]{3}-[A-Z0-9]{3}-[A-Z0-9]{3}$/;
 
+    // Load the previous access code on mount
+    onMount(() => {
+        code = getAccessCode() || $accessCode || ''
+    })
+
     // Triggered when the user submits a code
-    function handleSubmit() {
+    async function handleSubmit() {
         code = code.toUpperCase()
         $accessCode = code
         setAccessCode(code)
@@ -23,15 +30,32 @@
 
         const isValidAccessCode = accessCodePattern.test(code);
         
+        // chekc if the code is in the correct format
         if(!isValidAccessCode) {
             error = 'Code format is not valid'
             return
         }
 
-        code = ''
+        // call API to check if code is authorised (first check)
+        const api = `/api/auth/${code}`
+        const res = await fetch(api)
+        const authorised = await res.json()
 
-        // redirect to game page
-        goto('/hat-boy-chp2-demo')
+        // check if code is authorised (first check)
+        if (authorised) {
+            success = 'Access granted!'
+            data.error = ''
+            error = ''
+            // redirect to game page after 1 second
+            setTimeout(() => goto('/hat-boy-chp2-demo'), '500')
+            
+            // redirect instantly
+            // goto('/hat-boy-chp2-demo')
+        } else {
+            error = 'unautorised code!'
+            // reset code
+            code = ''
+        }
     }
 </script>
 
@@ -43,9 +67,12 @@
             <input type="text" placeholder="XXX-XXX-XXX" name="code" id="code" bind:value={code} pattern={`[A-Za-z0-9]{3}-[A-Za-z0-9]{3}-[A-Za-z0-9]{3}`}>
             <button type="submit" class="btn">SUBMIT</button>
         </form>
-        <div class="error accent center sub-font"><h1 style="font-size: 48px;">{error}</h1></div>
-        {#if data.error}
-            <div class="error accent center sub-font"><h1 style="font-size: 48px;">{data.error}</h1></div>
+
+        {#if data.error || error}
+            <div class="user-feedback error center sub-font"><h1>{data.error || error}</h1></div>
+        {/if}
+        {#if success}
+            <div class="user-feedback success center sub-font"><h1>{success}</h1></div>
         {/if}
         
     </div>
@@ -88,5 +115,15 @@
         text-transform: uppercase;
 
         outline: 2px solid white;
+    }
+
+    .user-feedback h1 {
+        font-size: 48px;
+    }
+    .error {
+        color: var(--colour-accent);
+    }
+    .success {
+        color: rgb(29, 221, 29);
     }
 </style>
