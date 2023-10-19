@@ -2,7 +2,6 @@
 <script>
     // props
     export let data
-    console.log(data)
 
     // import store
     import { accessCode } from '$lib/stores/accessCode'
